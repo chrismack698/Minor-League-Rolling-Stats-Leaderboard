@@ -166,6 +166,7 @@ with ThreadPoolExecutor(max_workers=15) as executor:
 
 # === 9. Save or display output ===
 df_summary = pd.DataFrame(summary_rows)
+df_summary = df_summary.drop_duplicates(subset=['player_id', 'timeframe'])
 df_errors = pd.DataFrame(error_log)
 
 df_summary.to_csv("leaderboard_data.csv", index=False)
