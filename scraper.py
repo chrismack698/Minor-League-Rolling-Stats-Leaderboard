@@ -169,4 +169,6 @@ df_summary = pd.DataFrame(summary_rows)
 df_errors = pd.DataFrame(error_log)
 
 df_summary.to_csv("leaderboard_data.csv", index=False)
+minor_league_hit_df.to_csv("full_season_data.csv", index=False)
 df_errors.to_csv("scrape_errors.csv", index=False)
+
