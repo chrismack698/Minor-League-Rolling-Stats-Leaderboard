@@ -27,6 +27,9 @@ timeframe_label_map = {
 available_timeframes = [tf for tf in timeframe_label_map if tf in df['timeframe'].unique()]
 sorted_timeframes = sorted(available_timeframes, key=lambda x: int(x.split('_')[1]))  # Sort numerically
 
+st.sidebar.markdown("---")
+st.sidebar.markdown("💸 **Enjoying this app?** [Send a tip](https://coff.ee/christianmack)")
+
 # Create display label list
 display_labels = [timeframe_label_map[tf] for tf in sorted_timeframes]
 selected_label = st.sidebar.selectbox("Timeframe", display_labels)
