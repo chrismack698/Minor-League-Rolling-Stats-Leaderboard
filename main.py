@@ -90,7 +90,8 @@ filtered_df = df[
     (df['Age'] >= age_range[0]) & (df['Age'] <= age_range[1]) &
     (df['K%'] >= k_filter[0]) & (df['K%'] <= k_filter[1]) &
     (df['player_name'].str.lower().str.contains(name_query) if name_query else True) &
-    (df['BB%'] >= bb_filter[0]) & (df['BB%'] <= bb_filter[1])
+    (df['BB%'] >= bb_filter[0]) & (df['BB%'] <= bb_filter[1]) &
+    pa_condition
 ]
 
 # === 5. Display Leaderboard ===
