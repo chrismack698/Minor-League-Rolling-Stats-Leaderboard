@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 
+st.set_page_config(layout="wide")
 # === 1. Load Data ===
 @st.cache_data(ttl=3600)
 def load_data():
@@ -100,7 +101,7 @@ st.caption("Stats scraped from FanGraphs | Built with ❤️ + 🐍")
 
 columns_to_display = [
     "player_name", "TeamName", "aLevel", "Age", "AB", "PA", "2B", "3B", "HR",
-    "R", "RBI", "SB", "AVG", "OBP", "SLG", "OPS", "ISO", "wRC+", "wOBA"
+    "R", "RBI", "SB", "K%", "BB%", "AVG", "OBP", "SLG", "OPS", "ISO", "wRC+", "wOBA"
 ]
 
 renamed_columns = {
