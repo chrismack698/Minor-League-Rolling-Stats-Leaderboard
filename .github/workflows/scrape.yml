@@ -31,7 +31,11 @@ jobs:
           name: leaderboard-csv
           path: leaderboard_data.csv
 
+      
+
       - name: Commit and push if it changed
+        env:
+            GH_TOKEN: ${{ secrets.milb_leaderboard }}
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
