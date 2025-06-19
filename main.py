@@ -48,7 +48,6 @@ qualification_thresholds = {
 
 qualified_only = st.sidebar.checkbox("Only show qualified hitters")
 
-
 # Age
 min_age = int(df['Age'].min())
 max_age = int(df['Age'].max())
