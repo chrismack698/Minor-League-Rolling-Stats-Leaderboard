@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import plotly.express as px
 
 # === 1. Load Data ===
 @st.cache_data(ttl=3600)
@@ -75,6 +76,7 @@ df['BB%'] = clean_percentage(df['BB%'])
 df['PA'] = pd.to_numeric(df['PA'], errors='coerce')
 df['wRC+'] = pd.to_numeric(df['wRC+'], errors='coerce')
 df['Age'] = pd.to_numeric(df['Age'], errors='coerce')
+df['HR'] = pd.to_numeric(df['HR'], errors='coerce')
 
 # === 4. Apply Filters ===
 
@@ -101,7 +103,7 @@ st.set_page_config(layout="wide")
 
 columns_to_display = [
     "player_name", "TeamName", "aLevel", "Age", "AB", "PA", "2B", "3B", "HR",
-    "R", "RBI", "SB", "K%", "BB%", "AVG", "OBP", "SLG", "OPS", "ISO", "wRC+", "wOBA"
+    "R", "RBI", "SB", "K%", "BB%", "AVG", "OBP", "SLG", "OPS", "ISO", "wRC+", "wOBA", "BABIP"
 ]
 
 renamed_columns = {
@@ -115,3 +117,30 @@ st.dataframe(
     filtered_df.sort_values("wRC+", ascending=False).reset_index(drop=True)[columns_to_display].rename(columns=renamed_columns),
     use_container_width=True
 )
+
+# Clean any missing values for plot columns
+plot_df = filtered_df.dropna(subset=['K%', 'wRC+', 'HR'])
+
+# Build bubble chart
+fig = px.scatter(
+    plot_df,
+    x='K%',
+    y='wRC+',
+    size='HR',
+    color='aLevel',
+    hover_name='player_name',
+    hover_data=['TeamName', 'Age', 'PA'],
+    title="wRC+ vs. K% (Bubble Size = HR)",
+    size_max=40,
+    height=600
+)
+
+fig.update_layout(
+    xaxis_title="Strikeout Rate (K%)",
+    yaxis_title="Weighted Runs Created (wRC+)",
+    legend_title="Level",
+    margin=dict(l=40, r=20, t=40, b=40)
+)
+
+st.plotly_chart(fig, use_container_width=True)
+
