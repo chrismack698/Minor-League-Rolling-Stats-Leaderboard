@@ -27,9 +27,6 @@ timeframe_label_map = {
 available_timeframes = [tf for tf in timeframe_label_map if tf in df['timeframe'].unique()]
 sorted_timeframes = sorted(available_timeframes, key=lambda x: int(x.split('_')[1]))  # Sort numerically
 
-st.sidebar.markdown("---")
-st.sidebar.markdown("💸 **Enjoying this app?** [Send a tip](https://coff.ee/christianmack)")
-
 # Create display label list
 display_labels = [timeframe_label_map[tf] for tf in sorted_timeframes]
 selected_label = st.sidebar.selectbox("Timeframe", display_labels)
@@ -69,6 +66,10 @@ selected_levels = st.sidebar.multiselect("Level", level_options, default=level_o
 
 # === Player Name Filter ===
 name_query = st.sidebar.text_input("Search by Player Name").strip().lower()
+
+# === Tip Jar ===
+st.sidebar.markdown("---")
+st.sidebar.markdown("💸 **Enjoying this app?** [Send a tip](https://coff.ee/christianmack)")
 
 # === 3. Preprocess Data Types ===
 def clean_percentage(series):
