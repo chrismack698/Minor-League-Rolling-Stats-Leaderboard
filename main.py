@@ -38,6 +38,17 @@ min_pa = int(df.get("PA", pd.Series([0])).min())
 max_pa = int(df.get("PA", pd.Series([100])).max())
 pa_range = st.sidebar.slider("Plate Appearances (PA)", min_pa, max_pa, (min_pa, max_pa))
 
+# Define minimum PAs to qualify per timeframe
+qualification_thresholds = {
+    "last_7": 15,
+    "last_15": 30,
+    "last_30": 50,
+    "last_45": 75
+}
+
+qualified_only = st.sidebar.checkbox("Only show qualified hitters")
+
+
 # Age
 min_age = int(df['Age'].min())
 max_age = int(df['Age'].max())
@@ -67,6 +78,12 @@ df['wRC+'] = pd.to_numeric(df['wRC+'], errors='coerce')
 df['Age'] = pd.to_numeric(df['Age'], errors='coerce')
 
 # === 4. Apply Filters ===
+
+pa_condition = (
+    (df['PA'] >= qualification_thresholds[selected_timeframe])
+    if qualified_only else True
+)
+
 filtered_df = df[
     (df['timeframe'] == selected_timeframe) &
     (df['aLevel'].isin(selected_levels)) &
