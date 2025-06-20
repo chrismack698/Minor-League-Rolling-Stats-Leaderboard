@@ -11,7 +11,9 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -35,7 +37,7 @@ jobs:
 
       - name: Commit and push if it changed
         env:
-            GH_TOKEN: ${{ secrets.milb_leaderboard }}
+            GH_TOKEN: ${{ secrets.MILB_LEADERBOARD }}
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
