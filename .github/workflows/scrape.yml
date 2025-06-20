@@ -2,7 +2,7 @@ name: Scrape and update leaderboard
 
 on:
   schedule:
-    - cron: '30 16 * * *'  # 10:30 AM CST daily
+    - cron: '30 14 * * *'  # 8:30 AM CST daily
   workflow_dispatch:
 
 jobs:
