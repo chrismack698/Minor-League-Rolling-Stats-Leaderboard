@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          persist-credentials: false
 
       - name: Create a test file
         run: echo "This is a test file from GitHub Actions." > test_output.txt
