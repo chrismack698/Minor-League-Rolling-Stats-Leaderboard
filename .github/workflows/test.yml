@@ -1,0 +1,27 @@
+name: Test Push to Main
+
+on:
+  workflow_dispatch:  # allows you to trigger it manually from GitHub
+  # schedule:
+  #   - cron: '0 16 * * *'  # optional: runs daily at 10 AM CST
+
+jobs:
+  test-push:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Create a test file
+        run: echo "This is a test file from GitHub Actions." > test_output.txt
+
+      - name: Commit and push test file
+        env:
+          GH_TOKEN: ${{ secrets.milb_leaderboard }}
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add test_output.txt
+          git diff --cached --quiet || git commit -m "Add test_output.txt"
+          git push https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
