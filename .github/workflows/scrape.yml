@@ -45,4 +45,5 @@ jobs:
           git add scrape_errors.csv
           git add full_season_data.csv
           git diff --cached --quiet || git commit -m "Update leaderboard data"
-          git push
+          git push https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
+
