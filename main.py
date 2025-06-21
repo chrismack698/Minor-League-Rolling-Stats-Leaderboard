@@ -101,8 +101,8 @@ filtered_df = df[
 ]
 
 # === 5. Display Leaderboard ===
-st.title("🧢 Minor League Leaderboard")
-st.caption("Stats scraped from FanGraphs | Built with ❤️ + 🐍")
+st.title("🧢 Minor League Advanced Splits Leaderboard")
+st.caption("Stats scraped from FanGraphs | Built with ❤️ + 🐍 | App by Christian Mack")
 st.set_page_config(layout="wide")
 
 columns_to_display = [
