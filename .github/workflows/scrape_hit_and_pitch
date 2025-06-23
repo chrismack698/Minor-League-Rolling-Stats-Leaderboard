@@ -68,6 +68,12 @@ jobs:
           mv scrape_errors_pitch.csv data/pitchers/
           mv full_season_pitch_data.csv data/pitchers/
 
+      - name: Upload output as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: leaderboard-pitch-csv
+          path: leaderboard_pitch_data.csv
+
       - name: Commit and push pitcher data
         env:
           GH_TOKEN: ${{ secrets.MILB_LEADERBOARD }}
@@ -76,6 +82,8 @@ jobs:
           git config user.email "github-actions@github.com"
           git add data/pitchers/*
           git diff --cached --quiet || git commit -m "Update pitcher leaderboard data"
+          git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git
           git pull --rebase origin main
-          git push https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
+          git push origin HEAD:main
+
 
