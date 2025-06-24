@@ -32,13 +32,13 @@ tab1, tab2, tab3, tab4 = st.tabs([
 def clean_percent(series):
     return pd.to_numeric(series.str.replace('%', '', regex=False), errors='coerce')
 
-def filter_common(df, level_col, age_col, name_col):
+def filter_common(df, level_col, age_col, name_col, key_suffix):
     levels = sorted(df[level_col].dropna().unique())
-    selected_levels = st.sidebar.multiselect("Level", levels, default=levels, key=level_col)
+    selected_levels = st.sidebar.multiselect("Level", levels, default=levels, key=f"level_{key_suffix}")
     min_age = int(df[age_col].min())
     max_age = int(df[age_col].max())
-    age_range = st.sidebar.slider("Age", min_age, max_age, (min_age, max_age))
-    name_query = st.sidebar.text_input("Search by Player Name").strip().lower()
+    age_range = st.sidebar.slider("Age", min_age, max_age, (min_age, max_age), key=f"age_{key_suffix}")
+    name_query = st.sidebar.text_input("Search by Player Name", key=f"name_{key_suffix}").strip().lower()
 
     df = df[
         (df[level_col].isin(selected_levels)) &
@@ -58,7 +58,7 @@ with tab1:
     df = df[df['timeframe'] == selected_timeframe]
 
     # Filters
-    df = filter_common(df, 'aLevel', 'Age', 'player_name')
+    df = filter_common(df, 'aLevel', 'Age', 'player_name', key_suffix='tab1')
     df['PA'] = pd.to_numeric(df['PA'], errors='coerce')
     df['K%'] = clean_percent(df['K%'])
     df['BB%'] = clean_percent(df['BB%'])
@@ -94,7 +94,7 @@ with tab2:
     df['BB%'] = clean_percent(df['BB%'])
     df['K-BB%'] = clean_percent(df.get('K-BB%', pd.Series()))
     df['IP'] = pd.to_numeric(df['IP'], errors='coerce')
-    df = filter_common(df, 'aLevel', 'Age', 'player_name')
+    df = filter_common(df, 'aLevel', 'Age', 'player_name', key_suffix='tab2')
 
     ip_range = st.sidebar.slider("Innings Pitched (IP)", float(df['IP'].min()), float(df['IP'].max()), (float(df['IP'].min()), float(df['IP'].max())))
     k_range = st.sidebar.slider("K%", 0.0, 100.0, (0.0, 100.0))
@@ -115,7 +115,7 @@ with tab2:
 with tab3:
     df = data["hitters_full"]
     st.sidebar.header("🧢 Full Season Hitters Filters")
-    df = filter_common(df, 'aLevel', 'Age', 'player_name')
+    df = filter_common(df, 'aLevel', 'Age', 'player_name', key_suffix='tab3')
     df['wRC+'] = pd.to_numeric(df['wRC+'], errors='coerce')
     columns = ["player_name", "TeamName", "aLevel", "Age", "AB", "PA", "2B", "3B", "HR", "R", "RBI", "SB", "K%", "BB%", "AVG", "OBP", "SLG", "OPS", "ISO", "wRC+", "wOBA", "BABIP"]
     st.dataframe(df[columns].sort_values("wRC+", ascending=False).reset_index(drop=True), use_container_width=True)
@@ -128,6 +128,6 @@ with tab4:
     df['BB%'] = clean_percent(df['BB%'])
     df['K-BB%'] = clean_percent(df.get('K-BB%', pd.Series()))
     df['IP'] = pd.to_numeric(df['IP'], errors='coerce')
-    df = filter_common(df, 'aLevel', 'Age', 'player_name')
+    df = filter_common(df, 'aLevel', 'Age', 'player_name', key_suffix='tab4')
     columns = ["player_name", "TeamName", "aLevel", "Age", "GS", "IP", "W", "L", "SO", "ERA", "WHIP", "FIP", "K/9", "K%", "BB%", "K-BB%", "BABIP", "LOB%"]
     st.dataframe(df[columns].sort_values("K-BB%", ascending=False).reset_index(drop=True), use_container_width=True)
