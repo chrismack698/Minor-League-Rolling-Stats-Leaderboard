@@ -152,14 +152,20 @@ with tab2:
     df_pitchers = load_pitchers_data()
     
     # === Process Pitchers Data FIRST ===
+    # Clean percentage columns
     df_pitchers['K%'] = clean_percentage(df_pitchers['K%'])
     df_pitchers['BB%'] = clean_percentage(df_pitchers['BB%'])
     df_pitchers['K-BB%'] = clean_percentage(df_pitchers['K-BB%'])
+    
+    # Clean other numeric columns
     df_pitchers['Age'] = pd.to_numeric(df_pitchers['Age'], errors='coerce')
     df_pitchers['IP'] = pd.to_numeric(df_pitchers['IP'], errors='coerce')
     df_pitchers['ERA'] = pd.to_numeric(df_pitchers['ERA'], errors='coerce')
     df_pitchers['FIP'] = pd.to_numeric(df_pitchers['FIP'], errors='coerce')
     df_pitchers['WHIP'] = pd.to_numeric(df_pitchers['WHIP'], errors='coerce')
+    
+    # Drop rows with NaN values in key columns to avoid issues
+    df_pitchers = df_pitchers.dropna(subset=['Age', 'IP', 'K%', 'BB%', 'K-BB%'])
     
     # === Sidebar Filters for Pitchers ===
     st.sidebar.header("📊 Pitchers Filters")
