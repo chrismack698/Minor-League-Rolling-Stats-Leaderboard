@@ -9,10 +9,10 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 # === 1. Set up date ranges ===
 today = datetime.today().date()
 date_ranges = {
+    "last_60": (today - timedelta(days=60)).strftime("%Y-%m-%d"),
     "last_45": (today - timedelta(days=45)).strftime("%Y-%m-%d"),
     "last_30": (today - timedelta(days=30)).strftime("%Y-%m-%d"),
-    "last_15": (today - timedelta(days=15)).strftime("%Y-%m-%d"),
-    "last_7":  (today - timedelta(days=7)).strftime("%Y-%m-%d"),
+    "last_15":  (today - timedelta(days=15)).strftime("%Y-%m-%d"),
 }
 today_str = today.strftime("%Y-%m-%d")
 
