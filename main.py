@@ -151,6 +151,16 @@ with tab2:
     # Load pitchers data
     df_pitchers = load_pitchers_data()
     
+    # === Process Pitchers Data FIRST ===
+    df_pitchers['K%'] = clean_percentage(df_pitchers['K%'])
+    df_pitchers['BB%'] = clean_percentage(df_pitchers['BB%'])
+    df_pitchers['K-BB%'] = clean_percentage(df_pitchers['K-BB%'])
+    df_pitchers['Age'] = pd.to_numeric(df_pitchers['Age'], errors='coerce')
+    df_pitchers['IP'] = pd.to_numeric(df_pitchers['IP'], errors='coerce')
+    df_pitchers['ERA'] = pd.to_numeric(df_pitchers['ERA'], errors='coerce')
+    df_pitchers['FIP'] = pd.to_numeric(df_pitchers['FIP'], errors='coerce')
+    df_pitchers['WHIP'] = pd.to_numeric(df_pitchers['WHIP'], errors='coerce')
+    
     # === Sidebar Filters for Pitchers ===
     st.sidebar.header("📊 Pitchers Filters")
     
@@ -169,10 +179,14 @@ with tab2:
     ip_range = st.sidebar.slider("Innings Pitched (IP)", min_ip, max_ip, (min_ip, max_ip), key="pitchers_ip")
     
     # K%
-    k_filter_p = st.sidebar.slider("K%", 0.0, 100.0, (0.0, 100.0), key="pitchers_k")
+    min_k_p = float(df_pitchers['K%'].min())
+    max_k_p = float(df_pitchers['K%'].max())
+    k_filter_p = st.sidebar.slider("K%", min_k_p, max_k_p, (min_k_p, max_k_p), key="pitchers_k")
     
     # BB%
-    bb_filter_p = st.sidebar.slider("BB%", 0.0, 100.0, (0.0, 100.0), key="pitchers_bb")
+    min_bb_p = float(df_pitchers['BB%'].min())
+    max_bb_p = float(df_pitchers['BB%'].max())
+    bb_filter_p = st.sidebar.slider("BB%", min_bb_p, max_bb_p, (min_bb_p, max_bb_p), key="pitchers_bb")
     
     # K-BB%
     min_kbb = float(df_pitchers['K-BB%'].min())
@@ -181,16 +195,6 @@ with tab2:
     
     # Player Name Filter
     name_query_p = st.sidebar.text_input("Search by Player Name", key="pitchers_name").strip().lower()
-    
-    # === Process Pitchers Data ===
-    df_pitchers['K%'] = clean_percentage(df_pitchers['K%'])
-    df_pitchers['BB%'] = clean_percentage(df_pitchers['BB%'])
-    df_pitchers['K-BB%'] = clean_percentage(df_pitchers['K-BB%'])
-    df_pitchers['Age'] = pd.to_numeric(df_pitchers['Age'], errors='coerce')
-    df_pitchers['IP'] = pd.to_numeric(df_pitchers['IP'], errors='coerce')
-    df_pitchers['ERA'] = pd.to_numeric(df_pitchers['ERA'], errors='coerce')
-    df_pitchers['FIP'] = pd.to_numeric(df_pitchers['FIP'], errors='coerce')
-    df_pitchers['WHIP'] = pd.to_numeric(df_pitchers['WHIP'], errors='coerce')
     
     # Apply filters
     filtered_df_p = df_pitchers[
