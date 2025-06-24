@@ -170,9 +170,6 @@ with tab2:
     # === Sidebar Filters for Pitchers ===
     st.sidebar.header("📊 Pitchers Filters")
     
-    # Level
-    level_options_p = sorted(df_pitchers['aLevel'].dropna().unique())
-    selected_levels_p = st.sidebar.multiselect("Level", level_options_p, default=level_options_p, key="pitchers_level")
     
     # Age
     min_age_p = int(df_pitchers['Age'].min())
@@ -183,6 +180,11 @@ with tab2:
     min_ip = float(df_pitchers['IP'].min())
     max_ip = float(df_pitchers['IP'].max())
     ip_range = st.sidebar.slider("Innings Pitched (IP)", min_ip, max_ip, (min_ip, max_ip), key="pitchers_ip")
+
+    # GS
+    min_gs = float(df_pitchers['GS'].min())
+    max_gs = float(df_pitchers['GS'].max())
+    gs_range = st.sidebar.slider("Games Started (GS)", min_gs, max_gs, (min_gs, max_gs), key="pitchers_gs")
     
     # K%
     min_k_p = float(df_pitchers['K%'].min())
@@ -201,6 +203,10 @@ with tab2:
     
     # Player Name Filter
     name_query_p = st.sidebar.text_input("Search by Player Name", key="pitchers_name").strip().lower()
+
+    # Level
+    level_options_p = sorted(df_pitchers['aLevel'].dropna().unique())
+    selected_levels_p = st.sidebar.multiselect("Level", level_options_p, default=level_options_p, key="pitchers_level")
     
     # Apply filters
     filtered_df_p = df_pitchers[
@@ -210,6 +216,7 @@ with tab2:
         (df_pitchers['K%'] >= k_filter_p[0]) & (df_pitchers['K%'] <= k_filter_p[1]) &
         (df_pitchers['BB%'] >= bb_filter_p[0]) & (df_pitchers['BB%'] <= bb_filter_p[1]) &
         (df_pitchers['K-BB%'] >= kbb_range[0]) & (df_pitchers['K-BB%'] <= kbb_range[1]) &
+        (df_pitchers['GS'] >= gs_range[0]) & (df_pitchers['GS'] <= gs_range[1]) &
         (df_pitchers['player_name'].str.lower().str.contains(name_query_p) if name_query_p else True)
     ]
     
@@ -226,25 +233,22 @@ with tab2:
     }
     
     st.dataframe(
-        filtered_df_p.sort_values("FIP", ascending=True).reset_index(drop=True)[columns_to_display_p].rename(columns=renamed_columns_p),
+        filtered_df_p.sort_values("K-BB%", ascending=False).reset_index(drop=True)[columns_to_display_p].rename(columns=renamed_columns_p),
         use_container_width=True
     )
     
-    # Pitchers scatter plot
-    plot_df_p = filtered_df_p.dropna(subset=['K%', 'BB%', 'FIP'])
     
     fig_p = px.scatter(
-        plot_df_p,
-        x='BB%',
-        y='K%',
+        filtered_df_p,
+        x='K-BB%',
+        y='FIP%',
         size='IP',
-        color='FIP',
+        color='aLevel',
         hover_name='player_name',
         hover_data=['TeamName', 'Age', 'ERA', 'WHIP'],
-        title="K% vs. BB% (Bubble Size = IP, Color = FIP)",
+        title="K-BB% vs FIP (Bubble Size = IP, Color = Level)",
         size_max=40,
-        height=600,
-        color_continuous_scale='RdYlBu_r'  # Red = high FIP (bad), Blue = low FIP (good)
+        height=600
     )
     
     fig_p.update_layout(
