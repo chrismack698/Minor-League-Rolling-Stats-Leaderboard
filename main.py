@@ -252,8 +252,8 @@ with tab2:
     )
     
     fig_p.update_layout(
-        xaxis_title="Walk Rate (BB%)",
-        yaxis_title="Strikeout Rate (K%)",
+        xaxis_title="K-BB%",
+        yaxis_title="FIP"
         margin=dict(l=40, r=20, t=40, b=40)
     )
     
