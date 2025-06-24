@@ -27,7 +27,12 @@ def load_pitchers_full_season_data():
 
 # === 2. Data Cleaning Functions ===
 def clean_percentage(series):
-    return pd.to_numeric(series.str.replace('%', '', regex=False), errors='coerce')
+    # Check if the series contains string values with '%' symbols
+    if series.dtype == 'object':
+        return pd.to_numeric(series.str.replace('%', '', regex=False), errors='coerce')
+    else:
+        # Already numeric, just ensure it's numeric type
+        return pd.to_numeric(series, errors='coerce')
 
 def clean_hitters_data(df):
     df['K%'] = clean_percentage(df['K%'])
