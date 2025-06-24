@@ -84,4 +84,50 @@ with tab1:
         hover_name="player_name", hover_data=["TeamName", "Age", "PA"],
         title="wRC+ vs. K% (Bubble Size = HR)", size_max=40, height=600
     )
-    st.plotly_chart(fig, use_container_width=True).reset_index(drop=True), use_container_width=True)
+    st.plotly_chart(fig, use_container_width=True)
+
+# === Pitcher Splits Tab ===
+with tab2:
+    df = data["pitchers_splits"]
+    st.sidebar.header("⚾ Pitcher Splits Filters")
+    df['K%'] = clean_percent(df['K%'])
+    df['BB%'] = clean_percent(df['BB%'])
+    df['K-BB%'] = clean_percent(df.get('K-BB%', pd.Series()))
+    df['IP'] = pd.to_numeric(df['IP'], errors='coerce')
+    df = filter_common(df, 'aLevel', 'Age', 'player_name')
+
+    ip_range = st.sidebar.slider("Innings Pitched (IP)", float(df['IP'].min()), float(df['IP'].max()), (float(df['IP'].min()), float(df['IP'].max())))
+    k_range = st.sidebar.slider("K%", 0.0, 100.0, (0.0, 100.0))
+    bb_range = st.sidebar.slider("BB%", 0.0, 100.0, (0.0, 100.0))
+    kbb_range = st.sidebar.slider("K-BB%", 0.0, 100.0, (0.0, 100.0))
+
+    df = df[
+        (df['IP'] >= ip_range[0]) & (df['IP'] <= ip_range[1]) &
+        (df['K%'] >= k_range[0]) & (df['K%'] <= k_range[1]) &
+        (df['BB%'] >= bb_range[0]) & (df['BB%'] <= bb_range[1]) &
+        (df['K-BB%'] >= kbb_range[0]) & (df['K-BB%'] <= kbb_range[1])
+    ]
+
+    columns = ["player_name", "TeamName", "aLevel", "Age", "GS", "IP", "W", "L", "SO", "ERA", "WHIP", "FIP", "K/9", "K%", "BB%", "K-BB%", "BABIP", "LOB%"]
+    st.dataframe(df[columns].sort_values("K-BB%", ascending=False).reset_index(drop=True), use_container_width=True)
+
+# === Full Season Hitters Tab ===
+with tab3:
+    df = data["hitters_full"]
+    st.sidebar.header("🧢 Full Season Hitters Filters")
+    df = filter_common(df, 'aLevel', 'Age', 'player_name')
+    df['wRC+'] = pd.to_numeric(df['wRC+'], errors='coerce')
+    columns = ["player_name", "TeamName", "aLevel", "Age", "AB", "PA", "2B", "3B", "HR", "R", "RBI", "SB", "K%", "BB%", "AVG", "OBP", "SLG", "OPS", "ISO", "wRC+", "wOBA", "BABIP"]
+    st.dataframe(df[columns].sort_values("wRC+", ascending=False).reset_index(drop=True), use_container_width=True)
+
+# === Full Season Pitchers Tab ===
+with tab4:
+    df = data["pitchers_full"]
+    st.sidebar.header("⚾ Full Season Pitchers Filters")
+    df['K%'] = clean_percent(df['K%'])
+    df['BB%'] = clean_percent(df['BB%'])
+    df['K-BB%'] = clean_percent(df.get('K-BB%', pd.Series()))
+    df['IP'] = pd.to_numeric(df['IP'], errors='coerce')
+    df = filter_common(df, 'aLevel', 'Age', 'player_name')
+    columns = ["player_name", "TeamName", "aLevel", "Age", "GS", "IP", "W", "L", "SO", "ERA", "WHIP", "FIP", "K/9", "K%", "BB%", "K-BB%", "BABIP", "LOB%"]
+    st.dataframe(df[columns].sort_values("K-BB%", ascending=False).reset_index(drop=True), use_container_width=True)
