@@ -17,7 +17,8 @@ def load_pitchers_data():
     return pd.read_csv(url)
 
 # === Utility Functions ===
-# (No utility functions needed since percentages are already numeric)
+def clean_percentage(series):
+    return pd.to_numeric(series.str.replace('%', '', regex=False), errors='coerce')
 
 # === Main App ===
 st.title("🧢 Minor League Advanced Splits Leaderboard")
@@ -79,8 +80,8 @@ with tab1:
     name_query_h = st.sidebar.text_input("Search by Player Name", key="hitters_name").strip().lower()
     
     # === Process Hitters Data ===
-    df_hitters['K%'] = pd.to_numeric(df_hitters['K%'], errors='coerce')
-    df_hitters['BB%'] = pd.to_numeric(df_hitters['BB%'], errors='coerce')
+    df_hitters['K%'] = clean_percentage(df_hitters['K%'])
+    df_hitters['BB%'] = clean_percentage(df_hitters['BB%'])
     df_hitters['PA'] = pd.to_numeric(df_hitters['PA'], errors='coerce')
     df_hitters['wRC+'] = pd.to_numeric(df_hitters['wRC+'], errors='coerce')
     df_hitters['Age'] = pd.to_numeric(df_hitters['Age'], errors='coerce')
@@ -182,9 +183,9 @@ with tab2:
     name_query_p = st.sidebar.text_input("Search by Player Name", key="pitchers_name").strip().lower()
     
     # === Process Pitchers Data ===
-    df_pitchers['K%'] = pd.to_numeric(df_pitchers['K%'], errors='coerce')
-    df_pitchers['BB%'] = pd.to_numeric(df_pitchers['BB%'], errors='coerce')
-    df_pitchers['K-BB%'] = pd.to_numeric(df_pitchers['K-BB%'], errors='coerce')
+    df_pitchers['K%'] = clean_percentage(df_pitchers['K%'])
+    df_pitchers['BB%'] = clean_percentage(df_pitchers['BB%'])
+    df_pitchers['K-BB%'] = clean_percentage(df_pitchers['K-BB%'])
     df_pitchers['Age'] = pd.to_numeric(df_pitchers['Age'], errors='coerce')
     df_pitchers['IP'] = pd.to_numeric(df_pitchers['IP'], errors='coerce')
     df_pitchers['ERA'] = pd.to_numeric(df_pitchers['ERA'], errors='coerce')
