@@ -92,7 +92,8 @@ with st.sidebar:
         selected_levels_h = st.multiselect("Level", level_options_h, default=level_options_h, key="hitters_level")
         
         # Player Name Filter
-        name_query_h = st.text_input("Search by Player Name", key="hitters_name").strip().lower()
+        name_options_h = sorted(df_hitters['player_name'].dropna().unique())
+        selected_names_h = st.multiselect("Player Name", name_options_h, default=name_options_h, key="hitters_name").strip().lower()
     
     else:  # Pitchers tab
         # Load pitchers data for filter setup
@@ -151,7 +152,8 @@ with st.sidebar:
         selected_levels_p = st.multiselect("Level", level_options_p, default=level_options_p, key="pitchers_level")
         
         # Player Name Filter
-        name_query_p = st.text_input("Search by Player Name", key="pitchers_name").strip().lower()
+        name_options_p = sorted(df_pitchers['player_name'].dropna().unique())
+        selected_names_p = st.multiselect("Player Name", name_options_p, default=name_options_p, key="pitchers_name").strip().lower()
 
 # === Main Content Based on Active Tab ===
 if st.session_state.active_tab == 'Hitters':
@@ -176,7 +178,7 @@ if st.session_state.active_tab == 'Hitters':
         (df_hitters['PA'] >= pa_range[0]) & (df_hitters['PA'] <= pa_range[1]) &
         (df_hitters['Age'] >= age_range_h[0]) & (df_hitters['Age'] <= age_range_h[1]) &
         (df_hitters['K%'] >= k_filter_h[0]) & (df_hitters['K%'] <= k_filter_h[1]) &
-        (df_hitters['player_name'].str.lower().str.contains(name_query_h) if name_query_h else True) &
+        ((df['player_name'].isin(selected_names_h))) &
         (df_hitters['BB%'] >= bb_filter_h[0]) & (df_hitters['BB%'] <= bb_filter_h[1]) &
         pa_condition
     ]
@@ -235,7 +237,7 @@ else:  # Pitchers tab
         (df_pitchers['BB%'] >= bb_filter_p[0]) & (df_pitchers['BB%'] <= bb_filter_p[1]) &
         (df_pitchers['K-BB%'] >= kbb_range[0]) & (df_pitchers['K-BB%'] <= kbb_range[1]) &
         (df_pitchers['GS'] >= gs_range[0]) & (df_pitchers['GS'] <= gs_range[1]) &
-        (df_pitchers['player_name'].str.lower().str.contains(name_query_p) if name_query_p else True)
+        ((df['player_name'].isin(selected_names_p)))
     ]
     
     # Display pitchers leaderboard
