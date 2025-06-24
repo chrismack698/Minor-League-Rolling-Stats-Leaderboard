@@ -66,8 +66,8 @@ with tab1:
 
     pa_min, pa_max = int(df['PA'].min()), int(df['PA'].max())
     pa_range = st.sidebar.slider("Plate Appearances (PA)", pa_min, pa_max, (pa_min, pa_max))
-    k_range = st.sidebar.slider("K%", 0.0, 100.0, (0.0, 100.0))
-    bb_range = st.sidebar.slider("BB%", 0.0, 100.0, (0.0, 100.0))
+    k_range = st.sidebar.slider("K%", 0.0, 100.0, (0.0, 100.0), key="k_tab2")
+    bb_range = st.sidebar.slider("BB%", 0.0, 100.0, (0.0, 100.0), key="bb_tab2")
 
     df = df[
         (df['PA'] >= pa_range[0]) & (df['PA'] <= pa_range[1]) &
@@ -96,10 +96,10 @@ with tab2:
     df['IP'] = pd.to_numeric(df['IP'], errors='coerce')
     df = filter_common(df, 'aLevel', 'Age', 'player_name', key_suffix='tab2')
 
-    ip_range = st.sidebar.slider("Innings Pitched (IP)", float(df['IP'].min()), float(df['IP'].max()), (float(df['IP'].min()), float(df['IP'].max())))
+    ip_range = st.sidebar.slider("Innings Pitched (IP)", float(df['IP'].min()), float(df['IP'].max()), (float(df['IP'].min()), float(df['IP'].max())), key="ip_tab2")), float(df['IP'].max()), (float(df['IP'].min()), float(df['IP'].max())))
     k_range = st.sidebar.slider("K%", 0.0, 100.0, (0.0, 100.0))
     bb_range = st.sidebar.slider("BB%", 0.0, 100.0, (0.0, 100.0))
-    kbb_range = st.sidebar.slider("K-BB%", 0.0, 100.0, (0.0, 100.0))
+    kbb_range = st.sidebar.slider("K-BB%", 0.0, 100.0, (0.0, 100.0), key="kbb_tab2")
 
     df = df[
         (df['IP'] >= ip_range[0]) & (df['IP'] <= ip_range[1]) &
