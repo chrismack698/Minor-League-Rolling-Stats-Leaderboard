@@ -257,8 +257,8 @@ else:  # Pitchers tab
     # Pitchers bubble chart
     fig_p = px.scatter(
         filtered_df_p,
-        x='FIP',
-        y='K-BB%',
+        x='K-BB%',
+        y='FIP',
         size='IP',
         color='aLevel',
         hover_name='player_name',
@@ -269,8 +269,8 @@ else:  # Pitchers tab
     )
     
     fig_p.update_layout(
-        xaxis_title="FIP",
-        yaxis_title="K-BB%",
+        xaxis_title="K-BB%",
+        yaxis_title="FIP",
         margin=dict(l=40, r=20, t=40, b=40)
     )
     
