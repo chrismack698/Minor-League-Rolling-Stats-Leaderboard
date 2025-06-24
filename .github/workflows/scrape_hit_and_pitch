@@ -40,7 +40,9 @@ jobs:
           git config user.email "github-actions@github.com"
           git add data/hitters/*
           git diff --cached --quiet || git commit -m "Update hitter leaderboard data"
-          git push https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git HEAD:main
+          git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git
+          git pull --rebase origin main
+          git push origin HEAD:main
 
   scrape-pitchers:
     name: Scrape Pitchers
