@@ -182,8 +182,8 @@ with tab2:
     ip_range = st.sidebar.slider("Innings Pitched (IP)", min_ip, max_ip, (min_ip, max_ip), key="pitchers_ip")
 
     # GS
-    min_gs = float(df_pitchers['GS'].min())
-    max_gs = float(df_pitchers['GS'].max())
+    min_gs = df_pitchers['GS'].min()
+    max_gs = df_pitchers['GS'].max()
     gs_range = st.sidebar.slider("Games Started (GS)", min_gs, max_gs, (min_gs, max_gs), key="pitchers_gs")
     
     # K%
