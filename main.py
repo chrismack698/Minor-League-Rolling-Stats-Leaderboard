@@ -2,149 +2,134 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-# === 1. Load Data ===
+st.set_page_config(layout="wide")
+
+# === Load All Data ===
 @st.cache_data(ttl=3600)
-def load_data():
-    url = "https://raw.githubusercontent.com/chrismack698/Minor-League-Rolling-Stats-Leaderboard/main/leaderboard_data.csv"
-    return pd.read_csv(url)
+def load_all_data():
+    return {
+        "hitters_splits": pd.read_csv("https://raw.githubusercontent.com/chrismack698/Minor-League-Rolling-Stats-Leaderboard/main/data/hitters/leaderboard_data.csv"),
+        "pitchers_splits": pd.read_csv("https://raw.githubusercontent.com/chrismack698/Minor-League-Rolling-Stats-Leaderboard/main/data/pitchers/leaderboard_pitch_data.csv"),
+        "hitters_full": pd.read_csv("https://raw.githubusercontent.com/chrismack698/Minor-League-Rolling-Stats-Leaderboard/main/data/hitters/full_season_data.csv"),
+        "pitchers_full": pd.read_csv("https://raw.githubusercontent.com/chrismack698/Minor-League-Rolling-Stats-Leaderboard/main/data/pitchers/full_season_pitch_data.csv")
+    }
 
-df = load_data()
-
-# === 2. Sidebar Filters ===
-st.sidebar.header("📊 Filters")
-
-# === Timeframe (Single Select with Friendly Labels) ===
-
-# Mapping from internal keys to friendly labels
-timeframe_label_map = {
-    "last_7": "Last 7 Days",
-    "last_15": "Last 15 Days",
-    "last_30": "Last 30 Days",
-    "last_45": "Last 45 Days"
-}
-
-# Only use available options in the dataset
-available_timeframes = [tf for tf in timeframe_label_map if tf in df['timeframe'].unique()]
-sorted_timeframes = sorted(available_timeframes, key=lambda x: int(x.split('_')[1]))  # Sort numerically
-
-# Create display label list
-display_labels = [timeframe_label_map[tf] for tf in sorted_timeframes]
-selected_label = st.sidebar.selectbox("Timeframe", display_labels)
-
-# Reverse map to get actual value
-selected_timeframe = {v: k for k, v in timeframe_label_map.items()}[selected_label]
-
-# Plate Appearances
-min_pa = int(df.get("PA", pd.Series([0])).min())
-max_pa = int(df.get("PA", pd.Series([100])).max())
-pa_range = st.sidebar.slider("Plate Appearances (PA)", min_pa, max_pa, (min_pa, max_pa))
-
-# Define minimum PAs to qualify per timeframe
-qualification_thresholds = {
-    "last_7": 15,
-    "last_15": 30,
-    "last_30": 50,
-    "last_45": 75
-}
-
-qualified_only = st.sidebar.checkbox("Only show qualified hitters")
-
-# Age
-min_age = int(df['Age'].min())
-max_age = int(df['Age'].max())
-age_range = st.sidebar.slider("Age", min_age, max_age, (min_age, max_age))
-
-# K%
-k_filter = st.sidebar.slider("K%", 0.0, 100.0, (0.0, 100.0))
-
-# BB%
-bb_filter = st.sidebar.slider("BB%", 0.0, 100.0, (0.0, 100.0))
-
-# Level
-level_options = sorted(df['aLevel'].dropna().unique())
-selected_levels = st.sidebar.multiselect("Level", level_options, default=level_options)
-
-# === Player Name Filter ===
-name_query = st.sidebar.text_input("Search by Player Name").strip().lower()
+data = load_all_data()
 
 # === Tip Jar ===
 st.sidebar.markdown("---")
 st.sidebar.markdown("💸 **Enjoying this app?** [Send a tip](https://coff.ee/christianmack)")
 
-# === 3. Preprocess Data Types ===
-def clean_percentage(series):
+# === Tabs ===
+tab1, tab2, tab3, tab4 = st.tabs([
+    "Hitter Splits Leaderboard",
+    "Pitcher Splits Leaderboard",
+    "Full Season Hitting Leaderboard",
+    "Full Season Pitching Leaderboard"
+])
+
+# === Common Utilities ===
+def clean_percent(series):
     return pd.to_numeric(series.str.replace('%', '', regex=False), errors='coerce')
 
-df['K%'] = clean_percentage(df['K%'])
-df['BB%'] = clean_percentage(df['BB%'])
-df['PA'] = pd.to_numeric(df['PA'], errors='coerce')
-df['wRC+'] = pd.to_numeric(df['wRC+'], errors='coerce')
-df['Age'] = pd.to_numeric(df['Age'], errors='coerce')
-df['HR'] = pd.to_numeric(df['HR'], errors='coerce')
+def filter_common(df, level_col, age_col, name_col):
+    levels = sorted(df[level_col].dropna().unique())
+    selected_levels = st.sidebar.multiselect("Level", levels, default=levels)
+    min_age = int(df[age_col].min())
+    max_age = int(df[age_col].max())
+    age_range = st.sidebar.slider("Age", min_age, max_age, (min_age, max_age))
+    name_query = st.sidebar.text_input("Search by Player Name").strip().lower()
 
-# === 4. Apply Filters ===
+    df = df[
+        (df[level_col].isin(selected_levels)) &
+        (df[age_col] >= age_range[0]) & (df[age_col] <= age_range[1]) &
+        (df[name_col].str.lower().str.contains(name_query) if name_query else True)
+    ]
+    return df
 
-pa_condition = (
-    (df['PA'] >= qualification_thresholds[selected_timeframe])
-    if qualified_only else True
-)
+# === Hitter Splits Tab ===
+with tab1:
+    df = data["hitters_splits"]
+    st.sidebar.header("🏁 Hitter Splits Filters")
 
-filtered_df = df[
-    (df['timeframe'] == selected_timeframe) &
-    (df['aLevel'].isin(selected_levels)) &
-    (df['PA'] >= pa_range[0]) & (df['PA'] <= pa_range[1]) &
-    (df['Age'] >= age_range[0]) & (df['Age'] <= age_range[1]) &
-    (df['K%'] >= k_filter[0]) & (df['K%'] <= k_filter[1]) &
-    (df['player_name'].str.lower().str.contains(name_query) if name_query else True) &
-    (df['BB%'] >= bb_filter[0]) & (df['BB%'] <= bb_filter[1]) &
-    pa_condition
-]
+    # Timeframe
+    timeframes = df['timeframe'].unique().tolist()
+    selected_timeframe = st.sidebar.selectbox("Timeframe", sorted(timeframes, key=lambda x: int(x.split('_')[1])))
+    df = df[df['timeframe'] == selected_timeframe]
 
-# === 5. Display Leaderboard ===
-st.title("🧢 Minor League Advanced Splits Leaderboard")
-st.caption("Stats scraped from FanGraphs | Built with ❤️ + 🐍 | App by Christian Mack")
-st.set_page_config(layout="wide")
+    # Filters
+    df = filter_common(df, 'aLevel', 'Age', 'player_name')
+    df['PA'] = pd.to_numeric(df['PA'], errors='coerce')
+    df['K%'] = clean_percent(df['K%'])
+    df['BB%'] = clean_percent(df['BB%'])
+    df['HR'] = pd.to_numeric(df['HR'], errors='coerce')
 
-columns_to_display = [
-    "player_name", "TeamName", "aLevel", "Age", "AB", "PA", "2B", "3B", "HR",
-    "R", "RBI", "SB", "K%", "BB%", "AVG", "OBP", "SLG", "OPS", "ISO", "wRC+", "wOBA", "BABIP"
-]
+    pa_min, pa_max = int(df['PA'].min()), int(df['PA'].max())
+    pa_range = st.sidebar.slider("Plate Appearances (PA)", pa_min, pa_max, (pa_min, pa_max))
+    k_range = st.sidebar.slider("K%", 0.0, 100.0, (0.0, 100.0))
+    bb_range = st.sidebar.slider("BB%", 0.0, 100.0, (0.0, 100.0))
 
-renamed_columns = {
-    "player_name": "Name",
-    "TeamName": "Team",
-    "aLevel": "Level"
-}
+    df = df[
+        (df['PA'] >= pa_range[0]) & (df['PA'] <= pa_range[1]) &
+        (df['K%'] >= k_range[0]) & (df['K%'] <= k_range[1]) &
+        (df['BB%'] >= bb_range[0]) & (df['BB%'] <= bb_range[1])
+    ]
 
-# Display final filtered and sorted leaderboard
-st.dataframe(
-    filtered_df.sort_values("wRC+", ascending=False).reset_index(drop=True)[columns_to_display].rename(columns=renamed_columns),
-    use_container_width=True
-)
+    columns = ["player_name", "TeamName", "aLevel", "Age", "AB", "PA", "2B", "3B", "HR", "R", "RBI", "SB", "K%", "BB%", "AVG", "OBP", "SLG", "OPS", "ISO", "wRC+", "wOBA", "BABIP"]
+    st.dataframe(df[columns].sort_values("wRC+", ascending=False).reset_index(drop=True), use_container_width=True)
 
-# Clean any missing values for plot columns
-plot_df = filtered_df.dropna(subset=['K%', 'wRC+', 'HR'])
+    fig = px.scatter(
+        df.dropna(subset=["K%", "wRC+", "HR"]),
+        x="K%", y="wRC+", size="HR", color="aLevel",
+        hover_name="player_name", hover_data=["TeamName", "Age", "PA"],
+        title="wRC+ vs. K% (Bubble Size = HR)", size_max=40, height=600
+    )
+    st.plotly_chart(fig, use_container_width=True)
 
-# Build bubble chart
-fig = px.scatter(
-    plot_df,
-    x='K%',
-    y='wRC+',
-    size='HR',
-    color='aLevel',
-    hover_name='player_name',
-    hover_data=['TeamName', 'Age', 'PA'],
-    title="wRC+ vs. K% (Bubble Size = HR)",
-    size_max=40,
-    height=600
-)
+# === Pitcher Splits Tab ===
+with tab2:
+    df = data["pitchers_splits"]
+    st.sidebar.header("🎾 Pitcher Splits Filters")
 
-fig.update_layout(
-    xaxis_title="Strikeout Rate (K%)",
-    yaxis_title="Weighted Runs Created (wRC+)",
-    legend_title="Level",
-    margin=dict(l=40, r=20, t=40, b=40)
-)
+    df['K%'] = clean_percent(df['K%'])
+    df['BB%'] = clean_percent(df['BB%'])
+    df['K-BB%'] = clean_percent(df['K-BB%'])
+    df['IP'] = pd.to_numeric(df['IP'], errors='coerce')
 
-st.plotly_chart(fig, use_container_width=True)
+    df = filter_common(df, 'aLevel', 'Age', 'player_name')
 
+    ip_range = st.sidebar.slider("Innings Pitched (IP)", float(df['IP'].min()), float(df['IP'].max()), (float(df['IP'].min()), float(df['IP'].max())))
+    k_range = st.sidebar.slider("K%", 0.0, 100.0, (0.0, 100.0))
+    bb_range = st.sidebar.slider("BB%", 0.0, 100.0, (0.0, 100.0))
+    kbb_range = st.sidebar.slider("K-BB%", 0.0, 100.0, (0.0, 100.0))
+
+    df = df[
+        (df['IP'] >= ip_range[0]) & (df['IP'] <= ip_range[1]) &
+        (df['K%'] >= k_range[0]) & (df['K%'] <= k_range[1]) &
+        (df['BB%'] >= bb_range[0]) & (df['BB%'] <= bb_range[1]) &
+        (df['K-BB%'] >= kbb_range[0]) & (df['K-BB%'] <= kbb_range[1])
+    ]
+
+    columns = ["player_name", "TeamName", "aLevel", "Age", "GS", "IP", "W", "L", "SO", "ERA", "WHIP", "FIP", "K/9", "K%", "BB%", "K-BB%", "BABIP", "LOB%"]
+    st.dataframe(df[columns].sort_values("K-BB%", ascending=False).reset_index(drop=True), use_container_width=True)
+
+# === Full Season Hitters Tab ===
+with tab3:
+    df = data["hitters_full"]
+    st.sidebar.header("🌿 Full Season Hitters Filters")
+    df = filter_common(df, 'aLevel', 'Age', 'player_name')
+    df['wRC+'] = pd.to_numeric(df['wRC+'], errors='coerce')
+    columns = ["player_name", "TeamName", "aLevel", "Age", "AB", "PA", "2B", "3B", "HR", "R", "RBI", "SB", "K%", "BB%", "AVG", "OBP", "SLG", "OPS", "ISO", "wRC+", "wOBA", "BABIP"]
+    st.dataframe(df[columns].sort_values("wRC+", ascending=False).reset_index(drop=True), use_container_width=True)
+
+# === Full Season Pitchers Tab ===
+with tab4:
+    df = data["pitchers_full"]
+    st.sidebar.header("🌿 Full Season Pitchers Filters")
+    df['K%'] = clean_percent(df['K%'])
+    df['BB%'] = clean_percent(df['BB%'])
+    df['K-BB%'] = clean_percent(df['K-BB%'])
+    df['IP'] = pd.to_numeric(df['IP'], errors='coerce')
+    df = filter_common(df, 'aLevel', 'Age', 'player_name')
+    columns = ["player_name", "TeamName", "aLevel", "Age", "GS", "IP", "W", "L", "SO", "ERA", "WHIP", "FIP", "K/9", "K%", "BB%", "K-BB%", "BABIP", "LOB%"]
+    st.dataframe(df[columns].sort_values("K-BB%", ascending=False).reset_index(drop=True), use_container_width=True)
