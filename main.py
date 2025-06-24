@@ -169,7 +169,12 @@ with tab2:
     
     # === Sidebar Filters for Pitchers ===
     st.sidebar.header("📊 Pitchers Filters")
-    
+
+    available_timeframes_p = [tf for tf in timeframe_label_map if tf in df_pitchers['timeframe'].unique()]
+    sorted_timeframes_p = sorted(available_timeframes_p, key=lambda x: int(x.split('_')[1]))
+    display_labels_p = [timeframe_label_map[tf] for tf in sorted_timeframes_p]
+    selected_label_p = st.sidebar.selectbox("Timeframe", display_labels_p, key="pitchers_timeframe")
+    selected_timeframe_p = {v: k for k, v in timeframe_label_map.items()}[selected_label_p]
     
     # Age
     min_age_p = int(df_pitchers['Age'].min())
@@ -211,6 +216,7 @@ with tab2:
     # Apply filters
     filtered_df_p = df_pitchers[
         (df_pitchers['aLevel'].isin(selected_levels_p)) &
+        (df_pitchers['timeframe'] == selected_timeframe_p) &
         (df_pitchers['Age'] >= age_range_p[0]) & (df_pitchers['Age'] <= age_range_p[1]) &
         (df_pitchers['IP'] >= ip_range[0]) & (df_pitchers['IP'] <= ip_range[1]) &
         (df_pitchers['K%'] >= k_filter_p[0]) & (df_pitchers['K%'] <= k_filter_p[1]) &
