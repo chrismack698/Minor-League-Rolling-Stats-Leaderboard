@@ -241,7 +241,7 @@ with tab2:
     fig_p = px.scatter(
         filtered_df_p,
         x='K-BB%',
-        y='FIP%',
+        y='FIP',
         size='IP',
         color='aLevel',
         hover_name='player_name',
