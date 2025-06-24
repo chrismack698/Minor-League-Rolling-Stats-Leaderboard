@@ -48,7 +48,8 @@ with st.sidebar:
         "last_7": "Last 7 Days",
         "last_15": "Last 15 Days",
         "last_30": "Last 30 Days",
-        "last_45": "Last 45 Days"
+        "last_45": "Last 45 Days",
+        "last_60": "Last 60 Days"
     }
     
     if st.session_state.active_tab == 'Hitters':
