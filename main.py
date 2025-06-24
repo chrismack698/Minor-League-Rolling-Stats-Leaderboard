@@ -50,11 +50,38 @@ def filter_common(df, level_col, age_col, name_col):
 # === Hitter Splits Tab ===
 with tab1:
     df = data["hitters_splits"]
-    st.sidebar.header("⚾ Full Season Pitchers Filters")
+    st.sidebar.header("🧢 Hitter Splits Filters")
+
+    # Timeframe
+    timeframes = df['timeframe'].unique().tolist()
+    selected_timeframe = st.sidebar.selectbox("Timeframe", sorted(timeframes, key=lambda x: int(x.split('_')[1])))
+    df = df[df['timeframe'] == selected_timeframe]
+
+    # Filters
+    df = filter_common(df, 'aLevel', 'Age', 'player_name')
+    df['PA'] = pd.to_numeric(df['PA'], errors='coerce')
     df['K%'] = clean_percent(df['K%'])
     df['BB%'] = clean_percent(df['BB%'])
-    df['K-BB%'] = clean_percent(df['K-BB%'])
-    df['IP'] = pd.to_numeric(df['IP'], errors='coerce')
-    df = filter_common(df, 'aLevel', 'Age', 'player_name')
-    columns = ["player_name", "TeamName", "aLevel", "Age", "GS", "IP", "W", "L", "SO", "ERA", "WHIP", "FIP", "K/9", "K%", "BB%", "K-BB%", "BABIP", "LOB%"]
-    st.dataframe(df[columns].sort_values("K-BB%", ascending=False).reset_index(drop=True), use_container_width=True)
+    df['HR'] = pd.to_numeric(df['HR'], errors='coerce')
+
+    pa_min, pa_max = int(df['PA'].min()), int(df['PA'].max())
+    pa_range = st.sidebar.slider("Plate Appearances (PA)", pa_min, pa_max, (pa_min, pa_max))
+    k_range = st.sidebar.slider("K%", 0.0, 100.0, (0.0, 100.0))
+    bb_range = st.sidebar.slider("BB%", 0.0, 100.0, (0.0, 100.0))
+
+    df = df[
+        (df['PA'] >= pa_range[0]) & (df['PA'] <= pa_range[1]) &
+        (df['K%'] >= k_range[0]) & (df['K%'] <= k_range[1]) &
+        (df['BB%'] >= bb_range[0]) & (df['BB%'] <= bb_range[1])
+    ]
+
+    columns = ["player_name", "TeamName", "aLevel", "Age", "AB", "PA", "2B", "3B", "HR", "R", "RBI", "SB", "K%", "BB%", "AVG", "OBP", "SLG", "OPS", "ISO", "wRC+", "wOBA", "BABIP"]
+    st.dataframe(df[columns].sort_values("wRC+", ascending=False).reset_index(drop=True), use_container_width=True)
+
+    fig = px.scatter(
+        df.dropna(subset=["K%", "wRC+", "HR"]),
+        x="K%", y="wRC+", size="HR", color="aLevel",
+        hover_name="player_name", hover_data=["TeamName", "Age", "PA"],
+        title="wRC+ vs. K% (Bubble Size = HR)", size_max=40, height=600
+    )
+    st.plotly_chart(fig, use_container_width=True).reset_index(drop=True), use_container_width=True)
