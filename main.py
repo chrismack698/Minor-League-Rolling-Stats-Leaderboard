@@ -93,7 +93,7 @@ with st.sidebar:
         
         # Player Name Filter
         name_options_h = sorted(df_hitters['player_name'].dropna().unique())
-        selected_names_h = st.multiselect("Player Name", name_options_h, default=name_options_h, key="hitters_name").strip().lower()
+        selected_names_h = st.multiselect("Player Name", name_options_h, default=name_options_h, key="hitters_name")
     
     else:  # Pitchers tab
         # Load pitchers data for filter setup
@@ -153,7 +153,7 @@ with st.sidebar:
         
         # Player Name Filter
         name_options_p = sorted(df_pitchers['player_name'].dropna().unique())
-        selected_names_p = st.multiselect("Player Name", name_options_p, default=name_options_p, key="pitchers_name").strip().lower()
+        selected_names_p = st.multiselect("Player Name", name_options_p, default=name_options_p, key="pitchers_name")
 
 # === Main Content Based on Active Tab ===
 if st.session_state.active_tab == 'Hitters':
