@@ -178,7 +178,7 @@ if st.session_state.active_tab == 'Hitters':
         (df_hitters['PA'] >= pa_range[0]) & (df_hitters['PA'] <= pa_range[1]) &
         (df_hitters['Age'] >= age_range_h[0]) & (df_hitters['Age'] <= age_range_h[1]) &
         (df_hitters['K%'] >= k_filter_h[0]) & (df_hitters['K%'] <= k_filter_h[1]) &
-        ((df['player_name'].isin(selected_names_h))) &
+        ((df_hitters['player_name'].isin(selected_names_h))) &
         (df_hitters['BB%'] >= bb_filter_h[0]) & (df_hitters['BB%'] <= bb_filter_h[1]) &
         pa_condition
     ]
@@ -237,7 +237,7 @@ else:  # Pitchers tab
         (df_pitchers['BB%'] >= bb_filter_p[0]) & (df_pitchers['BB%'] <= bb_filter_p[1]) &
         (df_pitchers['K-BB%'] >= kbb_range[0]) & (df_pitchers['K-BB%'] <= kbb_range[1]) &
         (df_pitchers['GS'] >= gs_range[0]) & (df_pitchers['GS'] <= gs_range[1]) &
-        ((df['player_name'].isin(selected_names_p)))
+        ((df_pitchers['player_name'].isin(selected_names_p)))
     ]
     
     # Display pitchers leaderboard
