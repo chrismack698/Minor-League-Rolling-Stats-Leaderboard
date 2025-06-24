@@ -177,8 +177,8 @@ with tab2:
     age_range_p = st.sidebar.slider("Age", min_age_p, max_age_p, (min_age_p, max_age_p), key="pitchers_age")
     
     # IP (Innings Pitched)
-    min_ip = float(df_pitchers['IP'].min())
-    max_ip = float(df_pitchers['IP'].max())
+    min_ip = df_pitchers['IP'].min()
+    max_ip = df_pitchers['IP'].max()
     ip_range = st.sidebar.slider("Innings Pitched (IP)", min_ip, max_ip, (min_ip, max_ip), key="pitchers_ip")
 
     # GS
