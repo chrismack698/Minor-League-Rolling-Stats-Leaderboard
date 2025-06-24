@@ -165,7 +165,7 @@ with tab2:
     df_pitchers['WHIP'] = pd.to_numeric(df_pitchers['WHIP'], errors='coerce')
     
     # Drop rows with NaN values in key columns to avoid issues
-    df_pitchers = df_pitchers.dropna(subset=['Age', 'IP', 'K%', 'BB%', 'K-BB%'])
+    #df_pitchers = df_pitchers.dropna(subset=['Age', 'IP', 'K%', 'BB%', 'K-BB%'])
     
     # === Sidebar Filters for Pitchers ===
     st.sidebar.header("📊 Pitchers Filters")
