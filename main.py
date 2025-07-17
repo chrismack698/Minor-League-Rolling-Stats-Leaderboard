@@ -86,6 +86,22 @@ with st.sidebar:
         # K% and BB%
         k_filter_h = st.slider("K%", 0.0, 100.0, (0.0, 100.0), key="hitters_k")
         bb_filter_h = st.slider("BB%", 0.0, 100.0, (0.0, 100.0), key="hitters_bb")
+
+        #HR filter
+        min_hr = int(df_hitters.get("HR", pd.Series([0])).min())
+        max_hr = int(df_hitters.get("HR", pd.Series([100])).max())
+        hr_range = st.slider("Home Runs (HR)", min_hr, max_hr, (min_hr, max_hr), key="hitters_hr")
+
+        #SB filter
+        min_sb = int(df_hitters.get("SB", pd.Series([0])).min())
+        max_sb = int(df_hitters.get("SB", pd.Series([100])).max())
+        sb_range = st.slider("Stolen Bases (SB)", min_sb, max_sb, (min_sb, max_sb), key="hitters_sb")
+
+        #ISO filter
+        min_iso = int(df_hitters.get("ISO", pd.Series([0])).min())
+        max_iso = int(df_hitters.get("ISO", pd.Series([100])).max())
+        iso_range = st.slider("ISO", min_iso, max_iso, (min_iso, max_iso), key="hitters_iso")
+        
         
         # Level
         level_options_h = sorted(df_hitters['aLevel'].dropna().unique())
@@ -187,6 +203,9 @@ if st.session_state.active_tab == 'Hitters':
         (df_hitters['K%'] >= k_filter_h[0]) & (df_hitters['K%'] <= k_filter_h[1]) &
         ((df_hitters['player_name'].isin(selected_names_h))) &
         (df_hitters['BB%'] >= bb_filter_h[0]) & (df_hitters['BB%'] <= bb_filter_h[1]) &
+        (df_hitters['HR'] >= hr_range[0]) & (df_hitters['HR'] <= hr_range[1]) &
+        (df_hitters['SB'] >= sb_range[0]) & (df_hitters['SB'] <= sb_range[1 &
+        (df_hitters['ISO'] >= iso_range[0]) & (df_hitters['ISO'] <= iso_range[1]) &
         pa_condition
     ]
     
