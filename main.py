@@ -204,7 +204,7 @@ if st.session_state.active_tab == 'Hitters':
         ((df_hitters['player_name'].isin(selected_names_h))) &
         (df_hitters['BB%'] >= bb_filter_h[0]) & (df_hitters['BB%'] <= bb_filter_h[1]) &
         (df_hitters['HR'] >= hr_range[0]) & (df_hitters['HR'] <= hr_range[1]) &
-        (df_hitters['SB'] >= sb_range[0]) & (df_hitters['SB'] <= sb_range[1 &
+        (df_hitters['SB'] >= sb_range[0]) & (df_hitters['SB'] <= sb_range[1]) &
         (df_hitters['ISO'] >= iso_range[0]) & (df_hitters['ISO'] <= iso_range[1]) &
         pa_condition
     ]
