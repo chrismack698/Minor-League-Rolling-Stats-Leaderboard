@@ -98,9 +98,7 @@ with st.sidebar:
         sb_range = st.slider("Stolen Bases (SB)", min_sb, max_sb, (min_sb, max_sb), key="hitters_sb")
 
         #ISO filter
-        min_iso = float(df_hitters.get("ISO", pd.Series([0])).min())
-        max_iso = float(df_hitters.get("ISO", pd.Series([100])).max())
-        iso_range = st.slider("ISO", min_iso, max_iso, (min_iso, max_iso), key="hitters_iso")
+        iso_range = st.slider("ISO", 0, 0.750, (0, 0.750), key="hitters_iso")
         
         
         # Level
