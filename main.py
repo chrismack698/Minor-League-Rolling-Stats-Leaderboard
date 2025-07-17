@@ -98,7 +98,7 @@ with st.sidebar:
         sb_range = st.slider("Stolen Bases (SB)", min_sb, max_sb, (min_sb, max_sb), key="hitters_sb")
 
         #ISO filter
-        iso_range = st.slider("ISO", 0, 0.750, (0, 0.750), key="hitters_iso")
+        iso_range = st.slider("ISO", 0.000, 0.750, (0, 0.750), key="hitters_iso")
         
         
         # Level
