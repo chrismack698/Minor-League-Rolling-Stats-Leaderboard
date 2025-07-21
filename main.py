@@ -111,6 +111,17 @@ with st.sidebar:
         name_options_h = sorted(df_hitters['player_name'].dropna().unique())
         selected_names_h = st.multiselect("Player Name", name_options_h, default=name_options_h if select_all_h else [], key="hitters_name")
 
+        select_all_team_h = st.sidebar.checkbox("Select All Teams", value=True, key="select_all_teams_h")
+        
+        # Team filter
+        team_options_h = sorted(
+        df_hitters['TeamName']
+          .dropna()
+          .str[:3]        # take first 3 letters
+          .unique()
+                                )
+        
+        selected_teams_h = st.multiselect("Team", team_options_h, default=team_options_h if select_all_team_h else [], key="hitters_team")
     
     else:  # Pitchers tab
         # Load pitchers data for filter setup
@@ -204,6 +215,7 @@ if st.session_state.active_tab == 'Hitters':
         (df_hitters['HR'] >= hr_range[0]) & (df_hitters['HR'] <= hr_range[1]) &
         (df_hitters['SB'] >= sb_range[0]) & (df_hitters['SB'] <= sb_range[1]) &
         (df_hitters['ISO'] >= iso_range[0]) & (df_hitters['ISO'] <= iso_range[1]) &
+        (df_hitters['TeamName'].str[:3].isin(selected_teams_h)) &
         pa_condition
     ]
     
