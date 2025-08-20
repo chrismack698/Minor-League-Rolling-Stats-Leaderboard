@@ -123,7 +123,7 @@ for lvl in levels:
         f'&level={lvl}&lg=2,4,5,6,7,8,9,10,11,14,12,13,15,16,17,18,30,32,33'
         f'&stats=pit&qual=1&type=0&team=&season=2025&seasonEnd=2025'
     )
-    r = requests.get(pit_url, headers={'User-Agent': 'Mozilla/5.0'})
+    r = requests.get(pit_url, headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'})
     df = pd.DataFrame(json.loads(r.text))
     dfs_pit.append(df)
 
