@@ -31,7 +31,7 @@ def get_advanced_row(player_name, player_id, start_date, end_date):
             f"https://www.fangraphs.com/players/{url_name}/{player_id}/"
             f"game-log?position=P&gds={start_date}&gde={end_date}&type=-2"
         )
-        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
+        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.6321.91 Safari/537.36 Edg/124.0.2478.51'}
         response = requests.get(url, headers=headers, timeout=10)
         response.raise_for_status()
 
