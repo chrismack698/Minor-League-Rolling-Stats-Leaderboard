@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import time
 from datetime import date, datetime, timedelta
@@ -193,6 +194,35 @@ def boxscore_for_game(
     return request_json(url, cache_path, delay, force_refresh, request_timeout, retries)
 
 
+def people_for_players(
+    player_ids: set[int],
+    cache_dir: Path,
+    delay: float,
+    force_refresh: bool,
+    request_timeout: float,
+    retries: int,
+) -> dict[int, dict[str, Any]]:
+    if not player_ids:
+        return {}
+
+    people: dict[int, dict[str, Any]] = {}
+    ids = sorted(player_ids)
+    chunk_size = 100
+
+    for start in range(0, len(ids), chunk_size):
+        chunk = ids[start : start + chunk_size]
+        cache_key = hashlib.sha1(",".join(str(player_id) for player_id in chunk).encode("utf-8")).hexdigest()
+        cache_path = cache_dir / "people" / f"{cache_key}.json"
+        url = f"{BASE_URL}/people?personIds={','.join(str(player_id) for player_id in chunk)}"
+        data = request_json(url, cache_path, delay, force_refresh, request_timeout, retries)
+        for person in data.get("people", []):
+            person_id = person.get("id")
+            if person_id:
+                people[int(person_id)] = person
+
+    return people
+
+
 def int_stat(stats: dict[str, Any], key: str) -> int:
     value = stats.get(key, 0)
     if value in ("", None, "-.--"):
@@ -224,6 +254,26 @@ def player_age(person: dict[str, Any], game_date: date) -> float | None:
     except ValueError:
         return None
     return round((game_date - born).days / 365.25, 1)
+
+
+def fill_ages(df: pd.DataFrame, people: dict[int, dict[str, Any]]) -> pd.DataFrame:
+    if df.empty:
+        return df
+
+    df = df.copy()
+    game_dates = pd.to_datetime(df["game_date"], errors="coerce")
+
+    def age_for_row(row_index: int, player_id: Any) -> float | None:
+        person = people.get(int(player_id)) if pd.notna(player_id) else None
+        if not person:
+            return None
+        game_date_value = game_dates.iloc[row_index]
+        if pd.isna(game_date_value):
+            return None
+        return player_age(person, game_date_value.date())
+
+    df["Age"] = [age_for_row(index, player_id) for index, player_id in enumerate(df["player_id"])]
+    return df
 
 
 def extract_game_logs(
@@ -774,6 +824,30 @@ def main() -> None:
 
     hitters_df = pd.DataFrame(hitter_rows)
     pitchers_df = pd.DataFrame(pitcher_rows)
+
+    player_ids = set()
+    if not hitters_df.empty:
+        player_ids.update(int(player_id) for player_id in hitters_df["player_id"].dropna().unique())
+    if not pitchers_df.empty:
+        player_ids.update(int(player_id) for player_id in pitchers_df["player_id"].dropna().unique())
+
+    print(f"Fetching biographical data for {len(player_ids)} players", flush=True)
+    try:
+        people = people_for_players(
+            player_ids,
+            cache_dir,
+            args.delay,
+            args.force_refresh,
+            args.request_timeout,
+            args.retries,
+        )
+    except Exception as exc:
+        print(f"Age lookup failed; continuing without ages: {exc}", flush=True)
+        error_rows.append({"scope": "people", "sport_id": "", "game_pk": "", "error": str(exc)})
+        people = {}
+
+    hitters_df = fill_ages(hitters_df, people)
+    pitchers_df = fill_ages(pitchers_df, people)
 
     output_hitters = rolling_hitters(hitters_df, end_date, DEFAULT_WINDOWS, args.season)
     output_pitchers = rolling_pitchers(pitchers_df, end_date, DEFAULT_WINDOWS)
