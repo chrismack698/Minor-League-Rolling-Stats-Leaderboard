@@ -18,7 +18,35 @@ def load_pitchers_data():
 
 # === Utility Functions ===
 def clean_percentage(series):
-    return pd.to_numeric(series.str.replace('%', '', regex=False), errors='coerce')
+    return pd.to_numeric(series.astype(str).str.replace('%', '', regex=False), errors='coerce')
+
+def numeric_series(df, column):
+    return pd.to_numeric(df[column], errors='coerce') if column in df.columns else pd.Series(dtype=float)
+
+def numeric_bounds(series, default_min=0, default_max=100, integer=True):
+    clean = pd.to_numeric(series, errors='coerce').dropna()
+    if clean.empty:
+        return None
+
+    min_value = clean.min()
+    max_value = clean.max()
+    if integer:
+        min_value = int(min_value)
+        max_value = int(max_value)
+        if min_value == max_value:
+            max_value = min_value + 1
+    else:
+        min_value = float(min_value)
+        max_value = float(max_value)
+        if min_value == max_value:
+            max_value = min_value + 0.1
+
+    return min_value, max_value
+
+def range_condition(series, selected_range):
+    if selected_range is None:
+        return pd.Series(True, index=series.index)
+    return (series >= selected_range[0]) & (series <= selected_range[1])
 
 # === Main App ===
 st.title("🧢 Minor League Advanced Splits Leaderboard")
@@ -55,6 +83,10 @@ with st.sidebar:
     if st.session_state.active_tab == 'Hitters':
         # Load hitters data for filter setup
         df_hitters = load_hitters_data()
+        df_hitters['K%'] = clean_percentage(df_hitters['K%'])
+        df_hitters['BB%'] = clean_percentage(df_hitters['BB%'])
+        for column in ['PA', 'Age', 'HR', 'SB', 'ISO', 'wRC+']:
+            df_hitters[column] = numeric_series(df_hitters, column)
         
         # === HITTERS FILTERS ===
         # Timeframe
@@ -74,14 +106,18 @@ with st.sidebar:
             "last_7": 15,
             "last_15": 30,
             "last_30": 50,
-            "last_45": 75
+            "last_45": 75,
+            "last_60": 100
         }
         qualified_only = st.checkbox("Only show qualified hitters", key="hitters_qualified")
         
         # Age
-        min_age_h = int(df_hitters['Age'].min())
-        max_age_h = int(df_hitters['Age'].max())
-        age_range_h = st.slider("Age", min_age_h, max_age_h, (min_age_h, max_age_h), key="hitters_age")
+        age_bounds_h = numeric_bounds(df_hitters['Age'])
+        if age_bounds_h:
+            age_range_h = st.slider("Age", age_bounds_h[0], age_bounds_h[1], age_bounds_h, key="hitters_age")
+        else:
+            age_range_h = None
+            st.caption("Age data is unavailable for this data source.")
         
         # K% and BB%
         k_filter_h = st.slider("K%", 0.0, 100.0, (0.0, 100.0), key="hitters_k")
@@ -98,7 +134,8 @@ with st.sidebar:
         sb_range = st.slider("Stolen Bases (SB)", min_sb, max_sb, (min_sb, max_sb), key="hitters_sb")
 
         #ISO filter
-        iso_range = st.slider("ISO", 0.000, 0.750, (0.000, 0.750), key="hitters_iso")
+        iso_bounds = numeric_bounds(df_hitters['ISO'], 0.0, 0.750, integer=False)
+        iso_range = st.slider("ISO", 0.000, max(0.750, iso_bounds[1] if iso_bounds else 0.750), (0.000, max(0.750, iso_bounds[1] if iso_bounds else 0.750)), key="hitters_iso")
         
         
         # Level
@@ -136,6 +173,7 @@ with st.sidebar:
         df_pitchers['ERA'] = pd.to_numeric(df_pitchers['ERA'], errors='coerce')
         df_pitchers['FIP'] = pd.to_numeric(df_pitchers['FIP'], errors='coerce')
         df_pitchers['WHIP'] = pd.to_numeric(df_pitchers['WHIP'], errors='coerce')
+        df_pitchers['GS'] = pd.to_numeric(df_pitchers['GS'], errors='coerce')
         
         # === PITCHERS FILTERS ===
         # Timeframe
@@ -146,9 +184,12 @@ with st.sidebar:
         selected_timeframe_p = {v: k for k, v in timeframe_label_map.items()}[selected_label_p]
         
         # Age
-        min_age_p = int(df_pitchers['Age'].min())
-        max_age_p = int(df_pitchers['Age'].max())
-        age_range_p = st.slider("Age", min_age_p, max_age_p, (min_age_p, max_age_p), key="pitchers_age")
+        age_bounds_p = numeric_bounds(df_pitchers['Age'])
+        if age_bounds_p:
+            age_range_p = st.slider("Age", age_bounds_p[0], age_bounds_p[1], age_bounds_p, key="pitchers_age")
+        else:
+            age_range_p = None
+            st.caption("Age data is unavailable for this data source.")
         
         # IP (Innings Pitched)
         min_ip = df_pitchers['IP'].min()
@@ -197,10 +238,12 @@ if st.session_state.active_tab == 'Hitters':
     df_hitters['wRC+'] = pd.to_numeric(df_hitters['wRC+'], errors='coerce')
     df_hitters['Age'] = pd.to_numeric(df_hitters['Age'], errors='coerce')
     df_hitters['HR'] = pd.to_numeric(df_hitters['HR'], errors='coerce')
+    df_hitters['SB'] = pd.to_numeric(df_hitters['SB'], errors='coerce')
+    df_hitters['ISO'] = pd.to_numeric(df_hitters['ISO'], errors='coerce')
     
     # Apply filters
     pa_condition = (
-        (df_hitters['PA'] >= qualification_thresholds[selected_timeframe])
+        (df_hitters['PA'] >= qualification_thresholds.get(selected_timeframe, 0))
         if qualified_only else True
     )
     
@@ -208,7 +251,7 @@ if st.session_state.active_tab == 'Hitters':
         (df_hitters['timeframe'] == selected_timeframe) &
         (df_hitters['aLevel'].isin(selected_levels_h)) &
         (df_hitters['PA'] >= pa_range[0]) & (df_hitters['PA'] <= pa_range[1]) &
-        (df_hitters['Age'] >= age_range_h[0]) & (df_hitters['Age'] <= age_range_h[1]) &
+        range_condition(df_hitters['Age'], age_range_h) &
         (df_hitters['K%'] >= k_filter_h[0]) & (df_hitters['K%'] <= k_filter_h[1]) &
         ((df_hitters['player_name'].isin(selected_names_h))) &
         (df_hitters['BB%'] >= bb_filter_h[0]) & (df_hitters['BB%'] <= bb_filter_h[1]) &
@@ -267,7 +310,7 @@ else:  # Pitchers tab
     filtered_df_p = df_pitchers[
         (df_pitchers['aLevel'].isin(selected_levels_p)) &
         (df_pitchers['timeframe'] == selected_timeframe_p) &
-        (df_pitchers['Age'] >= age_range_p[0]) & (df_pitchers['Age'] <= age_range_p[1]) &
+        range_condition(df_pitchers['Age'], age_range_p) &
         (df_pitchers['IP'] >= ip_range[0]) & (df_pitchers['IP'] <= ip_range[1]) &
         (df_pitchers['K%'] >= k_filter_p[0]) & (df_pitchers['K%'] <= k_filter_p[1]) &
         (df_pitchers['BB%'] >= bb_filter_p[0]) & (df_pitchers['BB%'] <= bb_filter_p[1]) &
