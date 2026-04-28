@@ -5,6 +5,9 @@ on:
     - cron: '30 14 * * *'  # 8:30 AM CST daily
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   scrape-hit-and-pitch:
     name: Scrape Hitters and Pitchers
@@ -40,7 +43,7 @@ jobs:
 
       - name: Commit and push leaderboard data
         env:
-          GH_TOKEN: ${{ secrets.MILB_LEADERBOARD }}
+          GH_TOKEN: ${{ github.token }}
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
