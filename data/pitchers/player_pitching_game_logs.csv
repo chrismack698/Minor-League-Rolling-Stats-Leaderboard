@@ -17394,9 +17394,9 @@ game_pk,game_date,player_id,player_name,Age,TeamName,Team,Opp,aLevel,league_id,l
 844296,2026-05-09,685067,Baron Stuart,26.8,FCL Nationals,F-NAT,F-AST,FCL,124,Florida Complex League,0,0,1,0,0,0,2,9,3,3,3,1,3,1,1,2,0,1
 844296,2026-05-09,683634,Johan Otanez,24.2,FCL Nationals,F-NAT,F-AST,FCL,124,Florida Complex League,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,1
 844296,2026-05-09,808219,Juan Reyes,21.1,FCL Nationals,F-NAT,F-AST,FCL,124,Florida Complex League,1,0,0,0,0,0,3,4,0,0,0,0,1,0,0,0,0,1
-844296,2026-05-09,694887,Tyler Schoff,27.4,FCL Nationals,F-NAT,F-AST,FCL,124,Florida Complex League,0,0,0,0,0,0,2,5,1,3,0,0,1,0,1,1,0,0
+844296,2026-05-09,694887,Tyler Schoff,27.4,FCL Nationals,F-NAT,F-AST,FCL,124,Florida Complex League,0,0,0,0,0,0,2,6,1,3,0,0,2,0,1,1,0,0
 844296,2026-05-09,702712,Tucker Biven,22.2,FCL Nationals,F-NAT,F-AST,FCL,124,Florida Complex League,0,0,0,0,0,0,3,5,2,1,1,0,0,0,0,1,0,3
-844296,2026-05-09,800727,Jackson Dannelley,24.7,FCL Nationals,F-NAT,F-AST,FCL,124,Florida Complex League,0,0,0,0,0,0,1,3,0,0,0,0,2,0,0,0,0,1
+844296,2026-05-09,800727,Jackson Dannelley,24.7,FCL Nationals,F-NAT,F-AST,FCL,124,Florida Complex League,0,0,0,0,0,0,1,2,0,0,0,0,1,0,0,0,0,1
 844296,2026-05-09,827698,Ryan Mathiesen,22.9,FCL Astros,F-AST,F-NAT,FCL,124,Florida Complex League,1,0,0,0,0,0,6,8,1,1,1,0,1,0,0,1,0,2
 844296,2026-05-09,823891,Jhoster Baez,21.4,FCL Astros,F-AST,F-NAT,FCL,124,Florida Complex League,0,1,0,0,0,0,9,14,3,4,4,1,2,0,0,1,0,3
 844296,2026-05-09,827282,Juan Mieses,20.1,FCL Astros,F-AST,F-NAT,FCL,124,Florida Complex League,0,0,0,0,0,0,6,8,1,1,1,1,1,0,1,0,0,3
@@ -17461,3 +17461,121 @@ game_pk,game_date,player_id,player_name,Age,TeamName,Team,Opp,aLevel,league_id,l
 844679,2026-05-09,823351,Jhon Rosario,21.6,ACL Cubs,A-CUB,A-ATH,ACL,121,Arizona Complex League,0,0,1,0,0,0,3,5,1,2,1,0,0,0,1,1,0,0
 844679,2026-05-09,821175,Yander Maria,19.5,ACL Cubs,A-CUB,A-ATH,ACL,121,Arizona Complex League,1,0,0,0,0,0,8,14,3,4,4,0,3,0,0,2,0,2
 844679,2026-05-09,829478,Jubrayker Salaya,19.3,ACL Cubs,A-CUB,A-ATH,ACL,121,Arizona Complex League,0,0,0,0,0,0,6,9,3,3,3,0,1,0,0,0,0,1
+844182,2026-05-11,808117,Jean Brito,20.1,FCL Mets,F-MET,F-MRL,FCL,124,Florida Complex League,0,0,0,0,0,0,4,7,1,2,0,0,2,0,0,0,0,0
+844182,2026-05-11,833490,Dillon Stiltner,19.4,FCL Mets,F-MET,F-MRL,FCL,124,Florida Complex League,1,0,0,0,0,0,12,20,8,4,4,0,0,0,1,0,0,4
+844182,2026-05-11,809328,Luis Sotillo,20.9,FCL Mets,F-MET,F-MRL,FCL,124,Florida Complex League,0,1,0,0,0,0,2,6,0,1,1,0,4,0,0,0,0,1
+844182,2026-05-11,806241,Franyel Diaz,21.4,FCL Mets,F-MET,F-MRL,FCL,124,Florida Complex League,0,0,0,0,0,0,3,4,0,0,0,0,2,0,0,2,0,1
+844182,2026-05-11,813770,Caden Wooster,21.7,FCL Mets,F-MET,F-MRL,FCL,124,Florida Complex League,0,0,0,0,0,0,3,6,1,2,2,0,2,0,0,0,0,1
+844182,2026-05-11,800466,Omar Victorino,20.9,FCL Mets,F-MET,F-MRL,FCL,124,Florida Complex League,0,0,0,0,0,0,3,4,0,0,0,0,1,0,0,0,0,3
+844182,2026-05-11,808697,Hamlet Garcia,20.5,FCL Marlins,F-MRL,F-MET,FCL,124,Florida Complex League,1,0,0,0,0,0,9,13,4,3,2,0,1,0,1,1,0,5
+844182,2026-05-11,820937,Jonathan Rosario,19.4,FCL Marlins,F-MRL,F-MET,FCL,124,Florida Complex League,0,0,0,0,0,0,3,7,1,1,1,0,2,0,1,0,0,2
+844182,2026-05-11,826183,Ian Medina,21.8,FCL Marlins,F-MRL,F-MET,FCL,124,Florida Complex League,0,0,0,0,0,0,9,10,3,1,1,1,0,0,0,0,0,3
+844182,2026-05-11,827688,Luis Gomez,21.2,FCL Marlins,F-MRL,F-MET,FCL,124,Florida Complex League,0,0,0,0,0,0,5,11,6,4,4,1,1,0,0,0,0,2
+844182,2026-05-11,805696,Albert Polanco,20.9,FCL Marlins,F-MRL,F-MET,FCL,124,Florida Complex League,0,0,1,0,0,0,1,5,3,4,4,1,2,0,0,0,0,0
+844239,2026-05-11,815858,Ronaldys Jimenez,20.4,FCL Pirates,F-PIR,F-BRV,FCL,124,Florida Complex League,0,0,0,0,0,1,6,8,0,0,0,0,3,0,0,0,0,2
+844239,2026-05-11,834851,McLane Moody,19.7,FCL Pirates,F-PIR,F-BRV,FCL,124,Florida Complex League,1,0,0,0,0,0,3,7,0,1,0,0,3,0,0,0,0,2
+844239,2026-05-11,700353,Andres Silvera,21.8,FCL Pirates,F-PIR,F-BRV,FCL,124,Florida Complex League,0,0,0,0,0,0,9,9,1,0,0,0,1,0,0,0,0,2
+844239,2026-05-11,825383,Stainer Valdez,19.8,FCL Pirates,F-PIR,F-BRV,FCL,124,Florida Complex League,0,1,0,0,0,0,9,11,1,1,1,0,1,0,0,2,0,4
+844239,2026-05-11,703415,Brody Fowler,22.6,FCL Braves,F-BRV,F-PIR,FCL,124,Florida Complex League,1,0,1,0,0,0,14,19,4,3,3,3,0,0,2,0,0,5
+844239,2026-05-11,835194,Melvin Hidalgo,20.7,FCL Braves,F-BRV,F-PIR,FCL,124,Florida Complex League,0,0,0,0,0,0,5,9,1,2,2,0,3,0,1,1,0,1
+844239,2026-05-11,808515,Cristobal Abreu,20.3,FCL Braves,F-BRV,F-PIR,FCL,124,Florida Complex League,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1
+844239,2026-05-11,804885,Will Eldridge,22.1,FCL Braves,F-BRV,F-PIR,FCL,124,Florida Complex League,0,0,0,0,0,0,7,9,1,0,0,0,1,0,0,0,0,2
+843876,2026-05-11,814133,Frenny Grant,22.6,FCL Tigers,F-TIG,F-YAN,FCL,124,Florida Complex League,0,0,0,0,0,0,7,8,1,0,0,0,0,0,0,0,0,3
+843876,2026-05-11,805009,Yoan Valdez,20.7,FCL Tigers,F-TIG,F-YAN,FCL,124,Florida Complex League,0,0,0,0,0,0,1,2,1,0,0,0,0,0,0,0,0,0
+843876,2026-05-11,814548,Leonardo Rossell,21.4,FCL Tigers,F-TIG,F-YAN,FCL,124,Florida Complex League,0,0,0,0,0,0,6,7,0,0,0,0,1,0,0,0,0,4
+843876,2026-05-11,808006,Leonardo Leon,20.6,FCL Tigers,F-TIG,F-YAN,FCL,124,Florida Complex League,0,0,0,0,0,0,6,8,2,1,1,1,1,0,0,0,0,3
+843876,2026-05-11,823864,Carlos Rodriguez,20.0,FCL Tigers,F-TIG,F-YAN,FCL,124,Florida Complex League,1,0,1,0,0,0,4,11,4,7,7,1,3,0,0,2,0,3
+843876,2026-05-11,695765,Thatcher Hurd,23.4,FCL Yankees,F-YAN,F-TIG,FCL,124,Florida Complex League,1,0,0,0,0,0,11,13,1,0,0,0,2,0,0,0,0,4
+843876,2026-05-11,828266,Rafael Arias,22.5,FCL Yankees,F-YAN,F-TIG,FCL,124,Florida Complex League,0,1,0,0,0,0,10,11,1,1,1,1,1,0,1,2,0,3
+843876,2026-05-11,821070,Marco Manzano,22.7,FCL Yankees,F-YAN,F-TIG,FCL,124,Florida Complex League,0,0,0,0,0,0,6,6,0,0,0,0,0,0,0,0,0,3
+844077,2026-05-11,809766,Brad Rudis,23.4,FCL Twins,F-TWI,F-ORI,FCL,124,Florida Complex League,0,0,0,0,0,1,3,5,2,1,1,0,0,0,0,0,0,1
+844077,2026-05-11,821798,Santiago Rojas,19.1,FCL Twins,F-TWI,F-ORI,FCL,124,Florida Complex League,0,1,0,0,0,0,11,15,2,1,1,1,2,0,0,0,0,3
+844077,2026-05-11,675375,Cory Lewis,25.6,FCL Twins,F-TWI,F-ORI,FCL,124,Florida Complex League,1,0,0,0,0,0,7,12,2,1,0,0,2,0,0,0,0,4
+844077,2026-05-11,808136,Raymond Sosa,20.0,FCL Orioles,F-ORI,F-TWI,FCL,124,Florida Complex League,0,0,1,0,0,0,9,12,1,1,1,0,2,0,0,2,0,4
+844077,2026-05-11,823718,Esteban Luna,19.6,FCL Orioles,F-ORI,F-TWI,FCL,124,Florida Complex League,1,0,0,0,0,0,9,17,5,2,2,0,3,0,0,0,1,4
+844077,2026-05-11,804803,Zac Lampton,25.9,FCL Orioles,F-ORI,F-TWI,FCL,124,Florida Complex League,0,0,0,0,0,0,3,6,2,2,1,1,0,0,0,0,0,0
+844144,2026-05-11,808133,Giovanni Vargas,20.2,FCL Cardinals,F-CAR,F-NAT,FCL,124,Florida Complex League,0,1,0,0,0,0,6,8,2,0,0,0,1,0,0,0,0,2
+844144,2026-05-11,810977,Andrew Bolívar,20.6,FCL Cardinals,F-CAR,F-NAT,FCL,124,Florida Complex League,1,0,0,0,0,0,8,12,1,0,0,0,3,0,0,0,0,4
+844144,2026-05-11,808095,Jarol Baéz,20.6,FCL Cardinals,F-CAR,F-NAT,FCL,124,Florida Complex League,0,0,0,0,0,0,7,9,1,1,1,0,1,0,0,0,0,3
+844144,2026-05-11,826313,Owen Rice,23.1,FCL Cardinals,F-CAR,F-NAT,FCL,124,Florida Complex League,0,0,0,0,0,0,6,7,1,0,0,0,0,0,0,0,0,3
+844144,2026-05-11,663336,Aaron Shortridge,29.0,FCL Nationals,F-NAT,F-CAR,FCL,124,Florida Complex League,0,0,0,0,0,0,7,9,2,1,1,0,0,0,0,0,0,5
+844144,2026-05-11,688629,Noah Dean,25.2,FCL Nationals,F-NAT,F-CAR,FCL,124,Florida Complex League,0,0,0,0,0,0,6,6,1,0,0,0,0,0,0,0,0,4
+844144,2026-05-11,801745,Clarence Martina,21.4,FCL Nationals,F-NAT,F-CAR,FCL,124,Florida Complex League,1,0,0,0,0,0,6,9,0,0,0,0,2,0,0,1,0,1
+844144,2026-05-11,800727,Jackson Dannelley,24.7,FCL Nationals,F-NAT,F-CAR,FCL,124,Florida Complex League,0,0,0,0,0,0,5,7,0,0,0,0,2,0,0,0,0,1
+844144,2026-05-11,829702,Edgardo Figueroa,18.7,FCL Nationals,F-NAT,F-CAR,FCL,124,Florida Complex League,0,0,1,0,0,0,3,5,1,1,0,0,0,0,0,0,0,0
+844294,2026-05-11,808155,Pedro Peralta,19.8,FCL Phillies,F-PHI,F-BLU,FCL,124,Florida Complex League,0,0,0,0,0,0,6,9,2,1,1,0,1,0,0,1,0,2
+844294,2026-05-11,815320,Raymon Rosario,20.9,FCL Phillies,F-PHI,F-BLU,FCL,124,Florida Complex League,0,0,1,0,0,0,3,8,3,3,3,0,2,0,0,0,0,0
+844294,2026-05-11,825751,Gerardo Lopez,20.8,FCL Phillies,F-PHI,F-BLU,FCL,124,Florida Complex League,0,0,0,0,0,0,6,11,4,2,2,0,1,0,0,2,0,3
+844294,2026-05-11,829084,Yordanis Guerra,19.6,FCL Phillies,F-PHI,F-BLU,FCL,124,Florida Complex League,0,0,0,0,0,0,6,7,0,1,0,0,0,0,0,0,0,3
+844294,2026-05-11,666748,Mitch Neunborn,28.9,FCL Phillies,F-PHI,F-BLU,FCL,124,Florida Complex League,1,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,1
+844294,2026-05-11,833484,Deiker Pineda,20.1,FCL Blue Jays,F-BLU,F-PHI,FCL,124,Florida Complex League,0,1,0,0,0,0,6,6,0,0,0,0,0,0,0,0,0,5
+844294,2026-05-11,835201,Jhon Rivas,18.7,FCL Blue Jays,F-BLU,F-PHI,FCL,124,Florida Complex League,0,0,0,0,0,0,6,6,0,0,0,0,0,0,0,0,0,1
+844294,2026-05-11,703863,Josbel Garcia,22.1,FCL Blue Jays,F-BLU,F-PHI,FCL,124,Florida Complex League,0,0,0,0,0,0,6,6,1,0,0,0,0,0,0,0,0,3
+844294,2026-05-11,806768,Giacomo Taschin,19.7,FCL Blue Jays,F-BLU,F-PHI,FCL,124,Florida Complex League,1,0,0,0,0,0,9,13,2,1,0,0,1,0,0,0,0,5
+843957,2026-05-11,834581,Blake Morgan,22.9,FCL Rays,F-RAY,F-RSX,FCL,124,Florida Complex League,1,1,0,0,0,0,16,25,8,2,2,0,0,0,0,0,0,5
+843957,2026-05-11,701651,Janzen Keisel,23.2,FCL Rays,F-RAY,F-RSX,FCL,124,Florida Complex League,0,0,0,0,0,0,4,6,2,0,0,0,1,0,0,0,0,2
+843957,2026-05-11,807947,Roberto Medina,21.3,FCL Rays,F-RAY,F-RSX,FCL,124,Florida Complex League,0,0,0,0,0,0,4,8,3,3,3,1,1,0,0,1,0,1
+843957,2026-05-11,800457,Moises Palma,21.7,FCL Rays,F-RAY,F-RSX,FCL,124,Florida Complex League,0,0,0,0,0,0,3,4,0,1,0,0,0,0,1,0,0,1
+843957,2026-05-11,835930,Rony Calderon,17.9,FCL Red Sox,F-RSX,F-RAY,FCL,124,Florida Complex League,0,0,0,0,0,0,6,7,1,0,0,0,0,0,0,0,0,6
+843957,2026-05-11,825230,Yomar De La Rosa,21.2,FCL Red Sox,F-RSX,F-RAY,FCL,124,Florida Complex League,0,0,0,0,0,0,9,10,1,0,0,0,0,0,0,0,0,2
+843957,2026-05-11,831567,Angelo Ladera,19.6,FCL Red Sox,F-RSX,F-RAY,FCL,124,Florida Complex League,1,0,1,0,0,0,4,13,6,7,5,0,2,0,0,0,0,4
+843957,2026-05-11,811236,Yoelvin Chirino,21.0,FCL Red Sox,F-RSX,F-RAY,FCL,124,Florida Complex League,0,0,0,0,0,0,8,15,3,4,4,0,4,0,0,1,0,3
+844769,2026-05-12,808074,Rolando Anzola,20.9,ACL Angels,A-ANG,A-PAD,ACL,121,Arizona Complex League,0,0,0,0,0,0,2,5,0,1,1,0,2,0,1,1,0,2
+844769,2026-05-12,829383,Jhon Almonte,19.5,ACL Angels,A-ANG,A-PAD,ACL,121,Arizona Complex League,1,0,0,0,0,0,12,19,3,2,1,0,2,0,1,1,0,3
+844769,2026-05-12,829904,Sebastian Caseres,18.2,ACL Angels,A-ANG,A-PAD,ACL,121,Arizona Complex League,0,1,0,0,0,0,7,8,0,0,0,0,1,0,0,0,0,2
+844769,2026-05-12,800148,Marco Vega,21.5,ACL Angels,A-ANG,A-PAD,ACL,121,Arizona Complex League,0,0,0,0,0,0,9,9,0,0,0,0,0,0,0,0,0,3
+844769,2026-05-12,831810,Dalvi Nunez,19.5,ACL Padres,A-PAD,A-ANG,ACL,121,Arizona Complex League,0,0,0,0,0,0,6,8,0,0,0,0,1,0,1,0,0,1
+844769,2026-05-12,821634,Luis Maracara,18.7,ACL Padres,A-PAD,A-ANG,ACL,121,Arizona Complex League,1,0,0,0,0,0,3,6,2,3,0,1,0,0,0,0,0,2
+844769,2026-05-12,811594,Bernard Jose,23.2,ACL Padres,A-PAD,A-ANG,ACL,121,Arizona Complex League,0,0,1,0,0,0,6,9,1,1,0,0,2,0,0,0,0,3
+844769,2026-05-12,827487,Yoesmerli Beltre,19.9,ACL Padres,A-PAD,A-ANG,ACL,121,Arizona Complex League,0,0,0,0,0,0,4,4,0,0,0,0,0,0,0,0,0,0
+844769,2026-05-12,823208,Cameron Nohos,22.9,ACL Padres,A-PAD,A-ANG,ACL,121,Arizona Complex League,0,0,0,0,0,0,11,14,3,0,0,0,0,0,0,0,0,2
+844371,2026-05-12,829475,Luis Mata,20.5,ACL Cubs,A-CUB,A-ROY,ACL,121,Arizona Complex League,0,0,0,0,0,0,6,15,5,2,2,0,2,0,2,1,0,2
+844371,2026-05-12,823893,Geovanny Vasquez,22.4,ACL Cubs,A-CUB,A-ROY,ACL,121,Arizona Complex League,0,0,0,0,0,0,4,6,0,0,0,0,2,0,0,1,0,0
+844371,2026-05-12,829539,Kaemyn Franklin,20.3,ACL Cubs,A-CUB,A-ROY,ACL,121,Arizona Complex League,0,0,1,0,0,0,5,12,2,7,7,1,5,0,0,0,0,2
+844371,2026-05-12,701565,Connor Schultz,27.2,ACL Cubs,A-CUB,A-ROY,ACL,121,Arizona Complex League,1,0,0,0,0,0,6,10,4,3,0,0,0,0,0,0,0,2
+844371,2026-05-12,829523,Cristopher Aranguren,20.3,ACL Cubs,A-CUB,A-ROY,ACL,121,Arizona Complex League,0,0,0,0,0,0,3,7,1,3,3,1,2,0,2,0,0,1
+844371,2026-05-12,703330,David Rodriguez,22.6,ACL Royals,A-ROY,A-CUB,ACL,121,Arizona Complex League,0,0,0,0,0,0,7,16,5,6,4,1,4,0,0,0,0,2
+844371,2026-05-12,825432,Adrian Belen,21.4,ACL Royals,A-ROY,A-CUB,ACL,121,Arizona Complex League,0,0,0,0,0,1,5,7,1,0,0,0,0,0,1,2,0,3
+844371,2026-05-12,820863,Carlos De La Rosa,20.9,ACL Royals,A-ROY,A-CUB,ACL,121,Arizona Complex League,1,0,0,0,0,0,4,9,1,5,5,1,3,0,0,2,0,1
+844371,2026-05-12,691771,Michael Braswell III,23.7,ACL Royals,A-ROY,A-CUB,ACL,121,Arizona Complex League,0,0,0,0,0,0,4,7,3,1,1,0,1,0,0,0,0,1
+844371,2026-05-12,815012,Julio Gutierrez,21.2,ACL Royals,A-ROY,A-CUB,ACL,121,Arizona Complex League,0,1,0,0,0,0,7,9,2,1,1,1,0,0,0,1,0,2
+844526,2026-05-12,830005,Cesar Familia,18.6,ACL White Sox,A-WSX,A-MRN,ACL,121,Arizona Complex League,0,0,0,0,0,0,6,7,0,0,0,0,1,0,0,0,0,0
+844526,2026-05-12,805078,Jeremy Gonzalez,21.1,ACL White Sox,A-WSX,A-MRN,ACL,121,Arizona Complex League,0,0,0,0,0,0,9,14,4,2,2,0,1,0,0,1,1,5
+844526,2026-05-12,832116,Cesar Nunez,19.1,ACL White Sox,A-WSX,A-MRN,ACL,121,Arizona Complex League,0,1,0,0,0,0,4,7,0,0,0,0,3,0,0,1,0,2
+844526,2026-05-12,823861,Orlando Suarez,19.4,ACL White Sox,A-WSX,A-MRN,ACL,121,Arizona Complex League,1,0,0,0,0,0,5,10,1,2,2,0,3,0,1,1,0,1
+844526,2026-05-12,805079,Jesus Mendez,21.8,ACL White Sox,A-WSX,A-MRN,ACL,121,Arizona Complex League,0,0,0,0,0,0,3,6,3,2,2,1,0,0,0,1,0,3
+844526,2026-05-12,701473,Cole Cheatham,22.8,ACL Mariners,A-MRN,A-WSX,ACL,121,Arizona Complex League,0,0,0,0,0,0,4,7,3,1,1,0,0,0,0,1,0,1
+844526,2026-05-12,806836,Po-Chun Lin,19.8,ACL Mariners,A-MRN,A-WSX,ACL,121,Arizona Complex League,1,0,1,0,0,0,9,13,5,3,3,1,1,0,0,0,0,3
+844526,2026-05-12,800591,Maximo Rodriguez,20.4,ACL Mariners,A-MRN,A-WSX,ACL,121,Arizona Complex League,0,0,0,0,0,0,6,6,1,0,0,0,0,0,0,0,0,1
+844526,2026-05-12,803273,Dominic Castellano,22.8,ACL Mariners,A-MRN,A-WSX,ACL,121,Arizona Complex League,0,0,0,0,0,0,3,5,1,2,2,1,1,0,0,1,0,2
+844526,2026-05-12,830408,Alan Carpinteiro,19.4,ACL Mariners,A-MRN,A-WSX,ACL,121,Arizona Complex League,0,0,0,0,0,0,1,5,2,3,3,0,1,0,0,1,0,0
+844526,2026-05-12,823786,Eduardo Uscanga,19.2,ACL Mariners,A-MRN,A-WSX,ACL,121,Arizona Complex League,0,0,0,0,0,0,4,6,1,2,2,0,1,0,0,0,0,2
+844431,2026-05-12,821131,Ayendy Bravo,19.3,ACL Brewers,A-BRW,A-RED,ACL,121,Arizona Complex League,0,0,0,0,0,0,3,8,1,2,0,0,3,0,0,0,0,1
+844431,2026-05-12,820833,Joey Broughton,20.4,ACL Brewers,A-BRW,A-RED,ACL,121,Arizona Complex League,0,0,0,0,0,0,7,13,4,4,0,1,2,0,0,1,0,2
+844431,2026-05-12,829204,Ma'Kale Holden,19.2,ACL Brewers,A-BRW,A-RED,ACL,121,Arizona Complex League,1,0,0,0,0,0,12,16,1,1,1,0,4,0,0,0,0,5
+844431,2026-05-12,821125,Josue Toledo,20.0,ACL Brewers,A-BRW,A-RED,ACL,121,Arizona Complex League,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,1
+844431,2026-05-12,826209,Aaron Watson,19.3,ACL Reds,A-RED,A-BRW,ACL,121,Arizona Complex League,0,0,0,0,0,0,12,18,5,1,1,0,0,0,0,1,0,6
+844431,2026-05-12,806239,Jesus Colina,21.1,ACL Reds,A-RED,A-BRW,ACL,121,Arizona Complex League,0,0,0,0,0,0,3,2,0,0,0,0,0,0,0,0,0,2
+844431,2026-05-12,695373,Javi Rivera,26.5,ACL Reds,A-RED,A-BRW,ACL,121,Arizona Complex League,1,0,0,0,0,0,9,15,2,1,1,1,2,0,1,0,0,1
+844431,2026-05-12,802502,Carson Latimer,22.2,ACL Reds,A-RED,A-BRW,ACL,121,Arizona Complex League,0,1,0,0,0,0,3,7,1,1,1,0,3,0,0,0,1,2
+844576,2026-05-12,830800,Luis Gamez,19.7,ACL Dodgers,A-DOD,A-GIA,ACL,121,Arizona Complex League,1,0,0,0,0,0,12,19,3,1,1,1,3,0,1,0,0,5
+844576,2026-05-12,800361,Peter Bonilla,21.4,ACL Dodgers,A-DOD,A-GIA,ACL,121,Arizona Complex League,0,0,0,0,0,0,6,12,4,3,2,0,0,0,1,1,0,3
+844576,2026-05-12,807654,Angel Cruz,21.6,ACL Dodgers,A-DOD,A-GIA,ACL,121,Arizona Complex League,0,0,0,0,0,0,4,6,2,0,0,0,0,0,0,0,0,2
+844576,2026-05-12,820872,Jose Cabrera,21.5,ACL Dodgers,A-DOD,A-GIA,ACL,121,Arizona Complex League,0,1,0,0,0,0,5,6,0,0,0,0,1,0,0,0,0,4
+844576,2026-05-12,808352,Brayan Narvaez,21.6,ACL Giants,A-GIA,A-DOD,ACL,121,Arizona Complex League,0,0,1,0,0,0,3,6,3,3,3,1,0,0,0,0,1,2
+844576,2026-05-12,834682,Trey Seeley,23.9,ACL Giants,A-GIA,A-DOD,ACL,121,Arizona Complex League,0,0,0,0,0,0,2,5,2,3,3,1,1,0,0,0,0,2
+844576,2026-05-12,703941,Melvin Pineda,22.0,ACL Giants,A-GIA,A-DOD,ACL,121,Arizona Complex League,0,0,0,0,0,0,3,5,1,2,2,1,0,0,1,0,0,2
+844576,2026-05-12,816403,Dilan Fernandez,21.1,ACL Giants,A-GIA,A-DOD,ACL,121,Arizona Complex League,0,0,0,0,0,0,1,2,1,1,1,0,0,0,0,0,0,0
+844576,2026-05-12,698952,Jose T. Perez,22.8,ACL Giants,A-GIA,A-DOD,ACL,121,Arizona Complex League,0,0,0,0,0,0,6,8,1,0,0,0,1,0,0,0,0,3
+844576,2026-05-12,822215,Carlos De La Rosa,18.4,ACL Giants,A-GIA,A-DOD,ACL,121,Arizona Complex League,1,0,0,0,0,0,12,15,2,0,0,0,2,0,0,0,0,7
+844413,2026-05-12,700282,Ricardo Yan,23.5,ACL D-backs,A-DBA,A-RCK,ACL,121,Arizona Complex League,0,0,1,0,0,0,2,8,4,5,5,0,2,1,0,1,0,0
+844413,2026-05-12,700366,Yan Mago,22.5,ACL D-backs,A-DBA,A-RCK,ACL,121,Arizona Complex League,0,0,0,0,0,0,5,6,2,0,0,0,0,0,0,1,0,2
+844413,2026-05-12,824216,Jeury Espinal,19.3,ACL D-backs,A-DBA,A-RCK,ACL,121,Arizona Complex League,1,0,0,0,0,0,11,18,7,2,2,0,4,0,0,0,0,1
+844413,2026-05-12,816396,Moises Meza,20.7,ACL Rockies,A-RCK,A-DBA,ACL,121,Arizona Complex League,0,1,0,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0
+844413,2026-05-12,811636,Odarlin Cruz,21.2,ACL Rockies,A-RCK,A-DBA,ACL,121,Arizona Complex League,0,0,0,0,0,0,6,7,0,0,0,0,1,0,0,0,0,4
+844413,2026-05-12,807979,Eliezer Pena,20.6,ACL Rockies,A-RCK,A-DBA,ACL,121,Arizona Complex League,1,0,0,0,0,0,9,15,4,3,3,0,3,0,0,1,0,4
+844556,2026-05-12,812559,Josiah Romeo,20.3,ACL Athletics,A-ATH,A-GUA,ACL,121,Arizona Complex League,1,0,1,0,0,0,10,17,2,2,1,0,3,0,2,0,0,4
+844556,2026-05-12,807963,Wilfred Alvarado,20.5,ACL Athletics,A-ATH,A-GUA,ACL,121,Arizona Complex League,0,0,0,0,0,0,5,7,1,2,1,0,1,0,0,0,0,1
+844556,2026-05-12,807590,Amilcar Medina,21.9,ACL Athletics,A-ATH,A-GUA,ACL,121,Arizona Complex League,0,0,0,0,0,0,3,5,0,0,0,0,2,0,0,0,0,0
+844556,2026-05-12,823756,Ryan DeSanto,22.6,ACL Guardians,A-GUA,A-ATH,ACL,121,Arizona Complex League,0,1,0,0,0,0,12,12,0,0,0,0,0,0,0,0,0,7
+844556,2026-05-12,807077,Will Hynes,18.8,ACL Guardians,A-GUA,A-ATH,ACL,121,Arizona Complex League,1,0,0,0,0,0,9,11,2,0,0,0,1,0,0,0,0,3
