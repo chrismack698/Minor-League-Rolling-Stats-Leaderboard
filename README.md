@@ -76,9 +76,3 @@ league_ERA - ((13*league_HR + 3*(league_BB + league_HBP) - 2*league_K) / league_
 
 FIP = raw_FIP + league_FIP_constant
 ```
-
-## Legacy FanGraphs Scripts
-
-`scraper.py` and `pitch_scraper.py` are left in place for reference, but they
-make a very large number of FanGraphs requests and should not be used for normal
-refreshes.
