@@ -1,156 +1,4 @@
 game_pk,game_date,player_id,player_name,Age,TeamName,Team,Opp,aLevel,league_id,league_name,GS,W,L,CG,ShO,SV,outs,TBF,H,R,ER,HR,BB,IBB,HBP,WP,BK,SO
-816784,2026-07-18,701568,Justin Meis,26.7,Indianapolis Indians,IND,COL,AAA,117,International League,0,0,0,0,0,0,4,7,0,1,1,0,3,0,0,0,0,1
-816784,2026-07-18,664353,José Urquidy,31.2,Indianapolis Indians,IND,COL,AAA,117,International League,1,0,0,0,0,0,9,12,2,1,1,0,1,0,0,0,0,3
-816784,2026-07-18,682995,Hunter Barco,25.6,Indianapolis Indians,IND,COL,AAA,117,International League,0,1,0,0,0,0,9,12,2,0,0,0,2,0,0,0,0,2
-816784,2026-07-18,663366,Beau Burrows,29.8,Indianapolis Indians,IND,COL,AAA,117,International League,0,0,0,0,0,1,5,6,0,0,0,0,1,0,0,0,0,4
-816784,2026-07-18,702045,Rorik Maltrud,26.3,Columbus Clippers,COL,IND,AAA,117,International League,1,0,0,0,0,0,9,11,2,0,0,0,0,0,0,0,0,3
-816784,2026-07-18,682897,Steven Pérez,25.2,Columbus Clippers,COL,IND,AAA,117,International League,0,0,0,0,0,0,6,9,2,1,1,1,1,0,0,0,0,3
-816784,2026-07-18,804926,Austin Peterson,26.8,Columbus Clippers,COL,IND,AAA,117,International League,0,0,1,0,0,0,12,20,7,4,4,0,2,0,0,1,0,4
-815586,2026-07-18,700363,AJ Smith-Shawver,23.7,Gwinnett Stripers,GWN,TOL,AAA,117,International League,1,0,0,0,0,0,13,18,4,0,0,0,1,0,0,1,0,5
-815586,2026-07-18,686628,Blake Burkhalter,25.8,Gwinnett Stripers,GWN,TOL,AAA,117,International League,0,0,0,0,0,0,3,4,1,0,0,0,0,0,0,0,0,2
-815586,2026-07-18,641656,Ian Hamilton,31.1,Gwinnett Stripers,GWN,TOL,AAA,117,International League,0,0,0,0,0,0,3,6,2,1,1,0,1,0,0,0,0,0
-815586,2026-07-18,802686,Hayden Harris,27.4,Gwinnett Stripers,GWN,TOL,AAA,117,International League,0,1,0,0,0,0,2,3,0,0,0,0,1,0,0,0,0,2
-815586,2026-07-18,680744,Ty Madden,26.4,Toledo Mud Hens,TOL,GWN,AAA,117,International League,1,0,0,0,0,0,7,11,2,0,0,0,2,0,0,0,0,1
-815586,2026-07-18,664123,Scott Effross,32.6,Toledo Mud Hens,TOL,GWN,AAA,117,International League,0,0,0,0,0,0,4,7,3,2,2,1,0,0,0,0,0,0
-815586,2026-07-18,689450,Luke Taggart,28.8,Toledo Mud Hens,TOL,GWN,AAA,117,International League,0,0,0,0,0,0,6,9,2,1,1,1,1,0,0,0,0,0
-815586,2026-07-18,646241,Enmanuel De Jesus,29.6,Toledo Mud Hens,TOL,GWN,AAA,117,International League,0,0,1,0,0,0,4,9,4,2,2,1,1,0,0,0,0,2
-815581,2026-07-18,675916,James Karinchak,30.8,Gwinnett Stripers,GWN,TOL,AAA,117,International League,0,0,0,0,0,0,3,5,2,1,1,0,0,0,0,1,0,3
-815581,2026-07-18,814351,Lucas Braun,24.9,Gwinnett Stripers,GWN,TOL,AAA,117,International League,1,1,0,0,0,0,15,17,1,0,0,0,2,0,0,0,0,3
-815581,2026-07-18,691548,Rolddy Muñoz,26.3,Gwinnett Stripers,GWN,TOL,AAA,117,International League,0,0,0,0,0,0,3,4,0,0,0,0,1,0,0,0,0,2
-815581,2026-07-18,668766,Dylan File,30.1,Toledo Mud Hens,TOL,GWN,AAA,117,International League,1,0,1,0,0,0,15,21,5,4,3,0,2,0,1,0,0,4
-815581,2026-07-18,669193,Jack Little,28.5,Toledo Mud Hens,TOL,GWN,AAA,117,International League,0,0,0,0,0,0,4,7,3,0,0,0,0,0,0,0,0,1
-815581,2026-07-18,676568,Ricky Vanasco,27.8,Toledo Mud Hens,TOL,GWN,AAA,117,International League,0,0,0,0,0,0,2,6,3,4,4,0,1,0,0,0,0,0
-815727,2026-07-18,682825,Luis Mey,25.1,Louisville Bats,LOU,STP,AAA,117,International League,0,0,0,0,0,0,6,7,0,0,0,0,1,0,0,0,0,1
-815727,2026-07-18,680397,Sam Benschoter,28.3,Louisville Bats,LOU,STP,AAA,117,International League,0,0,0,0,0,0,7,12,2,0,0,0,3,0,0,0,0,1
-815727,2026-07-18,805321,Trevor Kuncl,27.4,Louisville Bats,LOU,STP,AAA,117,International League,0,0,0,0,0,0,1,4,2,3,3,1,1,0,0,0,0,0
-815727,2026-07-18,683175,Connor Phillips,25.2,Louisville Bats,LOU,STP,AAA,117,International League,0,0,0,0,0,0,2,6,1,4,4,0,3,0,0,1,0,0
-815727,2026-07-18,687924,Julian Aguiar,25.1,Louisville Bats,LOU,STP,AAA,117,International League,1,0,1,0,0,0,2,8,4,4,4,0,2,0,0,0,0,0
-815727,2026-07-18,694397,Marco Raya,23.9,St. Paul Saints,STP,LOU,AAA,117,International League,0,0,0,0,0,0,3,5,1,2,2,1,1,0,0,0,0,2
-815727,2026-07-18,801594,Ryan Gallagher,23.5,St. Paul Saints,STP,LOU,AAA,117,International League,1,1,0,0,0,0,15,19,4,1,1,1,1,0,0,0,0,4
-815727,2026-07-18,679358,Eric Orze,28.9,St. Paul Saints,STP,LOU,AAA,117,International League,0,0,0,0,0,0,3,4,0,0,0,0,1,0,0,0,0,1
-816263,2026-07-18,669993,Raul Brito,29.2,St. Paul Saints,STP,LOU,AAA,117,International League,0,0,0,0,0,0,2,5,2,0,0,0,1,0,0,0,0,1
-816263,2026-07-18,621199,Matt Bowman,35.1,St. Paul Saints,STP,LOU,AAA,117,International League,0,0,0,0,0,0,3,3,1,0,0,0,0,0,0,0,0,0
-816263,2026-07-18,691576,Alejandro Hidalgo,23.2,St. Paul Saints,STP,LOU,AAA,117,International League,0,0,0,0,0,0,3,4,0,0,0,0,1,0,0,0,0,1
-816263,2026-07-18,690462,Ricky Castro,27.0,St. Paul Saints,STP,LOU,AAA,117,International League,1,0,0,0,0,0,6,7,1,0,0,0,0,0,0,0,0,1
-816263,2026-07-18,701643,Grant Hartwig,28.6,St. Paul Saints,STP,LOU,AAA,117,International League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,1
-816263,2026-07-18,690217,C.J. Culpepper,24.7,St. Paul Saints,STP,LOU,AAA,117,International League,0,1,0,0,0,0,4,5,1,0,0,0,0,0,0,0,0,1
-816263,2026-07-18,669721,Davis Daniel,29.1,Louisville Bats,LOU,STP,AAA,117,International League,1,0,1,0,0,0,16,24,7,3,3,0,2,0,0,0,0,7
-816263,2026-07-18,664059,Sam Haggerty,32.1,Louisville Bats,LOU,STP,AAA,117,International League,0,0,0,0,0,0,4,5,1,0,0,0,0,0,0,0,0,0
-816263,2026-07-18,687209,Zach Maxwell,25.5,Louisville Bats,LOU,STP,AAA,117,International League,0,0,0,0,0,0,1,7,4,4,4,0,2,0,0,0,0,1
-815650,2026-07-18,693483,Pat Gallagher,26.0,Buffalo Bisons,BUF,SYR,AAA,117,International League,0,0,0,0,0,0,4,10,4,4,4,0,2,0,0,0,0,3
-815650,2026-07-18,687288,Devereaux Harrison,25.7,Buffalo Bisons,BUF,SYR,AAA,117,International League,1,0,1,0,0,0,8,13,3,3,3,1,2,0,0,0,0,3
-815650,2026-07-18,814217,Sam Gardner,29.5,Buffalo Bisons,BUF,SYR,AAA,117,International League,0,0,0,0,0,0,4,9,3,4,4,1,2,0,0,2,0,2
-815650,2026-07-18,680212,Conor Larkin,27.3,Buffalo Bisons,BUF,SYR,AAA,117,International League,0,0,0,0,0,0,2,7,3,3,3,1,2,0,0,0,0,1
-815650,2026-07-18,686766,William Simoneit,29.8,Buffalo Bisons,BUF,SYR,AAA,117,International League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0
-815650,2026-07-18,682620,Richard Gallardo,24.9,Buffalo Bisons,BUF,SYR,AAA,117,International League,0,0,0,0,0,0,3,5,1,1,1,1,1,0,0,0,0,0
-815650,2026-07-18,804636,Jonah Tong,23.1,Syracuse Mets,SYR,BUF,AAA,117,International League,1,1,0,0,0,0,15,22,5,2,2,0,3,0,1,0,0,2
-815650,2026-07-18,676910,Matt Seelinger,31.2,Syracuse Mets,SYR,BUF,AAA,117,International League,0,0,0,0,0,0,3,6,1,0,0,0,1,0,0,0,0,2
-815650,2026-07-18,697811,Dylan Ross,25.9,Syracuse Mets,SYR,BUF,AAA,117,International League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,1
-815650,2026-07-18,669285,Dan Hammer,28.9,Syracuse Mets,SYR,BUF,AAA,117,International League,0,0,0,0,0,0,3,5,1,0,0,0,1,0,0,0,0,2
-815650,2026-07-18,676666,Matt Turner,27.0,Syracuse Mets,SYR,BUF,AAA,117,International League,0,0,0,0,0,0,3,5,1,0,0,0,0,0,1,0,0,2
-816700,2026-07-18,642770,Javy Guerra,30.8,Charlotte Knights,CLT,DUR,AAA,117,International League,0,0,0,0,0,1,3,3,0,0,0,0,0,0,0,0,0,2
-816700,2026-07-18,681343,Shane Smith,26.3,Charlotte Knights,CLT,DUR,AAA,117,International League,1,0,0,0,0,0,10,15,2,3,3,0,4,0,2,3,0,3
-816700,2026-07-18,682790,Wikelman González,24.3,Charlotte Knights,CLT,DUR,AAA,117,International League,0,0,0,0,0,0,4,8,1,0,0,0,3,0,0,0,0,3
-816700,2026-07-18,683568,Jairo Iriarte,24.6,Charlotte Knights,CLT,DUR,AAA,117,International League,0,1,0,0,0,0,5,6,2,1,1,0,0,0,0,1,0,0
-816700,2026-07-18,676881,Garrett Schoenle,28.1,Charlotte Knights,CLT,DUR,AAA,117,International League,0,0,0,0,0,0,5,7,0,1,1,0,2,0,0,0,0,3
-816700,2026-07-18,682126,Evan Reifert,27.2,Durham Bulls,DUR,CLT,AAA,117,International League,0,0,0,0,0,0,3,4,1,0,0,0,0,0,0,0,0,2
-816700,2026-07-18,693739,Alexander Alberto,24.7,Durham Bulls,DUR,CLT,AAA,117,International League,0,0,0,0,0,0,3,5,2,1,1,0,0,0,0,2,0,2
-816700,2026-07-18,675627,Michael Grove,29.6,Durham Bulls,DUR,CLT,AAA,117,International League,0,0,0,0,0,0,3,4,1,0,0,0,0,0,0,0,0,1
-816700,2026-07-18,694680,Trevor Martin,25.6,Durham Bulls,DUR,CLT,AAA,117,International League,0,0,0,0,0,0,6,10,5,2,2,1,0,0,0,0,0,0
-816700,2026-07-18,669947,Jesse Scholtens,32.3,Durham Bulls,DUR,CLT,AAA,117,International League,1,0,1,0,0,0,9,16,6,4,4,0,1,0,0,0,0,1
-816700,2026-07-18,685801,Hunter Bigge,28.1,Durham Bulls,DUR,CLT,AAA,117,International League,0,0,0,0,0,0,3,3,0,0,0,0,1,0,0,0,0,1
-815878,2026-07-18,667652,Jack Ralston,28.9,Jacksonville Jumbo Shrimp,JAX,ROC,AAA,117,International League,0,0,0,0,0,0,3,7,2,2,0,0,1,0,0,0,0,3
-815878,2026-07-18,690155,Matt Pushard,28.7,Jacksonville Jumbo Shrimp,JAX,ROC,AAA,117,International League,0,0,0,0,0,0,3,3,0,0,0,0,1,0,0,0,0,0
-815878,2026-07-18,703596,Karson Milbrandt,22.2,Jacksonville Jumbo Shrimp,JAX,ROC,AAA,117,International League,1,0,0,0,0,0,12,17,4,3,3,1,2,0,0,0,0,5
-815878,2026-07-18,666129,Braxton Garrett,29.0,Jacksonville Jumbo Shrimp,JAX,ROC,AAA,117,International League,0,0,0,0,0,0,3,4,0,0,0,0,0,0,1,0,0,2
-815878,2026-07-18,687985,Josh White,25.6,Jacksonville Jumbo Shrimp,JAX,ROC,AAA,117,International League,0,0,1,0,0,0,5,8,0,1,1,0,3,1,0,1,0,0
-815878,2026-07-18,663455,Konnor Pilkington,28.8,Rochester Red Wings,ROC,JAX,AAA,117,International League,0,0,0,0,0,0,3,5,1,1,1,0,1,0,0,1,0,0
-815878,2026-07-18,622065,Alex Young,32.9,Rochester Red Wings,ROC,JAX,AAA,117,International League,0,0,0,0,0,0,1,3,1,1,0,0,1,0,0,0,0,0
-815878,2026-07-18,801128,Robert Cranz,23.1,Rochester Red Wings,ROC,JAX,AAA,117,International League,0,0,0,0,0,0,3,4,1,0,0,0,1,0,0,0,0,0
-815878,2026-07-18,693312,Kyle Nicolas,27.4,Rochester Red Wings,ROC,JAX,AAA,117,International League,0,0,0,0,0,0,3,5,1,0,0,0,1,0,0,0,0,0
-815878,2026-07-18,669441,Chandler Champlain,27.0,Rochester Red Wings,ROC,JAX,AAA,117,International League,1,0,0,0,0,0,14,18,4,3,3,1,0,0,1,0,0,1
-815878,2026-07-18,681402,Gus Varland,29.7,Rochester Red Wings,ROC,JAX,AAA,117,International League,0,1,0,0,0,0,3,5,1,0,0,0,1,0,0,0,0,2
-816782,2026-07-18,802419,Thomas Harrington,25.0,Indianapolis Indians,IND,COL,AAA,117,International League,1,0,0,0,0,0,8,13,3,1,1,0,2,0,0,0,0,2
-816782,2026-07-18,668716,Noah Murdock,27.9,Indianapolis Indians,IND,COL,AAA,117,International League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,2
-816782,2026-07-18,605182,Mike Clevinger,35.6,Indianapolis Indians,IND,COL,AAA,117,International League,0,0,0,0,0,0,6,7,1,0,0,0,0,0,0,0,0,1
-816782,2026-07-18,676702,Hunter Stratton,29.7,Indianapolis Indians,IND,COL,AAA,117,International League,0,1,0,0,0,0,4,4,0,0,0,0,0,0,0,0,0,1
-816782,2026-07-18,701533,Hunter Stanley,28.6,Columbus Clippers,COL,IND,AAA,117,International League,0,0,0,0,0,0,9,13,3,2,2,0,2,0,0,0,0,6
-816782,2026-07-18,681313,Jake Miller,26.0,Columbus Clippers,COL,IND,AAA,117,International League,0,0,1,0,0,0,6,11,4,4,3,1,1,0,0,0,0,1
-816782,2026-07-18,663986,Trevor Stephan,30.6,Columbus Clippers,COL,IND,AAA,117,International League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,1
-816782,2026-07-18,682120,Tim Herrin,29.8,Columbus Clippers,COL,IND,AAA,117,International League,1,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,3
-815956,2026-07-18,657510,Andrew Bechtold,30.2,Lehigh Valley IronPigs,LHV,OMA,AAA,117,International League,0,0,0,0,0,0,3,5,1,1,1,0,1,0,0,1,0,2
-815956,2026-07-18,666155,Chuck King,28.5,Lehigh Valley IronPigs,LHV,OMA,AAA,117,International League,1,0,1,0,0,0,13,20,6,3,3,0,1,0,0,0,0,3
-815956,2026-07-18,666748,Mitch Neunborn,29.1,Lehigh Valley IronPigs,LHV,OMA,AAA,117,International League,0,0,0,0,0,0,3,4,1,1,1,1,0,0,0,0,0,0
-815956,2026-07-18,675650,Michael Mercado,27.3,Lehigh Valley IronPigs,LHV,OMA,AAA,117,International League,0,0,0,0,0,0,2,5,1,0,0,0,1,0,0,0,0,0
-815956,2026-07-18,679775,Kyle Backhus,28.5,Lehigh Valley IronPigs,LHV,OMA,AAA,117,International League,0,0,0,0,0,0,3,4,1,1,1,0,0,0,0,1,0,2
-815956,2026-07-18,592826,Vince Velasquez,34.1,Omaha Storm Chasers,OMA,LHV,AAA,117,International League,0,1,0,0,0,0,9,10,1,0,0,0,0,0,0,0,0,3
-815956,2026-07-18,700786,Ben Sears,26.1,Omaha Storm Chasers,OMA,LHV,AAA,117,International League,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1
-815956,2026-07-18,668834,Easton McGee,28.6,Omaha Storm Chasers,OMA,LHV,AAA,117,International League,0,0,0,0,0,0,6,8,1,0,0,0,1,0,0,0,0,3
-815956,2026-07-18,663568,Stephen Kolek,29.2,Omaha Storm Chasers,OMA,LHV,AAA,117,International League,1,0,0,0,0,0,8,14,6,2,2,0,0,0,1,0,1,3
-815956,2026-07-18,543238,Anthony Gose,35.9,Omaha Storm Chasers,OMA,LHV,AAA,117,International League,0,0,0,0,0,0,3,3,1,0,0,0,0,0,0,0,0,1
-816187,2026-07-18,696136,Jordan Wicks,26.9,Iowa Cubs,IOW,MEM,AAA,117,International League,1,0,0,0,0,0,15,19,2,1,1,0,2,0,0,0,0,6
-816187,2026-07-18,681520,Antoine Kelly,26.6,Iowa Cubs,IOW,MEM,AAA,117,International League,0,0,0,0,0,0,5,9,1,0,0,0,2,0,0,1,0,2
-816187,2026-07-18,669294,Paul Campbell,31.0,Iowa Cubs,IOW,MEM,AAA,117,International League,0,1,0,0,0,0,7,11,3,3,2,0,0,0,1,0,0,4
-816187,2026-07-18,674384,Eduarniel Núñez,27.1,Iowa Cubs,IOW,MEM,AAA,117,International League,0,0,0,0,0,0,3,6,0,0,0,0,3,0,0,0,0,0
-816187,2026-07-18,664687,Durbin Feltman,29.2,Memphis Redbirds,MEM,IOW,AAA,117,International League,0,0,0,0,0,0,2,4,2,1,1,0,0,0,0,0,0,0
-816187,2026-07-18,687273,Quinn Mathews,25.8,Memphis Redbirds,MEM,IOW,AAA,117,International League,1,0,0,0,0,0,18,21,3,1,1,0,1,0,0,0,0,4
-816187,2026-07-18,802408,Brycen Mautz,25.0,Memphis Redbirds,MEM,IOW,AAA,117,International League,0,0,0,0,0,0,6,6,0,0,0,0,0,0,0,0,0,0
-816187,2026-07-18,673257,Victor Santos,26.0,Memphis Redbirds,MEM,IOW,AAA,117,International League,0,0,1,0,0,0,4,9,1,3,2,0,4,0,0,1,0,0
-816101,2026-07-18,815148,Nestor German,24.4,Norfolk Tides,NOR,NAS,AAA,117,International League,1,1,0,0,0,0,18,21,2,1,1,1,1,0,0,1,0,4
-816101,2026-07-18,682274,Yaramil Hiraldo,30.5,Norfolk Tides,NOR,NAS,AAA,117,International League,0,0,0,0,0,0,2,3,0,0,0,0,1,0,0,0,0,0
-816101,2026-07-18,691172,Yosver Zulueta,28.5,Norfolk Tides,NOR,NAS,AAA,117,International League,0,0,0,0,0,0,3,4,1,0,0,0,0,0,0,0,0,1
-816101,2026-07-18,608650,Dietrich Enns,35.2,Norfolk Tides,NOR,NAS,AAA,117,International League,0,0,0,0,0,0,4,7,3,1,1,0,0,0,0,0,0,1
-816101,2026-07-18,692230,Carlos Rodriguez,24.6,Nashville Sounds,NAS,NOR,AAA,117,International League,0,0,0,0,0,0,3,7,2,4,4,0,3,0,0,0,0,0
-816101,2026-07-18,680689,Lyon Richardson,26.5,Nashville Sounds,NAS,NOR,AAA,117,International League,0,0,0,0,0,0,6,6,0,0,0,0,0,0,0,0,0,4
-816101,2026-07-18,657265,Peter Strzelecki,31.7,Nashville Sounds,NAS,NOR,AAA,117,International League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0
-816101,2026-07-18,676467,Colton Gordon,27.6,Nashville Sounds,NAS,NOR,AAA,117,International League,1,0,1,0,0,0,15,24,8,5,4,0,1,0,0,0,1,5
-815054,2026-07-19,696522,Hayden Juenger,25.9,Las Vegas Aviators,LV,RR,AAA,112,Pacific Coast League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,1
-815054,2026-07-19,686930,Mason Barnett,25.7,Las Vegas Aviators,LV,RR,AAA,112,Pacific Coast League,1,0,0,0,0,0,9,10,1,0,0,0,0,0,0,0,0,1
-815054,2026-07-19,641386,Ben Bowden,31.7,Las Vegas Aviators,LV,RR,AAA,112,Pacific Coast League,0,0,0,0,0,0,3,3,0,0,0,0,1,0,0,0,0,0
-815054,2026-07-19,800018,Chen Zhong-Ao Zhuang,25.9,Las Vegas Aviators,LV,RR,AAA,112,Pacific Coast League,0,1,0,0,0,0,12,17,2,1,1,0,2,0,0,0,0,2
-815054,2026-07-19,681168,Luis Curvelo,25.7,Round Rock Express,RR,LV,AAA,112,Pacific Coast League,0,0,0,0,0,0,6,8,1,1,0,0,1,0,0,0,0,2
-815054,2026-07-19,605452,Joe Ross,33.2,Round Rock Express,RR,LV,AAA,112,Pacific Coast League,0,0,0,0,0,0,6,9,1,1,1,0,2,0,0,1,0,0
-815054,2026-07-19,689379,Aidan Anderson,29.1,Round Rock Express,RR,LV,AAA,112,Pacific Coast League,0,0,0,0,0,0,4,4,0,0,0,0,0,0,0,0,0,1
-815054,2026-07-19,686762,Austin Roberts,28.0,Round Rock Express,RR,LV,AAA,112,Pacific Coast League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,1
-815054,2026-07-19,656756,Jordan Montgomery,33.6,Round Rock Express,RR,LV,AAA,112,Pacific Coast League,1,0,1,0,0,0,8,15,7,6,6,1,0,0,0,1,0,2
-815433,2026-07-19,702885,Cesar Perdomo,24.4,Sacramento River Cats,SAC,ABQ,AAA,112,Pacific Coast League,1,0,1,0,0,0,6,18,10,10,7,0,1,0,0,0,0,2
-815433,2026-07-19,676254,Ryan Walker,30.6,Sacramento River Cats,SAC,ABQ,AAA,112,Pacific Coast League,0,0,0,0,0,0,5,7,2,0,0,0,0,0,0,0,0,2
-815433,2026-07-19,805345,Trent Harris,27.5,Sacramento River Cats,SAC,ABQ,AAA,112,Pacific Coast League,0,0,0,0,0,0,3,6,1,1,0,0,2,0,0,0,0,1
-815433,2026-07-19,678576,Wilkin Ramos,25.7,Sacramento River Cats,SAC,ABQ,AAA,112,Pacific Coast League,0,0,0,0,0,0,6,8,0,0,0,0,1,0,1,0,0,2
-815433,2026-07-19,665665,Reiver Sanmartin,30.3,Sacramento River Cats,SAC,ABQ,AAA,112,Pacific Coast League,0,0,0,0,0,0,4,4,1,0,0,0,0,0,0,0,0,0
-815433,2026-07-19,624522,Keegan Thompson,31.4,Albuquerque Isotopes,ABQ,SAC,AAA,112,Pacific Coast League,1,0,0,0,0,0,12,23,9,5,5,1,2,0,0,1,0,3
-815433,2026-07-19,686900,Evan Shawver,26.9,Albuquerque Isotopes,ABQ,SAC,AAA,112,Pacific Coast League,0,0,0,0,0,0,6,10,3,1,0,0,1,0,0,0,0,1
-815433,2026-07-19,679057,Mason Green,27.4,Albuquerque Isotopes,ABQ,SAC,AAA,112,Pacific Coast League,0,1,0,0,0,0,9,13,3,1,1,0,1,0,0,0,0,3
-814907,2026-07-19,672629,Gerardo Carrillo,27.8,Reno Aces,RNO,SL,AAA,112,Pacific Coast League,0,1,0,0,0,0,3,4,1,0,0,0,1,0,0,0,0,1
-814907,2026-07-19,683085,Landon Sims,25.5,Reno Aces,RNO,SL,AAA,112,Pacific Coast League,0,0,0,0,0,0,4,5,2,1,1,0,0,0,0,0,0,1
-814907,2026-07-19,703615,Jose Cabrera,24.1,Reno Aces,RNO,SL,AAA,112,Pacific Coast League,1,0,0,0,0,0,14,24,7,2,1,1,3,0,0,0,0,9
-814907,2026-07-19,686826,Bryce Jarvis,28.6,Reno Aces,RNO,SL,AAA,112,Pacific Coast League,0,0,0,0,0,0,3,6,1,0,0,0,2,0,0,0,0,2
-814907,2026-07-19,663462,Isaiah Campbell,28.9,Reno Aces,RNO,SL,AAA,112,Pacific Coast League,0,0,0,0,0,0,3,6,2,3,3,1,1,0,0,0,0,1
-814907,2026-07-19,699613,Houston Harding,28.2,Salt Lake Bees,SL,RNO,AAA,112,Pacific Coast League,0,0,0,0,0,0,4,6,1,0,0,0,1,0,0,0,0,1
-814907,2026-07-19,691951,Sam Aldegheri,24.8,Salt Lake Bees,SL,RNO,AAA,112,Pacific Coast League,1,0,0,0,0,0,15,23,6,6,6,1,3,0,0,0,0,7
-814907,2026-07-19,683177,Jared Southard,25.8,Salt Lake Bees,SL,RNO,AAA,112,Pacific Coast League,0,0,1,0,0,0,5,10,5,5,5,0,1,0,0,1,0,2
-814907,2026-07-19,660623,Huascar Ynoa,28.1,Salt Lake Bees,SL,RNO,AAA,112,Pacific Coast League,0,0,0,0,0,0,3,5,0,0,0,0,2,0,0,0,0,1
-815357,2026-07-19,695001,Alimber Santa,23.2,Sugar Land Space Cowboys,SUG,ELP,AAA,112,Pacific Coast League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,1
-815357,2026-07-19,694545,Jackson Nezuh,24.4,Sugar Land Space Cowboys,SUG,ELP,AAA,112,Pacific Coast League,1,0,0,0,0,0,13,21,3,3,2,0,5,0,0,1,0,1
-815357,2026-07-19,701121,Logan VanWey,27.4,Sugar Land Space Cowboys,SUG,ELP,AAA,112,Pacific Coast League,0,0,0,0,0,0,3,4,0,0,0,0,1,0,0,0,0,1
-815357,2026-07-19,675989,Cody Bolton,28.1,Sugar Land Space Cowboys,SUG,ELP,AAA,112,Pacific Coast League,0,0,0,0,0,0,3,4,1,0,0,0,0,0,0,0,0,0
-815357,2026-07-19,681077,Michael Knorr,26.2,Sugar Land Space Cowboys,SUG,ELP,AAA,112,Pacific Coast League,0,1,0,0,0,0,5,6,1,0,0,0,0,0,0,0,0,2
-815357,2026-07-19,687866,Justin Yeager,28.5,El Paso Chihuahuas,ELP,SUG,AAA,112,Pacific Coast League,0,0,0,0,0,0,5,8,1,2,2,0,1,0,0,0,0,3
-815357,2026-07-19,685377,Misael Tamarez,26.5,El Paso Chihuahuas,ELP,SUG,AAA,112,Pacific Coast League,0,0,1,0,0,0,5,9,2,2,2,1,2,0,0,0,0,3
-815357,2026-07-19,683157,Evan Fitterer,26.1,El Paso Chihuahuas,ELP,SUG,AAA,112,Pacific Coast League,1,0,0,0,0,0,12,19,5,2,2,1,2,0,0,0,0,1
-815357,2026-07-19,681097,Andrew Moore,26.9,El Paso Chihuahuas,ELP,SUG,AAA,112,Pacific Coast League,0,0,0,0,0,0,5,7,0,2,1,0,3,0,0,0,0,0
-814750,2026-07-19,680729,Garrett McDaniels,26.6,Oklahoma City Comets,OKC,TAC,AAA,112,Pacific Coast League,0,0,0,0,0,0,3,6,3,2,2,0,0,0,0,0,0,0
-814750,2026-07-19,682645,Jerming Rosario,24.2,Oklahoma City Comets,OKC,TAC,AAA,112,Pacific Coast League,0,0,0,0,0,0,3,5,2,0,0,0,0,0,0,0,0,2
-814750,2026-07-19,679922,Carlos Duran,25.0,Oklahoma City Comets,OKC,TAC,AAA,112,Pacific Coast League,0,0,0,0,0,0,3,6,1,0,0,0,2,0,0,0,0,1
-814750,2026-07-19,692064,José Rodríguez,25.0,Oklahoma City Comets,OKC,TAC,AAA,112,Pacific Coast League,0,0,0,0,0,0,5,7,0,1,1,0,2,0,0,0,0,2
-814750,2026-07-19,642546,Jonathan Hernández,30.0,Oklahoma City Comets,OKC,TAC,AAA,112,Pacific Coast League,0,0,0,0,0,0,3,8,3,0,0,0,2,0,0,0,0,2
-814750,2026-07-19,605483,Blake Snell,33.6,Oklahoma City Comets,OKC,TAC,AAA,112,Pacific Coast League,1,0,0,0,0,0,4,6,1,0,0,0,1,0,0,0,0,4
-814750,2026-07-19,691947,Ronan Kopp,24.0,Oklahoma City Comets,OKC,TAC,AAA,112,Pacific Coast League,0,0,0,0,0,0,2,3,0,0,0,0,1,0,0,0,0,0
-814750,2026-07-19,801434,Paul Gervase,26.2,Oklahoma City Comets,OKC,TAC,AAA,112,Pacific Coast League,0,0,1,0,0,0,1,7,2,6,6,0,4,0,0,0,0,0
-814750,2026-07-19,694356,Nick Garcia,27.2,Tacoma Rainiers,TAC,OKC,AAA,112,Pacific Coast League,0,0,0,0,0,0,3,4,0,0,0,0,1,0,0,0,0,1
-814750,2026-07-19,688230,Peyton Alford,28.9,Tacoma Rainiers,TAC,OKC,AAA,112,Pacific Coast League,0,0,0,0,0,0,3,4,0,0,0,0,1,0,0,0,0,1
-814750,2026-07-19,682445,Domingo Gonzalez,26.8,Tacoma Rainiers,TAC,OKC,AAA,112,Pacific Coast League,0,1,0,0,0,0,3,5,2,2,2,1,0,0,0,0,0,1
-814750,2026-07-19,596271,Casey Lawrence,38.7,Tacoma Rainiers,TAC,OKC,AAA,112,Pacific Coast League,1,0,0,0,0,0,18,25,8,3,2,0,0,0,0,0,0,3
 816783,2026-07-19,694298,Nick Dombkowski,27.9,Indianapolis Indians,IND,COL,AAA,117,International League,0,1,0,0,0,0,9,12,1,2,2,1,1,0,0,0,0,0
 816783,2026-07-19,684049,Brandan Bidois,25.1,Indianapolis Indians,IND,COL,AAA,117,International League,0,0,0,0,0,0,3,6,2,2,2,0,1,0,0,0,0,0
 816783,2026-07-19,682981,Derek Diamond,25.5,Indianapolis Indians,IND,COL,AAA,117,International League,0,0,0,0,0,0,3,6,3,2,2,0,0,0,0,0,0,1
@@ -6746,137 +6594,118 @@ game_pk,game_date,player_id,player_name,Age,TeamName,Team,Opp,aLevel,league_id,l
 816605,2026-09-16,686628,Blake Burkhalter,26.0,Gwinnett Stripers,GWN,IND,AAA,117,International League,0,0,1,0,0,0,3,6,2,2,2,0,1,0,0,0,0,1
 816605,2026-09-16,682855,Luis Vargas,24.4,Gwinnett Stripers,GWN,IND,AAA,117,International League,0,0,0,0,0,0,5,8,1,1,0,0,1,0,0,0,0,3
 816605,2026-09-16,822412,Brett Sears,26.4,Gwinnett Stripers,GWN,IND,AAA,117,International League,1,0,0,0,0,0,19,25,5,3,3,1,1,0,0,0,0,8
-818864,2026-07-18,701178,Rafe Schlesinger,23.5,Akron RubberDucks,AKR,BNG,AA,113,Eastern League,1,1,0,0,0,0,15,23,5,1,1,0,2,0,0,0,0,7
-818864,2026-07-18,686811,Carter Rustad,25.2,Akron RubberDucks,AKR,BNG,AA,113,Eastern League,0,0,0,0,0,0,6,9,4,2,2,1,0,0,0,0,0,2
-818864,2026-07-18,671969,Adam Tulloch,26.0,Akron RubberDucks,AKR,BNG,AA,113,Eastern League,0,0,0,0,0,0,3,4,1,0,0,0,0,0,0,0,0,2
-818864,2026-07-18,806303,Zach Jacobs,24.9,Akron RubberDucks,AKR,BNG,AA,113,Eastern League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,2
-818864,2026-07-18,809784,Garrett Stratton,23.0,Binghamton Rumble Ponies,BNG,AKR,AA,113,Eastern League,0,0,0,0,0,0,4,5,1,0,0,0,0,0,0,0,0,3
-818864,2026-07-18,701859,Justin Armbruester,27.7,Binghamton Rumble Ponies,BNG,AKR,AA,113,Eastern League,0,0,0,0,0,0,4,5,0,0,0,0,1,0,0,1,0,1
-818864,2026-07-18,672550,Danis Correa,26.9,Binghamton Rumble Ponies,BNG,AKR,AA,113,Eastern League,1,0,1,0,0,0,2,7,3,4,3,0,2,0,0,1,0,0
-818864,2026-07-18,815874,Nick Roselli,23.3,Binghamton Rumble Ponies,BNG,AKR,AA,113,Eastern League,0,0,0,0,0,0,1,2,0,0,0,0,1,0,0,0,0,0
-818864,2026-07-18,676082,Gabriel Rodriguez,27.3,Binghamton Rumble Ponies,BNG,AKR,AA,113,Eastern League,0,0,0,0,0,0,6,8,0,0,0,0,2,0,0,0,0,4
-818864,2026-07-18,682260,Brian Metoyer,29.7,Binghamton Rumble Ponies,BNG,AKR,AA,113,Eastern League,0,0,0,0,0,0,2,7,1,4,4,0,3,0,1,1,0,0
-818864,2026-07-18,694858,Brendan Girton,24.7,Binghamton Rumble Ponies,BNG,AKR,AA,113,Eastern League,0,0,0,0,0,0,8,13,3,4,4,1,2,0,0,0,0,5
-818049,2026-07-18,679489,Tyler LaPorte,29.3,Columbus Clingstones,COL,CHA,AA,111,Southern League,0,0,0,0,0,1,3,3,0,0,0,0,0,0,0,0,0,3
-818049,2026-07-18,682855,Luis Vargas,24.2,Columbus Clingstones,COL,CHA,AA,111,Southern League,0,1,0,0,0,0,3,4,1,0,0,0,0,0,0,0,0,2
-818049,2026-07-18,678789,Julio Robaina,25.3,Columbus Clingstones,COL,CHA,AA,111,Southern League,1,0,0,0,0,0,2,6,3,3,2,0,1,0,0,0,0,0
-818049,2026-07-18,822412,Brett Sears,26.2,Columbus Clingstones,COL,CHA,AA,111,Southern League,0,0,0,0,0,0,19,26,7,4,4,2,0,0,0,0,0,11
-818049,2026-07-18,825756,Will Cannon,23.0,Chattanooga Lookouts,CHA,COL,AA,111,Southern League,0,0,0,0,0,0,6,6,0,0,0,0,0,0,0,0,0,6
-818049,2026-07-18,800017,Jose Montero,23.0,Chattanooga Lookouts,CHA,COL,AA,111,Southern League,0,0,0,0,0,0,9,12,3,1,1,0,0,0,0,0,0,5
-818049,2026-07-18,685396,Nate Peterson,26.4,Chattanooga Lookouts,CHA,COL,AA,111,Southern League,0,0,0,0,0,0,6,11,5,3,2,2,0,0,0,0,0,1
-818049,2026-07-18,801333,Johnathan Harmon,25.9,Chattanooga Lookouts,CHA,COL,AA,111,Southern League,1,0,0,0,0,0,3,7,4,3,3,0,0,0,0,0,0,1
-818049,2026-07-18,694832,Cody Adcock,24.1,Chattanooga Lookouts,CHA,COL,AA,111,Southern League,0,0,1,0,0,0,3,4,0,1,1,0,0,0,0,4,0,3
-818660,2026-07-18,827110,Austin Cates,23.2,New Hampshire Fisher Cats,NH,HBG,AA,113,Eastern League,1,0,1,0,0,0,18,25,5,4,4,1,2,0,0,1,0,3
-818660,2026-07-18,806334,Alex Amalfi,25.4,New Hampshire Fisher Cats,NH,HBG,AA,113,Eastern League,0,0,0,0,0,0,5,12,5,3,3,0,2,0,1,0,0,2
-818660,2026-07-18,815317,Aaron Munson,24.3,New Hampshire Fisher Cats,NH,HBG,AA,113,Eastern League,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0
-818660,2026-07-18,663336,Aaron Shortridge,29.1,Harrisburg Senators,HBG,NH,AA,113,Eastern League,0,1,0,0,0,0,6,7,0,0,0,0,1,0,0,0,0,2
-818660,2026-07-18,670234,Seth Shuman,28.6,Harrisburg Senators,HBG,NH,AA,113,Eastern League,0,0,0,0,0,0,6,7,2,0,0,0,0,0,0,0,0,2
-818660,2026-07-18,806046,Alex Clemmey,21.0,Harrisburg Senators,HBG,NH,AA,113,Eastern League,1,0,0,0,0,0,12,19,6,2,1,0,2,0,0,0,0,6
-818660,2026-07-18,676026,Holden Powell,26.9,Harrisburg Senators,HBG,NH,AA,113,Eastern League,0,0,0,0,0,0,3,6,3,2,2,0,0,0,0,0,0,1
-818445,2026-07-18,686433,Luis Velasquez,25.0,Somerset Patriots,SOM,POR,AA,113,Eastern League,0,0,0,0,0,0,2,5,2,3,0,0,0,0,0,0,0,1
-818445,2026-07-18,815587,Trent Sellers,26.7,Somerset Patriots,SOM,POR,AA,113,Eastern League,0,0,0,0,0,0,3,5,0,0,0,0,2,0,0,0,0,3
-818445,2026-07-18,805728,Kevin Stevens,28.5,Somerset Patriots,SOM,POR,AA,113,Eastern League,0,0,0,0,0,0,1,5,3,4,4,1,1,0,0,1,0,0
-818445,2026-07-18,675502,Kelly Austin,25.6,Somerset Patriots,SOM,POR,AA,113,Eastern League,0,0,0,0,0,0,4,6,1,1,1,0,1,0,0,0,0,1
-818445,2026-07-18,675296,Hayden Merda,26.3,Somerset Patriots,SOM,POR,AA,113,Eastern League,0,0,0,0,0,0,3,6,0,0,0,0,2,0,0,0,0,2
-818445,2026-07-18,694633,Chase Hampton,24.9,Somerset Patriots,SOM,POR,AA,113,Eastern League,1,0,1,0,0,0,11,19,5,3,3,1,3,0,0,0,0,7
-818445,2026-07-18,827292,John Holobetz,24.0,Portland Sea Dogs,POR,SOM,AA,113,Eastern League,0,0,0,0,0,0,6,8,1,0,0,0,1,0,0,0,0,3
-818445,2026-07-18,699151,Jedixson Paez,22.5,Portland Sea Dogs,POR,SOM,AA,113,Eastern League,0,0,0,0,0,0,6,7,1,0,0,0,0,0,0,0,0,3
-818445,2026-07-18,809254,Anthony Eyanson,21.8,Portland Sea Dogs,POR,SOM,AA,113,Eastern League,1,1,0,0,0,0,15,17,1,0,0,0,1,0,0,0,0,8
-818043,2026-07-18,813706,Owen Hackman,24.7,Columbus Clingstones,COL,CHA,AA,111,Southern League,0,0,0,0,0,0,5,9,3,2,2,1,1,0,0,0,0,2
-818043,2026-07-18,666768,Anderson Pilar,28.4,Columbus Clingstones,COL,CHA,AA,111,Southern League,1,0,1,0,0,0,7,10,1,2,2,0,2,0,0,0,0,4
-818043,2026-07-18,690229,LJ McDonough,26.3,Columbus Clingstones,COL,CHA,AA,111,Southern League,0,0,0,0,0,0,3,4,0,0,0,0,1,0,0,0,0,0
-818043,2026-07-18,694436,Samuel Strickland,27.3,Columbus Clingstones,COL,CHA,AA,111,Southern League,0,0,0,0,0,0,3,4,1,0,0,0,0,0,0,0,0,1
-818043,2026-07-18,695373,Javi Rivera,26.6,Chattanooga Lookouts,CHA,COL,AA,111,Southern League,1,1,0,1,1,0,21,22,3,0,0,0,0,0,0,0,0,4
-818797,2026-07-18,701404,Fisher Jameson,23.2,Hartford Yard Goats,HFD,CHE,AA,113,Eastern League,0,0,0,0,0,0,5,8,2,1,1,0,2,0,0,1,0,1
-818797,2026-07-18,687317,Stu Flesland III,25.8,Hartford Yard Goats,HFD,CHE,AA,113,Eastern League,1,0,0,0,0,0,15,16,0,0,0,0,1,0,1,0,0,4
-818797,2026-07-18,801754,Davison Palermo,26.6,Hartford Yard Goats,HFD,CHE,AA,113,Eastern League,0,0,1,0,0,0,2,6,3,3,3,0,2,0,0,2,0,1
-818797,2026-07-18,694518,Austin Smith,27.1,Hartford Yard Goats,HFD,CHE,AA,113,Eastern League,0,0,0,0,0,0,2,4,1,0,0,0,1,0,0,0,0,0
-818797,2026-07-18,702129,Alex Pham,26.8,Chesapeake Baysox,CHE,HFD,AA,113,Eastern League,0,0,0,0,0,0,2,3,1,0,0,0,0,0,0,0,0,0
-818797,2026-07-18,804530,Joseph Dzierwa,22.2,Chesapeake Baysox,CHE,HFD,AA,113,Eastern League,1,0,0,0,0,0,13,17,3,2,2,1,2,0,0,0,0,2
-818797,2026-07-18,807792,Sebastian Gongora,24.9,Chesapeake Baysox,CHE,HFD,AA,113,Eastern League,0,1,0,0,0,0,12,15,2,1,1,1,1,0,0,0,1,6
-818384,2026-07-18,665993,Cristhian Tortosa,27.7,Altoona Curve,ALT,REA,AA,113,Eastern League,0,0,0,0,0,0,4,6,0,0,0,0,1,0,0,0,0,3
-818384,2026-07-18,686951,Cy Nielson,25.4,Altoona Curve,ALT,REA,AA,113,Eastern League,0,0,0,0,0,0,5,9,1,1,1,0,2,0,1,0,0,2
-818384,2026-07-18,820888,Emmanuel Chapman,27.8,Altoona Curve,ALT,REA,AA,113,Eastern League,0,0,0,0,0,0,1,7,2,4,3,0,3,0,0,1,0,1
-818384,2026-07-18,671600,Jaycob Deese,26.1,Altoona Curve,ALT,REA,AA,113,Eastern League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0
-818384,2026-07-18,814482,Peyton Stumbo,24.1,Altoona Curve,ALT,REA,AA,113,Eastern League,1,0,1,0,0,0,11,19,5,4,2,1,2,0,1,0,0,8
-818384,2026-07-18,694372,Adam Seminaris,27.7,Reading Fightin Phils,REA,ALT,AA,113,Eastern League,1,1,0,0,0,0,15,23,8,2,2,0,1,0,0,0,1,4
-818384,2026-07-18,688753,Evan Gates,28.5,Reading Fightin Phils,REA,ALT,AA,113,Eastern League,0,0,0,0,0,0,3,4,1,1,1,1,0,0,0,0,0,1
-818384,2026-07-18,694909,Christian McGowan,26.4,Reading Fightin Phils,REA,ALT,AA,113,Eastern League,0,0,0,0,0,0,3,7,2,1,1,0,2,0,0,0,0,1
-818384,2026-07-18,686934,Alex McFarlane,25.1,Reading Fightin Phils,REA,ALT,AA,113,Eastern League,0,0,0,0,0,0,3,5,2,0,0,0,0,0,0,0,0,2
-818384,2026-07-18,808207,Wen-Hui Pan,23.8,Reading Fightin Phils,REA,ALT,AA,113,Eastern League,0,0,0,0,0,0,3,6,1,1,1,0,0,0,2,0,0,1
-817828,2026-07-18,690370,Tyler Schlaffer,25.1,Knoxville Smokies,KNX,MTG,AA,111,Southern League,0,0,0,0,0,0,6,8,1,0,0,0,1,0,0,0,0,2
-817828,2026-07-18,696091,Marino Santy,24.4,Knoxville Smokies,KNX,MTG,AA,111,Southern League,0,0,0,0,0,0,6,8,2,1,1,0,1,0,0,0,0,3
-817828,2026-07-18,687825,Tyler Santana,28.2,Knoxville Smokies,KNX,MTG,AA,111,Southern League,0,0,1,0,0,0,2,5,2,1,1,0,1,1,0,0,0,1
-817828,2026-07-18,699944,Brooks Caple,23.9,Knoxville Smokies,KNX,MTG,AA,111,Southern League,1,0,0,0,0,0,12,13,2,0,0,0,1,0,0,0,0,6
-817828,2026-07-18,694375,TJ Nichols,24.1,Montgomery Biscuits,MTG,KNX,AA,111,Southern League,1,0,0,0,0,0,15,22,2,1,1,0,5,0,0,0,0,5
-817828,2026-07-18,695771,Jacob Kmatz,23.8,Montgomery Biscuits,MTG,KNX,AA,111,Southern League,0,1,0,0,0,0,6,6,0,0,0,0,0,0,0,0,0,4
-817828,2026-07-18,677334,T.J. Fondtain,25.4,Montgomery Biscuits,MTG,KNX,AA,111,Southern League,0,0,0,0,0,0,6,7,0,0,0,0,1,0,1,0,0,0
-817274,2026-07-18,695761,Kenya Huggins,23.6,Midland RockHounds,MID,NWA,AA,109,Texas League,0,0,0,0,0,0,9,14,2,0,0,0,3,0,0,1,0,3
-817274,2026-07-18,686533,Jackson Finley,25.8,Midland RockHounds,MID,NWA,AA,109,Texas League,1,1,0,0,0,0,15,17,1,1,1,1,2,0,0,0,1,5
-817274,2026-07-18,687991,Jared Johnson,25.3,Midland RockHounds,MID,NWA,AA,109,Texas League,0,0,0,0,0,0,3,5,2,1,1,0,0,0,0,0,0,1
-817274,2026-07-18,694553,Tyson Guerrero,27.4,Northwest Arkansas Naturals,NWA,MID,AA,109,Texas League,0,0,0,0,0,0,3,4,1,1,1,1,0,0,0,0,0,1
-817274,2026-07-18,701795,Drew Beam,23.4,Northwest Arkansas Naturals,NWA,MID,AA,109,Texas League,1,0,1,0,0,0,18,24,6,2,2,0,2,0,0,0,0,4
-817274,2026-07-18,815045,Zachary Cawyer,23.6,Northwest Arkansas Naturals,NWA,MID,AA,109,Texas League,0,0,0,0,0,0,5,7,2,1,1,0,0,0,0,1,0,2
-817274,2026-07-18,700924,Frank Mozzicato,23.1,Northwest Arkansas Naturals,NWA,MID,AA,109,Texas League,0,0,0,0,0,0,1,5,0,4,4,0,4,0,0,1,0,1
-818316,2026-07-18,696059,Johan Simon,25.0,Erie SeaWolves,ERI,RIC,AA,113,Eastern League,0,0,0,0,0,0,2,7,4,3,1,0,0,0,0,1,0,1
-818316,2026-07-18,688354,Hayden Minton,25.3,Erie SeaWolves,ERI,RIC,AA,113,Eastern League,1,0,0,0,0,0,15,19,4,0,0,0,1,0,0,0,0,2
-818316,2026-07-18,664301,Wandisson Charles,29.9,Erie SeaWolves,ERI,RIC,AA,113,Eastern League,0,0,1,0,0,0,5,6,1,1,0,0,0,0,0,0,0,3
-818316,2026-07-18,681289,Tanner Kohlhepp,27.1,Erie SeaWolves,ERI,RIC,AA,113,Eastern League,0,0,0,0,0,0,3,6,3,2,2,0,0,0,0,1,0,0
-818316,2026-07-18,687074,Tyler Owens,25.5,Erie SeaWolves,ERI,RIC,AA,113,Eastern League,0,0,0,0,0,0,4,7,1,1,1,0,2,0,0,0,0,0
-818316,2026-07-18,692352,Manuel Mercedes,23.8,Richmond Flying Squirrels,RIC,ERI,AA,113,Eastern League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,1
-818316,2026-07-18,688730,Marques Johnson,26.0,Richmond Flying Squirrels,RIC,ERI,AA,113,Eastern League,0,0,0,0,0,0,3,5,2,1,1,0,1,0,0,0,0,1
-818316,2026-07-18,687864,Ryan Vanderhei,25.1,Richmond Flying Squirrels,RIC,ERI,AA,113,Eastern League,0,1,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,1
-818316,2026-07-18,815780,Shane Rademacher,25.5,Richmond Flying Squirrels,RIC,ERI,AA,113,Eastern League,0,0,0,0,0,0,3,6,2,1,1,0,1,0,0,0,0,2
-818316,2026-07-18,622459,Cristian Alvarado,31.8,Richmond Flying Squirrels,RIC,ERI,AA,113,Eastern League,0,0,0,0,0,0,3,6,3,2,2,0,0,0,0,0,0,1
-818316,2026-07-18,826052,Charlie McDaniel,25.0,Richmond Flying Squirrels,RIC,ERI,AA,113,Eastern League,1,0,0,0,0,0,15,19,3,2,2,1,2,0,0,0,0,3
-817560,2026-07-18,694389,William Fleming,27.4,Wichita Wind Surge,WCH,ARK,AA,109,Texas League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,1
-817560,2026-07-18,804981,Riley Quick,22.2,Wichita Wind Surge,WCH,ARK,AA,109,Texas League,1,0,0,0,0,0,6,12,2,3,2,0,4,0,0,1,0,4
-817560,2026-07-18,675375,Cory Lewis,25.8,Wichita Wind Surge,WCH,ARK,AA,109,Texas League,0,1,0,0,0,0,12,15,3,0,0,0,0,0,0,0,0,4
-817560,2026-07-18,695308,Paulshawn Pasqualotto,25.1,Wichita Wind Surge,WCH,ARK,AA,109,Texas League,0,0,0,0,0,1,6,10,4,2,2,0,1,0,0,0,0,1
-817560,2026-07-18,810897,Charlie Beilenson,26.6,Arkansas Travelers,ARK,WCH,AA,109,Texas League,0,0,0,0,0,0,3,4,1,0,0,0,0,0,0,0,0,2
-817560,2026-07-18,807744,Ty Cummings,24.7,Arkansas Travelers,ARK,WCH,AA,109,Texas League,0,0,0,0,0,0,6,9,2,0,0,0,0,0,1,0,0,2
-817560,2026-07-18,702111,Adam Smith,26.2,Arkansas Travelers,ARK,WCH,AA,109,Texas League,0,0,0,0,0,0,7,7,0,0,0,0,0,0,0,0,0,2
-817560,2026-07-18,688548,Nico Tellache,28.5,Arkansas Travelers,ARK,WCH,AA,109,Texas League,1,0,1,0,0,0,11,24,9,6,6,1,3,0,1,0,0,0
-818174,2026-07-18,685321,Gabe Bierman,26.9,Pensacola Blue Wahoos,PNS,BLX,AA,111,Southern League,0,0,0,0,0,0,6,10,1,2,2,0,3,0,0,0,0,4
-818174,2026-07-18,688540,Kade Bragg,25.0,Pensacola Blue Wahoos,PNS,BLX,AA,111,Southern League,0,1,0,0,0,0,6,9,2,0,0,0,1,0,0,0,0,4
-818174,2026-07-18,691196,Josh Hejka,29.3,Pensacola Blue Wahoos,PNS,BLX,AA,111,Southern League,0,0,0,0,0,0,3,5,2,1,0,0,0,0,0,0,0,1
-818174,2026-07-18,677354,Alex Williams,26.7,Pensacola Blue Wahoos,PNS,BLX,AA,111,Southern League,1,0,0,0,0,0,12,20,5,3,3,1,3,0,0,0,0,5
-818174,2026-07-18,809229,Jaron DeBerry,23.9,Biloxi Shuckers,BLX,PNS,AA,111,Southern League,1,0,1,0,0,0,4,11,5,6,6,1,1,0,1,0,0,1
-818174,2026-07-18,808952,Jack Seppings,24.0,Biloxi Shuckers,BLX,PNS,AA,111,Southern League,0,0,0,0,0,0,8,9,1,0,0,0,0,0,0,0,0,2
-818174,2026-07-18,800260,Anthony Flores,21.7,Biloxi Shuckers,BLX,PNS,AA,111,Southern League,0,0,0,0,0,0,2,7,5,4,4,1,1,0,0,0,0,0
-818174,2026-07-18,823182,Braylon Owens,23.6,Biloxi Shuckers,BLX,PNS,AA,111,Southern League,0,0,0,0,0,0,13,21,5,6,6,1,3,0,0,1,0,6
-818109,2026-07-18,692623,Leonard Garcia,22.9,Rocket City Trash Pandas,RCT,BIR,AA,111,Southern League,0,0,0,0,0,0,3,5,1,2,2,1,0,0,1,0,0,3
-818109,2026-07-18,700933,Chris Cortez,23.8,Rocket City Trash Pandas,RCT,BIR,AA,111,Southern League,0,0,1,0,0,0,3,5,0,2,2,0,1,0,1,0,0,3
-818109,2026-07-18,822652,Lucas Mahlstedt,23.3,Rocket City Trash Pandas,RCT,BIR,AA,111,Southern League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0
-818109,2026-07-18,805871,Joel Hurtado,25.4,Rocket City Trash Pandas,RCT,BIR,AA,111,Southern League,1,0,0,0,0,0,15,19,3,2,2,1,3,0,0,0,0,4
-818109,2026-07-18,702165,Jonathan Clark,26.1,Birmingham Barons,BIR,RCT,AA,111,Southern League,0,0,0,0,0,0,6,9,2,2,2,1,1,0,0,0,0,1
-818109,2026-07-18,683636,Juan Carela,24.6,Birmingham Barons,BIR,RCT,AA,111,Southern League,1,0,0,0,0,0,14,21,5,1,0,0,1,0,0,0,0,4
-818109,2026-07-18,695316,Jarold Rosado,24.0,Birmingham Barons,BIR,RCT,AA,111,Southern League,0,1,0,0,0,0,4,6,2,1,0,0,0,0,0,0,0,0
-818109,2026-07-18,822473,Liam Paddack,23.0,Birmingham Barons,BIR,RCT,AA,111,Southern League,0,0,0,0,0,0,3,7,2,0,0,0,3,0,0,0,0,1
-817139,2026-07-18,701056,Josh Grosz,23.9,Amarillo Sod Poodles,AMA,SPR,AA,109,Texas League,0,0,0,0,0,0,5,8,1,0,0,0,2,0,0,0,0,3
-817139,2026-07-18,694781,Logan Mercado,24.7,Amarillo Sod Poodles,AMA,SPR,AA,109,Texas League,0,0,0,0,0,0,1,2,1,0,0,0,0,0,0,0,0,1
-817139,2026-07-18,811139,Sandro Santana,21.4,Amarillo Sod Poodles,AMA,SPR,AA,109,Texas League,0,0,0,0,0,0,5,6,1,0,0,0,1,0,0,0,0,3
-817139,2026-07-18,826536,Brian Curley,23.1,Amarillo Sod Poodles,AMA,SPR,AA,109,Texas League,1,0,1,0,0,0,13,21,10,4,3,0,0,0,0,0,0,3
-817139,2026-07-18,825576,Brandt Thompson,24.0,Springfield Cardinals,SPR,AMA,AA,109,Texas League,0,1,0,0,0,0,14,17,4,2,1,1,0,0,0,0,0,6
-817139,2026-07-18,701469,Jack Findlay,23.9,Springfield Cardinals,SPR,AMA,AA,109,Texas League,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,1
-817139,2026-07-18,687309,Cooper Hjerpe,25.3,Springfield Cardinals,SPR,AMA,AA,109,Texas League,1,0,0,0,0,0,9,12,2,1,1,1,1,0,0,0,0,6
-817139,2026-07-18,822472,Domenic Picone,25.8,Springfield Cardinals,SPR,AMA,AA,109,Texas League,0,0,0,0,0,0,3,4,1,0,0,0,0,0,0,0,0,1
-817207,2026-07-19,809343,Bryce Mayer,24.4,Corpus Christi Hooks,CC,SA,AA,109,Texas League,1,0,0,0,0,0,15,19,2,0,0,0,3,0,0,0,0,8
-817207,2026-07-19,702847,Amilcar Chirinos,24.7,Corpus Christi Hooks,CC,SA,AA,109,Texas League,0,0,0,0,0,1,3,4,0,0,0,0,1,0,0,1,0,1
-817207,2026-07-19,801700,Nolan DeVos,25.9,Corpus Christi Hooks,CC,SA,AA,109,Texas League,0,1,0,0,0,0,9,15,4,2,2,0,2,0,0,2,0,6
-817207,2026-07-19,811667,Clay Edmondson,23.1,San Antonio Missions,SA,CC,AA,109,Texas League,0,0,1,0,0,0,1,3,1,2,2,0,1,0,0,0,0,1
-817207,2026-07-19,701617,Ian Koenig,25.3,San Antonio Missions,SA,CC,AA,109,Texas League,1,0,0,0,0,0,18,20,3,0,0,0,1,0,0,0,0,5
-817207,2026-07-19,814491,Tucker Musgrove,24.5,San Antonio Missions,SA,CC,AA,109,Texas League,0,0,0,0,0,0,5,9,2,2,2,1,1,0,0,1,1,5
-817207,2026-07-19,811594,Bernard Jose,23.4,San Antonio Missions,SA,CC,AA,109,Texas League,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0
-817207,2026-07-19,814480,Harry Gustin,24.2,San Antonio Missions,SA,CC,AA,109,Texas League,0,0,0,0,0,0,2,4,2,1,1,0,0,0,0,0,0,0
-817417,2026-07-19,703445,Adam Serwinowski,22.1,Tulsa Drillers,TUL,FRI,AA,109,Texas League,1,0,1,0,0,0,15,22,9,4,4,2,0,0,0,0,0,7
-817417,2026-07-19,701764,Cam Day,24.0,Tulsa Drillers,TUL,FRI,AA,109,Texas League,0,0,0,0,0,0,6,7,1,0,0,0,0,0,0,0,0,4
-817417,2026-07-19,682087,Antonio Knowles,26.5,Tulsa Drillers,TUL,FRI,AA,109,Texas League,0,0,0,0,0,0,3,3,1,0,0,0,0,0,0,0,0,0
-817417,2026-07-19,701213,Jonathan Brand,26.4,Frisco RoughRiders,FRI,TUL,AA,109,Texas League,0,0,0,0,0,0,3,4,1,1,1,1,0,0,0,0,0,1
-817417,2026-07-19,692447,Bryan Magdaleno,25.4,Frisco RoughRiders,FRI,TUL,AA,109,Texas League,0,1,0,0,0,0,3,3,0,0,0,0,0,0,0,1,0,1
-817417,2026-07-19,701717,Dalton Pence,23.9,Frisco RoughRiders,FRI,TUL,AA,109,Texas League,0,0,0,0,0,0,12,19,3,2,1,1,3,0,0,0,0,5
-817417,2026-07-19,674003,Cody Bradford,28.4,Frisco RoughRiders,FRI,TUL,AA,109,Texas League,1,0,0,0,0,0,6,7,1,0,0,0,0,0,0,0,0,4
-817417,2026-07-19,801453,Cole Stasio,24.9,Frisco RoughRiders,FRI,TUL,AA,109,Texas League,0,0,0,0,0,1,3,4,1,0,0,0,0,0,0,0,0,0
+815786,2026-09-16,690155,Matt Pushard,28.9,Jacksonville Jumbo Shrimp,JAX,SWB,AAA,117,International League,0,1,0,0,0,0,7,8,1,0,0,0,1,0,0,0,0,1
+815786,2026-09-16,695366,Holt Jones,27.4,Jacksonville Jumbo Shrimp,JAX,SWB,AAA,117,International League,0,0,0,0,0,0,8,14,4,3,3,1,2,0,1,0,0,3
+815786,2026-09-16,672712,Luis Palacios,26.2,Jacksonville Jumbo Shrimp,JAX,SWB,AAA,117,International League,1,0,0,0,0,0,9,15,4,2,2,1,1,0,1,0,0,4
+815786,2026-09-16,682240,Stephen Jones,29.1,Jacksonville Jumbo Shrimp,JAX,SWB,AAA,117,International League,0,0,0,0,0,0,3,5,3,1,1,0,0,0,0,0,0,0
+815786,2026-09-16,669212,Eli Morgan,30.3,Scranton/Wilkes-Barre RailRiders,SWB,JAX,AAA,117,International League,0,0,1,0,0,0,3,6,2,1,1,0,1,0,0,0,0,3
+815786,2026-09-16,623437,Justin Topa,35.5,Scranton/Wilkes-Barre RailRiders,SWB,JAX,AAA,117,International League,0,0,0,0,0,0,3,6,3,3,3,0,0,0,0,0,0,0
+815786,2026-09-16,702130,Danny Watson,25.9,Scranton/Wilkes-Barre RailRiders,SWB,JAX,AAA,117,International League,0,0,0,0,0,0,2,3,0,0,0,0,1,0,0,0,0,0
+815786,2026-09-16,694341,Brendan Beck,27.9,Scranton/Wilkes-Barre RailRiders,SWB,JAX,AAA,117,International League,1,0,0,0,0,0,13,21,7,5,4,0,1,0,0,0,0,5
+815786,2026-09-16,801739,Carlos Lagrange,23.3,Scranton/Wilkes-Barre RailRiders,SWB,JAX,AAA,117,International League,0,0,0,0,0,0,3,4,1,0,0,0,0,0,0,0,0,2
+815786,2026-09-16,801432,Eric Reyzelman,25.2,Scranton/Wilkes-Barre RailRiders,SWB,JAX,AAA,117,International League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,2
+815330,2026-09-16,680729,Garrett McDaniels,26.8,Oklahoma City Comets,OKC,ELP,AAA,112,Pacific Coast League,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0
+815330,2026-09-16,621242,Edwin Díaz,32.5,Oklahoma City Comets,OKC,ELP,AAA,112,Pacific Coast League,0,0,0,0,0,0,3,4,1,0,0,0,0,0,0,0,0,0
+815330,2026-09-16,701328,Jackson Ferris,22.7,Oklahoma City Comets,OKC,ELP,AAA,112,Pacific Coast League,1,1,0,0,0,0,23,25,1,0,0,0,1,0,0,0,0,13
+815330,2026-09-16,695247,Jagger Haynes,24.0,El Paso Chihuahuas,ELP,OKC,AAA,112,Pacific Coast League,1,0,1,0,0,0,18,22,5,1,1,0,1,0,0,1,0,3
+815330,2026-09-16,668968,Hans Crouse,28.0,El Paso Chihuahuas,ELP,OKC,AAA,112,Pacific Coast League,0,0,0,0,0,0,4,10,3,4,4,0,3,0,0,0,0,1
+815330,2026-09-16,670897,Daison Acosta,28.1,El Paso Chihuahuas,ELP,OKC,AAA,112,Pacific Coast League,0,0,0,0,0,0,5,7,2,2,2,1,0,0,0,0,0,3
+815480,2026-09-16,805363,Chris Clark,25.1,Durham Bulls,DUR,WOR,AAA,117,International League,1,0,0,0,0,0,11,18,4,3,3,1,3,0,0,0,0,4
+815480,2026-09-16,621051,Steven Wilson,32.1,Durham Bulls,DUR,WOR,AAA,117,International League,0,0,1,0,0,0,2,5,3,3,3,1,0,0,0,0,0,0
+815480,2026-09-16,801643,Owen Wild,24.1,Durham Bulls,DUR,WOR,AAA,117,International League,0,0,0,0,0,0,7,8,1,0,0,0,0,0,0,0,0,0
+815480,2026-09-16,655889,Manuel Rodríguez,30.1,Durham Bulls,DUR,WOR,AAA,117,International League,0,0,0,0,0,0,4,6,2,2,0,0,0,0,0,0,0,2
+815480,2026-09-16,687762,Blake Wehunt,25.9,Worcester Red Sox,WOR,DUR,AAA,117,International League,1,0,0,0,0,0,15,23,7,4,4,0,2,0,0,0,1,3
+815480,2026-09-16,701856,Patrick Halligan,27.0,Worcester Red Sox,WOR,DUR,AAA,117,International League,0,0,0,0,0,0,3,5,1,1,1,1,1,0,0,0,0,2
+815480,2026-09-16,605154,John Brebbia,36.3,Worcester Red Sox,WOR,DUR,AAA,117,International League,0,0,0,0,0,0,3,4,1,0,0,0,0,0,0,0,0,1
+815480,2026-09-16,661527,Seth Martinez,32.0,Worcester Red Sox,WOR,DUR,AAA,117,International League,0,1,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,3
+815480,2026-09-16,656726,Sam McWilliams,31.0,Worcester Red Sox,WOR,DUR,AAA,117,International League,0,0,0,0,0,1,3,3,0,0,0,0,0,0,0,0,0,0
+816905,2026-09-16,695066,Ben Grable,24.4,Rochester Red Wings,ROC,BUF,AAA,117,International League,0,0,0,0,0,0,2,5,3,1,1,0,0,0,0,0,0,0
+816905,2026-09-16,640454,Matt Krook,31.9,Rochester Red Wings,ROC,BUF,AAA,117,International League,1,0,0,0,0,0,5,9,3,2,0,0,0,0,0,0,0,2
+816905,2026-09-16,668820,Max Kranick,29.2,Rochester Red Wings,ROC,BUF,AAA,117,International League,0,0,0,0,0,0,6,6,0,0,0,0,0,0,0,0,0,1
+816905,2026-09-16,690925,Clayton Beeter,27.9,Rochester Red Wings,ROC,BUF,AAA,117,International League,0,0,0,0,0,0,3,5,0,0,0,0,2,0,0,0,0,2
+816905,2026-09-16,812521,Joe Glassey,25.2,Rochester Red Wings,ROC,BUF,AAA,117,International League,0,1,0,0,0,0,4,4,0,0,0,0,0,0,0,0,0,2
+816905,2026-09-16,656234,Jake Bird,30.8,Rochester Red Wings,ROC,BUF,AAA,117,International League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0
+816905,2026-09-16,687606,Paxton Schultz,28.7,Rochester Red Wings,ROC,BUF,AAA,117,International League,0,0,0,0,0,0,4,6,2,1,1,0,0,0,0,0,0,2
+816905,2026-09-16,695445,Chase Lee,28.1,Buffalo Bisons,BUF,ROC,AAA,117,International League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0
+816905,2026-09-16,667690,C.J. Stubbs,29.8,Buffalo Bisons,BUF,ROC,AAA,117,International League,0,0,0,0,0,0,2,5,2,1,1,0,1,0,0,0,0,1
+816905,2026-09-16,814217,Sam Gardner,29.7,Buffalo Bisons,BUF,ROC,AAA,117,International League,0,0,0,0,0,0,3,7,3,3,3,0,2,0,0,0,0,1
+816905,2026-09-16,804619,John Klein,24.4,Buffalo Bisons,BUF,ROC,AAA,117,International League,0,0,0,0,0,0,4,7,1,2,2,0,2,0,1,0,0,0
+816905,2026-09-16,695776,Josh Stephan,24.9,Buffalo Bisons,BUF,ROC,AAA,117,International League,1,0,1,0,0,0,14,24,8,6,6,2,1,0,1,0,0,4
+816905,2026-09-16,800959,Nick Goodwin,25.0,Buffalo Bisons,BUF,ROC,AAA,117,International League,0,0,0,0,0,0,1,2,0,0,0,0,1,0,0,0,0,0
+815550,2026-09-16,685112,Zach McCambley,27.4,Louisville Bats,LOU,TOL,AAA,117,International League,0,0,0,0,0,0,6,8,2,0,0,0,0,0,0,0,0,4
+815550,2026-09-16,592288,Kent Emanuel,34.3,Louisville Bats,LOU,TOL,AAA,117,International League,1,0,1,0,0,0,18,23,4,3,3,1,1,0,0,0,0,3
+815550,2026-09-16,680704,Nick Sandlin,29.7,Toledo Mud Hens,TOL,LOU,AAA,117,International League,0,0,0,0,0,0,4,4,0,0,0,0,0,0,0,0,0,2
+815550,2026-09-16,663432,Tanner Rainey,33.7,Toledo Mud Hens,TOL,LOU,AAA,117,International League,0,0,0,0,0,1,3,4,0,0,0,0,1,0,0,0,0,0
+815550,2026-09-16,680232,Jackson Wolf,27.4,Toledo Mud Hens,TOL,LOU,AAA,117,International League,1,1,0,0,0,0,17,25,5,1,1,0,2,0,1,0,0,5
+815550,2026-09-16,669193,Jack Little,28.7,Toledo Mud Hens,TOL,LOU,AAA,117,International League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0
+816004,2026-09-16,805326,Tyler Schweitzer,26.0,Charlotte Knights,CLT,NOR,AAA,117,International League,0,0,0,0,0,0,6,8,1,0,0,0,1,0,0,0,0,0
+816004,2026-09-16,701780,Tanner McDougal,23.4,Charlotte Knights,CLT,NOR,AAA,117,International League,0,0,0,0,0,0,3,4,1,0,0,0,0,0,0,0,0,1
+816004,2026-09-16,686563,Jonathan Cannon,26.2,Charlotte Knights,CLT,NOR,AAA,117,International League,1,0,1,0,0,0,15,24,8,5,3,3,0,0,0,0,0,5
+816004,2026-09-16,687841,Andrew Magno,28.4,Norfolk Tides,NOR,CLT,AAA,117,International League,0,0,0,0,0,1,3,3,0,0,0,0,0,0,0,0,0,3
+816004,2026-09-16,664744,Jose Espada,29.6,Norfolk Tides,NOR,CLT,AAA,117,International League,0,0,0,0,0,0,3,3,1,0,0,0,0,0,0,0,0,1
+816004,2026-09-16,544150,Albert Suárez,36.9,Norfolk Tides,NOR,CLT,AAA,117,International League,1,0,0,0,0,0,7,9,1,0,0,0,1,0,0,0,0,1
+816004,2026-09-16,691172,Yosver Zulueta,28.6,Norfolk Tides,NOR,CLT,AAA,117,International League,0,0,0,0,0,0,6,6,1,0,0,0,0,0,0,0,0,2
+816004,2026-09-16,608650,Dietrich Enns,35.3,Norfolk Tides,NOR,CLT,AAA,117,International League,0,1,0,0,0,0,8,13,3,2,2,1,2,0,0,1,0,4
+815635,2026-09-16,680880,Grant Holman,26.3,Lehigh Valley IronPigs,LHV,SYR,AAA,117,International League,0,0,0,0,0,0,3,3,0,0,0,0,1,0,0,0,0,1
+815635,2026-09-16,676661,Max Lazar,27.3,Lehigh Valley IronPigs,LHV,SYR,AAA,117,International League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,1
+815635,2026-09-16,660604,Alan Rangel,29.1,Lehigh Valley IronPigs,LHV,SYR,AAA,117,International League,1,0,0,0,0,0,15,23,6,4,4,1,2,0,0,0,0,10
+815635,2026-09-16,675650,Michael Mercado,27.4,Lehigh Valley IronPigs,LHV,SYR,AAA,117,International League,0,0,1,0,0,0,3,5,2,1,1,1,0,0,0,0,0,2
+815635,2026-09-16,643361,Kevin Herget,35.5,Syracuse Mets,SYR,LHV,AAA,117,International League,0,1,0,0,0,0,5,6,1,0,0,0,0,0,0,0,0,2
+815635,2026-09-16,694646,Chayce McDermott,28.1,Syracuse Mets,SYR,LHV,AAA,117,International League,0,0,0,0,0,1,3,3,0,0,0,0,0,0,0,0,0,2
+815635,2026-09-16,672335,Cionel Pérez,30.4,Syracuse Mets,SYR,LHV,AAA,117,International League,0,0,0,0,0,0,3,3,1,0,0,0,0,0,0,0,0,0
+815635,2026-09-16,695558,Jonathan Santucci,23.7,Syracuse Mets,SYR,LHV,AAA,117,International League,1,0,0,0,0,0,16,21,3,4,3,1,3,0,0,0,0,6
+816756,2026-09-16,702065,Aaron Rozek,31.1,St. Paul Saints,STP,COL,AAA,117,International League,1,1,0,0,0,0,15,19,2,1,1,0,1,0,1,0,0,5
+816756,2026-09-16,694397,Marco Raya,24.1,St. Paul Saints,STP,COL,AAA,117,International League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,2
+816756,2026-09-16,621199,Matt Bowman,35.3,St. Paul Saints,STP,COL,AAA,117,International League,0,0,0,0,0,0,3,4,2,0,0,0,0,0,0,0,0,1
+816756,2026-09-16,657240,Julian Merryweather,34.9,St. Paul Saints,STP,COL,AAA,117,International League,0,0,0,0,0,1,3,4,0,0,0,0,1,0,0,0,0,0
+816756,2026-09-16,679358,Eric Orze,29.1,St. Paul Saints,STP,COL,AAA,117,International League,0,0,0,0,0,0,3,4,1,1,1,0,1,0,0,0,0,1
+816756,2026-09-16,691414,Yorman Gómez,23.8,Columbus Clippers,COL,STP,AAA,117,International League,0,0,0,0,0,0,12,13,0,0,0,0,0,0,0,1,0,1
+816756,2026-09-16,671106,Logan Allen,28.0,Columbus Clippers,COL,STP,AAA,117,International League,1,0,1,0,0,0,13,20,5,3,3,0,2,0,0,0,0,7
+816756,2026-09-16,621366,Ryan Borucki,32.5,Columbus Clippers,COL,STP,AAA,117,International League,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0
+816078,2026-09-16,669697,Andrew Schultz,29.1,Memphis Redbirds,MEM,NAS,AAA,117,International League,0,0,0,0,0,0,3,6,0,0,0,0,2,0,1,0,0,1
+816078,2026-09-16,694335,Matt Svanson,27.6,Memphis Redbirds,MEM,NAS,AAA,117,International League,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0
+816078,2026-09-16,813766,Skylar Hales,24.9,Memphis Redbirds,MEM,NAS,AAA,117,International League,0,0,0,0,0,0,3,5,2,1,1,1,0,0,0,0,0,1
+816078,2026-09-16,701388,Jurrangelo Cijntje,23.3,Memphis Redbirds,MEM,NAS,AAA,117,International League,1,1,0,0,0,0,16,19,2,0,0,0,2,0,0,0,0,3
+816078,2026-09-16,811139,Sandro Santana,21.5,Memphis Redbirds,MEM,NAS,AAA,117,International League,0,0,0,0,0,0,3,4,0,0,0,0,1,0,0,0,0,1
+816078,2026-09-16,692230,Carlos Rodriguez,24.8,Nashville Sounds,NAS,MEM,AAA,117,International League,1,0,1,0,0,0,5,14,4,6,4,1,4,0,0,0,0,0
+816078,2026-09-16,642239,Rob Zastryzny,34.5,Nashville Sounds,NAS,MEM,AAA,117,International League,0,0,0,0,0,0,3,3,1,0,0,0,0,0,0,0,0,1
+816078,2026-09-16,680689,Lyon Richardson,26.7,Nashville Sounds,NAS,MEM,AAA,117,International League,0,0,0,0,0,0,5,11,5,3,2,0,1,0,0,0,0,3
+816078,2026-09-16,681982,Grant Anderson,29.2,Nashville Sounds,NAS,MEM,AAA,117,International League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0
+816078,2026-09-16,696140,Ethan Murray,26.3,Nashville Sounds,NAS,MEM,AAA,117,International League,0,0,0,0,0,0,3,7,3,2,2,1,1,0,0,0,0,0
+816078,2026-09-16,687726,Cameron Wagoner,25.2,Nashville Sounds,NAS,MEM,AAA,117,International League,0,0,0,0,0,0,5,4,0,0,0,0,0,0,0,0,0,2
+816078,2026-09-16,657649,Jared Koenig,32.6,Nashville Sounds,NAS,MEM,AAA,117,International League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0
+815030,2026-09-16,694356,Nick Garcia,27.4,Tacoma Rainiers,TAC,RR,AAA,112,Pacific Coast League,0,0,0,0,0,1,3,3,0,0,0,0,0,0,0,0,0,0
+815030,2026-09-16,700187,Troy Taylor,25.0,Tacoma Rainiers,TAC,RR,AAA,112,Pacific Coast League,0,0,0,0,0,0,4,6,1,0,0,0,1,0,0,0,0,2
+815030,2026-09-16,680573,Simeon Woods Richardson,26.0,Tacoma Rainiers,TAC,RR,AAA,112,Pacific Coast League,1,0,0,0,0,0,12,17,3,2,2,1,3,0,0,0,0,3
+815030,2026-09-16,804577,Reid VanScoter,27.8,Tacoma Rainiers,TAC,RR,AAA,112,Pacific Coast League,0,0,0,0,0,0,1,5,4,3,3,0,0,0,0,1,0,0
+815030,2026-09-16,670234,Seth Shuman,28.8,Tacoma Rainiers,TAC,RR,AAA,112,Pacific Coast League,0,1,0,0,0,0,7,7,0,0,0,0,0,0,0,0,0,0
+815030,2026-09-16,686560,Gavin Collyer,25.3,Round Rock Express,RR,TAC,AAA,112,Pacific Coast League,0,0,0,0,0,0,3,5,1,0,0,0,1,0,0,0,0,1
+815030,2026-09-16,685107,Anthony Veneziano,29.0,Round Rock Express,RR,TAC,AAA,112,Pacific Coast League,1,0,0,0,0,0,15,21,6,5,5,2,2,0,0,0,0,4
+815030,2026-09-16,664747,Alexis Díaz,30.0,Round Rock Express,RR,TAC,AAA,112,Pacific Coast League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,1
+815030,2026-09-16,691945,Carter Baumler,24.6,Round Rock Express,RR,TAC,AAA,112,Pacific Coast League,0,0,1,0,0,0,6,8,2,1,1,1,0,0,0,0,1,3
+815409,2026-09-17,641739,Rob Kaminsky,32.0,Salt Lake Bees,SL,ABQ,AAA,112,Pacific Coast League,0,0,0,0,0,0,3,5,2,1,1,0,0,0,0,0,0,0
+815409,2026-09-17,641312,Shaun Anderson,31.9,Salt Lake Bees,SL,ABQ,AAA,112,Pacific Coast League,0,0,0,0,0,0,6,6,0,0,0,0,0,0,0,0,0,4
+815409,2026-09-17,683177,Jared Southard,26.0,Salt Lake Bees,SL,ABQ,AAA,112,Pacific Coast League,0,0,0,0,0,0,3,4,1,0,0,0,0,0,0,0,0,2
+815409,2026-09-17,805871,Joel Hurtado,25.6,Salt Lake Bees,SL,ABQ,AAA,112,Pacific Coast League,1,1,0,0,0,0,15,21,2,1,1,0,4,0,0,0,0,4
+815409,2026-09-17,686900,Evan Shawver,27.0,Albuquerque Isotopes,ABQ,SL,AAA,112,Pacific Coast League,0,0,0,0,0,0,3,4,0,0,0,0,1,0,0,0,0,1
+815409,2026-09-17,694968,Jack Mahoney,25.1,Albuquerque Isotopes,ABQ,SL,AAA,112,Pacific Coast League,1,0,1,0,0,0,7,12,4,3,3,0,1,0,0,0,0,0
+815409,2026-09-17,678368,Valente Bellozo,26.7,Albuquerque Isotopes,ABQ,SL,AAA,112,Pacific Coast League,0,0,0,0,0,0,17,25,9,4,4,2,0,0,1,0,0,3
+814802,2026-09-17,641386,Ben Bowden,31.9,Las Vegas Aviators,LV,SUG,AAA,112,Pacific Coast League,0,0,0,0,0,0,3,4,0,0,0,0,1,0,0,0,0,2
+814802,2026-09-17,696522,Hayden Juenger,26.1,Las Vegas Aviators,LV,SUG,AAA,112,Pacific Coast League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0
+814802,2026-09-17,695034,Kade Morris,24.2,Las Vegas Aviators,LV,SUG,AAA,112,Pacific Coast League,1,1,0,0,0,0,18,21,1,0,0,0,2,0,0,0,0,5
+814802,2026-09-17,685801,Hunter Bigge,28.3,Las Vegas Aviators,LV,SUG,AAA,112,Pacific Coast League,0,0,0,0,0,0,3,5,0,0,0,0,2,0,0,0,0,1
+814802,2026-09-17,680588,Julio Rodriguez,26.6,Sugar Land Space Cowboys,SUG,LV,AAA,112,Pacific Coast League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,1,0,0,1
+814802,2026-09-17,694545,Jackson Nezuh,24.6,Sugar Land Space Cowboys,SUG,LV,AAA,112,Pacific Coast League,0,0,0,0,0,0,6,8,1,0,0,0,2,0,0,0,0,2
+814802,2026-09-17,835483,Brandon McPherson,26.5,Sugar Land Space Cowboys,SUG,LV,AAA,112,Pacific Coast League,1,0,1,0,0,0,14,19,2,3,0,0,3,0,0,0,0,2
+814802,2026-09-17,694381,Trey McLoughlin,27.3,Sugar Land Space Cowboys,SUG,LV,AAA,112,Pacific Coast League,0,0,0,0,0,0,1,3,1,1,0,0,0,0,0,1,0,0
+814802,2026-09-17,686223,Joey Mancini,26.8,Sugar Land Space Cowboys,SUG,LV,AAA,112,Pacific Coast League,0,0,0,0,0,0,3,6,2,1,1,0,1,0,0,0,0,0
+814957,2026-09-17,669704,Kade Strowd,29.0,Reno Aces,RNO,SAC,AAA,112,Pacific Coast League,0,0,0,0,0,1,3,5,2,1,1,0,0,0,0,0,0,2
+814957,2026-09-17,686228,Juan Burgos,26.7,Reno Aces,RNO,SAC,AAA,112,Pacific Coast League,0,0,0,0,0,0,3,5,0,0,0,0,2,0,0,0,0,1
+814957,2026-09-17,801179,Yu-Min Lin,23.2,Reno Aces,RNO,SAC,AAA,112,Pacific Coast League,1,1,0,0,0,0,21,23,2,1,1,0,0,0,0,0,0,6
+814957,2026-09-17,686873,Nick Zwack,28.1,Sacramento River Cats,SAC,RNO,AAA,112,Pacific Coast League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,1
+814957,2026-09-17,694820,Braxton Roxby,27.5,Sacramento River Cats,SAC,RNO,AAA,112,Pacific Coast League,0,0,0,0,0,0,7,8,1,0,0,0,0,0,0,0,0,2
+814957,2026-09-17,692024,Alex Carrillo,29.3,Sacramento River Cats,SAC,RNO,AAA,112,Pacific Coast League,0,0,0,0,0,0,3,4,0,0,0,0,1,0,0,0,0,2
+814957,2026-09-17,801639,Trystan Vrieling,26.0,Sacramento River Cats,SAC,RNO,AAA,112,Pacific Coast League,1,0,1,0,0,0,14,23,3,3,3,1,6,0,0,0,0,7
 818863,2026-07-19,815785,Braylon Doughty,20.6,Akron RubberDucks,AKR,BNG,AA,113,Eastern League,1,1,0,0,0,0,15,17,2,0,0,0,0,0,0,0,0,8
 818863,2026-07-19,687916,Jack Jasiak,25.4,Akron RubberDucks,AKR,BNG,AA,113,Eastern League,0,0,0,0,0,0,6,7,0,0,0,0,0,0,1,0,0,2
 818863,2026-07-19,822483,Sean Matson,24.1,Akron RubberDucks,AKR,BNG,AA,113,Eastern League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,1
@@ -12633,136 +12462,6 @@ game_pk,game_date,player_id,player_name,Age,TeamName,Team,Opp,aLevel,league_id,l
 817255,2026-09-13,695556,Shane Panzini,24.9,Northwest Arkansas Naturals,NWA,TUL,AA,109,Texas League,0,0,0,0,0,0,6,9,1,0,0,0,2,0,0,0,0,3
 817255,2026-09-13,701207,Dennis Colleran Jr.,23.1,Northwest Arkansas Naturals,NWA,TUL,AA,109,Texas League,0,1,0,0,0,0,3,6,1,2,2,1,2,0,0,0,0,0
 817255,2026-09-13,815073,Ethan Bosacker,25.6,Northwest Arkansas Naturals,NWA,TUL,AA,109,Texas League,1,0,0,0,0,0,9,12,3,1,1,0,0,0,0,0,0,3
-822074,2026-07-18,815825,Seth Hernandez,20.1,Greensboro Grasshoppers,GBO,HCS,A+,116,South Atlantic League,1,0,0,0,0,0,6,9,2,0,0,0,1,0,0,0,0,2
-822074,2026-07-18,800573,Victor Cabreja,24.5,Greensboro Grasshoppers,GBO,HCS,A+,116,South Atlantic League,0,0,0,0,0,0,4,8,4,3,3,0,0,0,0,1,0,0
-822074,2026-07-18,824288,Treyson Peters,23.5,Greensboro Grasshoppers,GBO,HCS,A+,116,South Atlantic League,0,1,0,0,0,0,8,11,2,0,0,0,1,0,0,0,0,3
-822074,2026-07-18,823714,Cesar Aquino,21.4,Greensboro Grasshoppers,GBO,HCS,A+,116,South Atlantic League,0,0,0,0,0,0,4,8,3,3,3,2,0,0,1,0,1,3
-822074,2026-07-18,825932,Draven Zeigler,25.1,Greensboro Grasshoppers,GBO,HCS,A+,116,South Atlantic League,0,0,0,0,0,0,5,7,1,1,1,0,1,0,0,0,0,2
-822074,2026-07-18,702548,Brock Porter,23.1,Hub City Spartanburgers,HCS,GBO,A+,116,South Atlantic League,0,0,0,0,0,0,6,10,2,3,1,1,1,0,0,0,0,3
-822074,2026-07-18,810896,Owen Proksch,22.6,Hub City Spartanburgers,HCS,GBO,A+,116,South Atlantic League,0,0,0,0,0,0,3,3,1,0,0,0,0,0,0,0,0,1
-822074,2026-07-18,805706,AJ Russell,22.1,Hub City Spartanburgers,HCS,GBO,A+,116,South Atlantic League,0,0,0,0,0,0,3,4,2,1,1,0,0,0,0,0,0,2
-822074,2026-07-18,698785,Kai Wynyard,24.1,Hub City Spartanburgers,HCS,GBO,A+,116,South Atlantic League,0,0,0,0,0,0,3,7,3,4,4,2,1,0,0,0,0,1
-822074,2026-07-18,694504,Luke Savage,24.9,Hub City Spartanburgers,HCS,GBO,A+,116,South Atlantic League,0,0,0,0,0,0,6,8,2,0,0,0,0,0,0,0,0,1
-822074,2026-07-18,807291,Caden Scarborough,21.3,Hub City Spartanburgers,HCS,GBO,A+,116,South Atlantic League,1,0,1,0,0,0,6,9,3,2,2,1,0,0,0,0,0,3
-819459,2026-07-18,815789,David Shields,19.9,Quad Cities River Bandits,QC,WIS,A+,118,Midwest League,1,1,0,0,0,0,15,17,2,0,0,0,0,0,1,0,0,4
-819459,2026-07-18,692137,L.P. Langevin,23.0,Quad Cities River Bandits,QC,WIS,A+,118,Midwest League,0,0,0,0,0,0,6,9,2,2,1,1,1,0,0,0,0,4
-819459,2026-07-18,814710,Jason Woodward,24.0,Wisconsin Timber Rattlers,WIS,QC,A+,118,Midwest League,0,0,0,0,0,0,9,14,2,3,3,0,1,0,2,1,0,0
-819459,2026-07-18,803848,Jayden Dubanewicz,20.3,Wisconsin Timber Rattlers,WIS,QC,A+,118,Midwest League,1,0,1,0,0,0,12,20,5,3,3,1,1,0,1,1,0,1
-820123,2026-07-18,814193,Justin Storm,24.8,Beloit Sky Carp,BEL,CR,A+,118,Midwest League,0,0,0,0,0,1,3,3,1,1,0,0,0,0,0,0,0,1
-820123,2026-07-18,805872,Michael Perez,23.9,Beloit Sky Carp,BEL,CR,A+,118,Midwest League,0,1,0,0,0,0,6,9,1,1,1,1,1,0,1,0,0,4
-820123,2026-07-18,801995,Aiden May,23.2,Beloit Sky Carp,BEL,CR,A+,118,Midwest League,1,0,0,0,0,0,15,18,2,0,0,0,1,0,0,0,0,5
-820123,2026-07-18,685045,Jesse Bergin,26.8,Cedar Rapids Kernels,CR,BEL,A+,118,Midwest League,0,0,1,0,0,0,3,5,2,2,1,0,0,0,0,1,0,0
-820123,2026-07-18,823671,Mitch Mueller,24.8,Cedar Rapids Kernels,CR,BEL,A+,118,Midwest League,0,0,0,0,0,0,6,8,2,1,1,0,0,0,0,0,0,2
-820123,2026-07-18,828497,Cole Peschl,23.6,Cedar Rapids Kernels,CR,BEL,A+,118,Midwest League,0,0,0,0,0,0,6,7,1,0,0,0,0,0,0,0,0,2
-820123,2026-07-18,807974,Adrian Bohorquez,21.4,Cedar Rapids Kernels,CR,BEL,A+,118,Midwest League,1,0,0,0,0,0,9,13,3,0,0,0,1,0,0,0,0,2
-820130,2026-07-18,836078,Hayden Cuthbertson,22.5,Beloit Sky Carp,BEL,CR,A+,118,Midwest League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,1
-820130,2026-07-18,830894,Carson Laws,23.3,Beloit Sky Carp,BEL,CR,A+,118,Midwest League,1,0,1,0,0,0,11,19,6,4,3,1,2,0,0,2,0,5
-820130,2026-07-18,806927,Luis De La Cruz,24.0,Beloit Sky Carp,BEL,CR,A+,118,Midwest League,0,0,0,0,0,0,4,7,3,2,2,0,1,0,0,0,0,1
-820130,2026-07-18,691315,Yehizon Sanchez,25.7,Cedar Rapids Kernels,CR,BEL,A+,118,Midwest League,0,0,0,0,0,0,6,8,1,0,0,0,1,0,0,0,0,5
-820130,2026-07-18,827521,Justin Mitrovich,22.7,Cedar Rapids Kernels,CR,BEL,A+,118,Midwest League,1,1,0,0,0,0,15,20,3,0,0,0,3,0,0,1,0,2
-819924,2026-07-18,835214,Charlie Christensen,22.8,West Michigan Whitecaps,WM,GL,A+,118,Midwest League,1,0,0,0,0,0,12,14,2,2,2,2,0,0,0,0,0,6
-819924,2026-07-18,701557,Carlos Lequerica,25.9,West Michigan Whitecaps,WM,GL,A+,118,Midwest League,0,0,0,0,0,0,3,3,1,0,0,0,0,0,0,0,0,0
-819924,2026-07-18,802953,Colin Fields,26.3,West Michigan Whitecaps,WM,GL,A+,118,Midwest League,0,0,0,0,0,0,3,4,1,0,0,0,0,0,0,0,0,2
-819924,2026-07-18,826942,Ethan Sloan,24.0,West Michigan Whitecaps,WM,GL,A+,118,Midwest League,0,0,0,0,0,0,3,5,1,0,0,0,0,0,1,0,0,1
-819924,2026-07-18,800798,Thomas Bruss,27.2,West Michigan Whitecaps,WM,GL,A+,118,Midwest League,0,0,1,0,0,0,1,2,0,1,0,0,1,0,0,1,0,0
-819924,2026-07-18,800395,Nicolas Cruz,22.2,Great Lakes Loons,GL,WM,A+,118,Midwest League,0,0,0,0,0,0,6,8,2,0,0,0,0,0,0,0,1,3
-819924,2026-07-18,702539,Zach Root,22.4,Great Lakes Loons,GL,WM,A+,118,Midwest League,1,0,0,0,0,0,15,23,4,2,1,0,4,0,0,0,0,5
-819924,2026-07-18,823803,Davis Chastain,22.1,Great Lakes Loons,GL,WM,A+,118,Midwest League,0,1,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,2
-819921,2026-07-18,814477,Luke Stofel,24.6,West Michigan Whitecaps,WM,GL,A+,118,Midwest League,0,0,0,0,0,0,6,11,3,0,0,0,1,0,1,1,0,2
-819921,2026-07-18,828603,Logan Berrier,25.4,West Michigan Whitecaps,WM,GL,A+,118,Midwest League,0,1,0,0,0,0,4,5,0,0,0,0,1,0,0,0,0,2
-819921,2026-07-18,700354,Carlos Marcano,23.0,West Michigan Whitecaps,WM,GL,A+,118,Midwest League,1,0,0,0,0,0,11,17,3,2,2,0,2,0,1,0,0,4
-819921,2026-07-18,804255,Seamus Barrett,25.6,Great Lakes Loons,GL,WM,A+,118,Midwest League,0,0,0,0,0,0,2,8,4,6,6,2,1,0,1,1,0,1
-819921,2026-07-18,700310,Dilan Figueredo,23.3,Great Lakes Loons,GL,WM,A+,118,Midwest League,0,0,0,0,0,0,2,5,1,1,1,0,2,0,0,0,0,0
-819921,2026-07-18,702905,Reynaldo Yean,22.5,Great Lakes Loons,GL,WM,A+,118,Midwest League,0,0,0,0,0,0,4,7,1,0,0,0,2,0,0,2,0,4
-819921,2026-07-18,826538,Aidan Foeller,24.3,Great Lakes Loons,GL,WM,A+,118,Midwest League,1,0,1,0,0,0,13,19,3,4,4,1,1,0,2,0,0,6
-821817,2026-07-18,702431,Juan Amarante,22.3,Jersey Shore BlueClaws,JS,WIL,A+,116,South Atlantic League,0,0,0,0,0,0,7,7,1,0,0,0,0,0,0,0,0,2
-821817,2026-07-18,823242,Tanner Gresham,24.8,Jersey Shore BlueClaws,JS,WIL,A+,116,South Atlantic League,1,0,1,0,0,0,11,21,6,7,7,0,4,0,1,0,0,3
-821817,2026-07-18,690974,Jake Eddington,25.2,Jersey Shore BlueClaws,JS,WIL,A+,116,South Atlantic League,0,0,0,0,0,0,6,7,0,0,0,0,1,0,0,0,0,1
-821817,2026-07-18,813707,Merrick Baldo,26.0,Wilmington Blue Rocks,WIL,JS,A+,116,South Atlantic League,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,2
-821817,2026-07-18,685067,Baron Stuart,27.0,Wilmington Blue Rocks,WIL,JS,A+,116,South Atlantic League,0,0,0,0,0,1,3,3,0,0,0,0,0,0,0,0,0,2
-821817,2026-07-18,702712,Tucker Biven,22.4,Wilmington Blue Rocks,WIL,JS,A+,116,South Atlantic League,0,0,0,0,0,0,3,5,0,0,0,0,2,0,0,1,0,0
-821817,2026-07-18,702877,Bryan Polanco,24.8,Wilmington Blue Rocks,WIL,JS,A+,116,South Atlantic League,0,1,0,0,0,0,7,15,5,3,2,0,3,0,0,0,0,4
-821817,2026-07-18,678883,Yeuris Jimenez,25.3,Wilmington Blue Rocks,WIL,JS,A+,116,South Atlantic League,0,0,0,0,0,0,5,6,0,0,0,0,1,0,0,0,0,1
-821817,2026-07-18,828137,Miguel Sime Jr.,19.2,Wilmington Blue Rocks,WIL,JS,A+,116,South Atlantic League,1,0,0,0,0,0,7,13,1,1,1,0,5,0,0,2,0,6
-822152,2026-07-18,694345,Patrick Reilly,24.8,Frederick Keys,FRE,GVL,A+,116,South Atlantic League,1,0,0,0,0,0,12,17,4,2,2,0,1,0,0,0,0,4
-822152,2026-07-18,703148,Raimon Gomez,24.9,Frederick Keys,FRE,GVL,A+,116,South Atlantic League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,2
-822152,2026-07-18,827267,Caden Hunter,22.8,Frederick Keys,FRE,GVL,A+,116,South Atlantic League,0,1,0,0,0,0,6,6,0,0,0,0,0,0,0,0,0,4
-822152,2026-07-18,805955,Carson Dorsey,23.4,Frederick Keys,FRE,GVL,A+,116,South Atlantic League,0,0,0,0,0,0,6,9,1,0,0,0,2,0,1,0,0,0
-822152,2026-07-18,814810,Calvin Bickerstaff,24.5,Greenville Drive,GVL,FRE,A+,116,South Atlantic League,0,0,0,0,0,0,2,9,5,4,4,1,2,0,0,0,0,0
-822152,2026-07-18,832562,Dylan Brown,22.1,Greenville Drive,GVL,FRE,A+,116,South Atlantic League,1,0,1,0,0,0,15,25,7,3,3,0,3,0,0,1,0,5
-822152,2026-07-18,824623,Tyler Davis,24.5,Greenville Drive,GVL,FRE,A+,116,South Atlantic League,0,0,0,0,0,0,5,7,3,0,0,0,0,0,0,0,0,2
-822152,2026-07-18,801873,Shea Sprague,23.5,Greenville Drive,GVL,FRE,A+,116,South Atlantic League,0,0,0,0,0,0,5,12,5,5,4,0,2,0,0,0,0,0
-821886,2026-07-18,808010,Joan Ogando,22.2,Asheville Tourists,ASH,ROM,A+,116,South Atlantic League,0,0,0,0,0,0,4,8,2,2,0,0,1,0,1,0,0,2
-821886,2026-07-18,815308,Colby Langford,24.2,Asheville Tourists,ASH,ROM,A+,116,South Atlantic League,0,0,0,0,0,0,6,12,2,1,1,0,3,0,0,0,0,5
-821886,2026-07-18,703103,Jordan Carr,29.0,Asheville Tourists,ASH,ROM,A+,116,South Atlantic League,0,0,0,0,0,0,9,14,3,2,1,0,1,0,0,1,0,3
-821886,2026-07-18,805772,Conor Steinbaugh,27.2,Asheville Tourists,ASH,ROM,A+,116,South Atlantic League,0,0,0,0,0,0,5,8,3,1,1,0,0,0,0,0,1,2
-821886,2026-07-18,805942,Zach Royse,22.4,Rome Emperors,ROM,ASH,A+,116,South Atlantic League,1,1,0,0,0,0,18,22,3,3,3,2,2,0,0,0,0,6
-821886,2026-07-18,694887,Tyler Schoff,27.6,Rome Emperors,ROM,ASH,A+,116,South Atlantic League,0,0,0,0,0,0,3,5,1,2,2,0,1,0,0,2,0,0
-821886,2026-07-18,678061,Ray Kerr,31.9,Rome Emperors,ROM,ASH,A+,116,South Atlantic League,0,0,0,0,0,0,3,4,0,0,0,0,1,0,0,0,0,3
-821886,2026-07-18,808469,Logan Samuels,24.4,Rome Emperors,ROM,ASH,A+,116,South Atlantic League,0,0,0,0,0,0,3,5,0,0,0,0,2,0,0,0,0,1
-819859,2026-07-18,806652,Jacob Edwards,26.0,Dayton Dragons,DAY,LC,A+,118,Midwest League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0
-819859,2026-07-18,702578,Kyle McCoy,22.3,Dayton Dragons,DAY,LC,A+,118,Midwest League,1,0,1,0,0,0,11,23,11,6,6,2,2,0,0,0,0,2
-819859,2026-07-18,695569,Luke Hayden,23.6,Dayton Dragons,DAY,LC,A+,118,Midwest League,0,0,0,0,0,0,10,11,0,0,0,0,2,0,0,0,0,3
-819859,2026-07-18,823790,Will McCausland,22.7,Lake County Captains,LC,DAY,A+,118,Midwest League,1,0,0,0,0,0,13,17,3,1,1,0,1,0,0,0,0,2
-819859,2026-07-18,805124,Donovan Zsak,23.0,Lake County Captains,LC,DAY,A+,118,Midwest League,0,0,0,0,0,0,6,8,2,1,1,1,0,0,0,0,0,3
-819859,2026-07-18,807575,Cam Schuelke,24.5,Lake County Captains,LC,DAY,A+,118,Midwest League,0,1,0,0,0,0,8,12,1,0,0,0,3,0,0,0,0,3
-819606,2026-07-18,807549,Ty Van Dyke,23.0,Peoria Chiefs,PEO,SB,A+,118,Midwest League,0,0,0,0,0,0,12,18,6,4,4,0,1,0,0,0,0,3
-819606,2026-07-18,822956,Jack Martinez,23.4,Peoria Chiefs,PEO,SB,A+,118,Midwest League,1,0,1,0,0,0,12,20,6,6,3,1,1,0,0,2,0,2
-819606,2026-07-18,688636,Adam Stone,25.0,South Bend Cubs,SB,PEO,A+,118,Midwest League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0
-819606,2026-07-18,822636,Cole Reynolds,24.1,South Bend Cubs,SB,PEO,A+,118,Midwest League,0,1,0,0,0,0,8,15,5,4,4,0,1,0,1,0,0,2
-819606,2026-07-18,801252,Alfredo Romero,23.1,South Bend Cubs,SB,PEO,A+,118,Midwest League,1,0,0,0,0,0,12,15,3,0,0,0,1,0,0,0,1,4
-819606,2026-07-18,809754,Ethan Bell,24.4,South Bend Cubs,SB,PEO,A+,118,Midwest League,0,0,0,0,0,1,4,4,0,0,0,0,0,0,0,0,0,2
-819795,2026-07-18,691000,Carson Montgomery,23.9,Fort Wayne TinCaps,FW,LAN,A+,118,Midwest League,0,0,0,0,0,0,3,4,2,0,0,0,0,0,0,0,0,0
-819795,2026-07-18,808893,Bryan Balzer,21.7,Fort Wayne TinCaps,FW,LAN,A+,118,Midwest League,0,0,0,0,0,0,9,11,1,0,0,0,1,0,0,0,0,3
-819795,2026-07-18,824026,Kash Mayfield,21.4,Fort Wayne TinCaps,FW,LAN,A+,118,Midwest League,1,0,0,0,0,0,6,7,0,0,0,0,1,0,0,0,0,1
-819795,2026-07-18,815580,Will Varmette,23.4,Fort Wayne TinCaps,FW,LAN,A+,118,Midwest League,0,1,0,0,0,0,6,7,1,0,0,0,1,1,0,0,0,1
-819795,2026-07-18,815951,Igor Gil,25.3,Fort Wayne TinCaps,FW,LAN,A+,118,Midwest League,0,0,0,0,0,0,6,7,0,0,0,0,1,0,0,0,0,3
-819795,2026-07-18,690711,Clark Candiotti,25.9,Fort Wayne TinCaps,FW,LAN,A+,118,Midwest League,0,0,0,0,0,1,3,4,1,0,0,0,0,0,0,0,0,1
-819795,2026-07-18,701951,Abel Mercedes,24.1,Lansing Lugnuts,LAN,FW,A+,118,Midwest League,0,0,0,0,0,0,4,4,0,0,0,0,0,0,0,0,0,1
-819795,2026-07-18,686946,Jose Dicochea,25.3,Lansing Lugnuts,LAN,FW,A+,118,Midwest League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0
-819795,2026-07-18,823990,Zane Taylor,24.1,Lansing Lugnuts,LAN,FW,A+,118,Midwest League,1,0,0,0,0,0,15,16,1,0,0,0,0,0,0,0,0,5
-819795,2026-07-18,806281,Blaze Pontes,26.5,Lansing Lugnuts,LAN,FW,A+,118,Midwest League,0,0,1,0,0,0,6,8,1,2,1,0,1,0,0,1,0,0
-819795,2026-07-18,682918,Luis Carrasco,24.6,Lansing Lugnuts,LAN,FW,A+,118,Midwest League,0,0,0,0,0,0,3,5,1,0,0,0,1,0,0,0,0,1
-819795,2026-07-18,803314,Riley Huge,24.2,Lansing Lugnuts,LAN,FW,A+,118,Midwest League,0,0,0,0,0,0,2,4,0,0,0,0,1,0,1,0,0,1
-822413,2026-07-18,811304,Jake Peppers,24.6,Winston-Salem Dash,WS,BG,A+,116,South Atlantic League,0,0,0,0,0,0,4,8,4,3,3,0,0,0,0,0,0,2
-822413,2026-07-18,694761,Tommy Vail,27.2,Winston-Salem Dash,WS,BG,A+,116,South Atlantic League,1,0,1,0,0,0,8,16,6,6,5,0,1,0,0,1,1,5
-822413,2026-07-18,686700,Madison Jeffrey,26.3,Winston-Salem Dash,WS,BG,A+,116,South Atlantic League,0,0,0,0,0,0,4,5,1,0,0,0,0,0,0,0,0,1
-822413,2026-07-18,805418,Drew Conover,25.0,Winston-Salem Dash,WS,BG,A+,116,South Atlantic League,0,0,0,0,0,0,2,6,0,1,1,0,3,0,1,0,0,1
-822413,2026-07-18,804728,Jake Bockenstedt,26.7,Winston-Salem Dash,WS,BG,A+,116,South Atlantic League,0,0,0,0,0,0,3,5,2,1,1,0,0,0,0,0,0,1
-822413,2026-07-18,822514,Max Banks,23.2,Winston-Salem Dash,WS,BG,A+,116,South Atlantic League,0,0,0,0,0,0,3,5,1,0,0,0,1,0,0,1,0,1
-822413,2026-07-18,808250,Jose Urbina,20.7,Bowling Green Hot Rods,BG,WS,A+,116,South Atlantic League,1,0,0,0,0,0,12,16,3,1,1,0,0,0,0,1,0,8
-822413,2026-07-18,832307,Jack Kartsonas,25.7,Bowling Green Hot Rods,BG,WS,A+,116,South Atlantic League,0,0,0,0,0,0,4,9,3,2,2,1,2,0,0,1,0,2
-822413,2026-07-18,699530,Cade Citelli,24.9,Bowling Green Hot Rods,BG,WS,A+,116,South Atlantic League,0,1,0,0,0,0,5,6,1,0,0,0,0,0,0,0,0,4
-822413,2026-07-18,805783,Mason Nichols,23.2,Bowling Green Hot Rods,BG,WS,A+,116,South Atlantic League,0,0,0,0,0,0,3,3,0,0,0,0,1,0,0,0,0,0
-822413,2026-07-18,800883,Andres Galan,23.0,Bowling Green Hot Rods,BG,WS,A+,116,South Atlantic League,0,0,0,0,0,0,3,5,2,0,0,0,0,0,0,0,0,1
-819398,2026-07-19,700895,Sawyer Hawks,23.1,Hillsboro Hops,HIL,EUG,A+,126,Northwest League,0,0,0,0,0,0,6,6,1,0,0,0,0,0,0,0,0,3
-819398,2026-07-19,800286,Wellington Aracena,21.6,Hillsboro Hops,HIL,EUG,A+,126,Northwest League,1,0,1,0,0,0,18,27,7,3,3,1,4,0,1,1,0,3
-819398,2026-07-19,695421,Ryan Slater,24.2,Eugene Emeralds,EUG,HIL,A+,126,Northwest League,0,0,0,0,0,1,5,7,1,0,0,0,1,0,0,0,0,2
-819398,2026-07-19,815298,Jacob Bresnahan,21.1,Eugene Emeralds,EUG,HIL,A+,126,Northwest League,1,1,0,0,0,0,15,18,4,1,1,0,0,0,0,0,0,7
-819398,2026-07-19,800442,Mauricio Estrella,22.3,Eugene Emeralds,EUG,HIL,A+,126,Northwest League,0,0,0,0,0,0,7,8,1,0,0,0,0,0,0,0,0,4
-819202,2026-07-19,805220,Lucas Kelly,23.0,Everett AquaSox,EVE,SPO,A+,126,Northwest League,0,0,0,0,0,0,4,6,2,1,1,0,0,0,0,3,0,1
-819202,2026-07-19,693440,Taylor Dollard,27.4,Everett AquaSox,EVE,SPO,A+,126,Northwest League,0,0,0,0,0,0,6,6,0,0,0,0,0,0,0,0,0,2
-819202,2026-07-19,808750,Casey Hintz,22.7,Everett AquaSox,EVE,SPO,A+,126,Northwest League,0,0,0,0,0,0,6,7,0,0,0,0,1,0,0,0,0,3
-819202,2026-07-19,701828,Wyatt Lunsford-Shenkman,23.1,Everett AquaSox,EVE,SPO,A+,126,Northwest League,0,0,0,0,0,0,4,6,2,0,0,0,0,0,0,0,0,0
-819202,2026-07-19,681064,Calvin Schapira,26.8,Everett AquaSox,EVE,SPO,A+,126,Northwest League,0,0,0,0,0,0,5,8,1,0,0,0,2,0,0,2,0,3
-819202,2026-07-19,823764,Colton Shaw,23.1,Everett AquaSox,EVE,SPO,A+,126,Northwest League,1,0,0,0,0,0,2,7,3,4,4,1,2,0,0,0,1,2
-819202,2026-07-19,700481,Everett Catlett,24.0,Spokane Indians,SPO,EVE,A+,126,Northwest League,1,0,0,0,0,0,14,22,7,5,5,2,1,0,0,1,0,3
-819202,2026-07-19,815065,Hunter Mann,24.9,Spokane Indians,SPO,EVE,A+,126,Northwest League,0,0,0,0,0,0,7,9,1,0,0,0,2,0,0,0,0,2
-819202,2026-07-19,802136,Nathan Blasick,25.1,Spokane Indians,SPO,EVE,A+,126,Northwest League,0,1,0,0,0,0,9,10,1,0,0,0,0,0,0,0,0,4
-819131,2026-07-19,807625,Gilberto Batista,21.5,Vancouver Canadians,VAN,TRI,A+,126,Northwest League,0,0,0,0,0,0,6,7,1,0,0,0,0,0,0,0,0,2
-819131,2026-07-19,676540,Austin Marozas,27.6,Vancouver Canadians,VAN,TRI,A+,126,Northwest League,0,0,0,0,0,1,6,9,0,0,0,0,3,0,0,0,0,5
-819131,2026-07-19,816142,Troy Guthrie,20.7,Vancouver Canadians,VAN,TRI,A+,126,Northwest League,1,1,0,0,0,0,15,21,7,2,2,0,2,0,1,0,0,3
-819131,2026-07-19,803285,Tyler Bremner,22.2,Tri-City Dust Devils,TRI,VAN,A+,126,Northwest League,1,0,1,0,0,0,13,21,4,4,4,1,4,0,0,0,0,3
-819131,2026-07-19,701488,Dylan Phillips,27.1,Tri-City Dust Devils,TRI,VAN,A+,126,Northwest League,0,0,0,0,0,0,7,9,2,1,1,0,0,0,0,0,0,4
-819131,2026-07-19,702494,Sam Tookoian,23.2,Tri-City Dust Devils,TRI,VAN,A+,126,Northwest League,0,0,0,0,0,0,3,5,1,1,1,0,1,0,0,0,0,0
-819131,2026-07-19,802967,Benny Thompson,24.5,Tri-City Dust Devils,TRI,VAN,A+,126,Northwest League,0,0,0,0,0,0,4,8,3,0,0,0,1,0,0,0,0,2
-822337,2026-07-18,702098,Allen Facundo,23.9,Hudson Valley Renegades,HV,BRK,A+,116,South Atlantic League,1,0,0,0,0,0,12,20,1,2,2,0,6,0,0,0,0,2
-822337,2026-07-18,693647,Thomas Balboni Jr.,26.0,Hudson Valley Renegades,HV,BRK,A+,116,South Atlantic League,0,0,0,0,0,0,3,4,0,0,0,0,1,0,0,0,0,3
-822337,2026-07-18,804522,Wilmy Sanchez,22.6,Hudson Valley Renegades,HV,BRK,A+,116,South Atlantic League,0,0,0,0,0,1,3,3,0,0,0,0,0,0,0,0,0,1
-822337,2026-07-18,695425,Bryce Warrecker,24.8,Hudson Valley Renegades,HV,BRK,A+,116,South Atlantic League,0,1,0,0,0,0,3,4,1,0,0,0,0,0,0,0,0,1
-822337,2026-07-18,643361,Kevin Herget,35.3,Brooklyn Cyclones,BRK,HV,A+,116,South Atlantic League,0,0,0,0,0,0,3,5,2,0,0,0,0,0,0,0,0,1
-822337,2026-07-18,800452,Jose Chirinos,21.8,Brooklyn Cyclones,BRK,HV,A+,116,South Atlantic League,1,0,1,0,0,0,15,20,4,3,3,1,1,0,0,0,0,5
-822337,2026-07-18,690207,Rafi Vazquez,28.6,Brooklyn Cyclones,BRK,HV,A+,116,South Atlantic League,0,0,0,0,0,0,3,6,3,2,2,0,0,0,0,0,0,0
 822334,2026-07-19,815069,Andrew Landry,24.4,Hudson Valley Renegades,HV,BRK,A+,116,South Atlantic League,0,0,0,0,0,0,3,4,0,0,0,0,0,0,0,0,0,2
 822334,2026-07-19,804698,Brandon Decker,24.0,Hudson Valley Renegades,HV,BRK,A+,116,South Atlantic League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,2
 822334,2026-07-19,702436,Luis Serna,22.0,Hudson Valley Renegades,HV,BRK,A+,116,South Atlantic League,1,0,0,0,0,0,12,17,5,2,2,0,0,0,0,0,0,6
@@ -12772,6 +12471,13 @@ game_pk,game_date,player_id,player_name,Age,TeamName,Team,Opp,aLevel,league_id,l
 822334,2026-07-19,808788,Hunter Hodges,23.8,Brooklyn Cyclones,BRK,HV,A+,116,South Atlantic League,0,0,0,0,0,0,2,7,1,3,3,0,4,0,0,0,0,1
 822334,2026-07-19,808743,Bryce Jenkins,25.3,Brooklyn Cyclones,BRK,HV,A+,116,South Atlantic League,0,0,0,0,0,0,3,4,1,1,1,0,0,0,0,0,0,1
 822334,2026-07-19,691027,Tanner Witt,24.0,Brooklyn Cyclones,BRK,HV,A+,116,South Atlantic League,0,0,0,0,0,0,4,6,1,0,0,0,1,0,0,0,0,2
+822337,2026-07-19,702098,Allen Facundo,23.9,Hudson Valley Renegades,HV,BRK,A+,116,South Atlantic League,1,0,0,0,0,0,12,20,1,2,2,0,6,0,0,0,0,2
+822337,2026-07-19,693647,Thomas Balboni Jr.,26.0,Hudson Valley Renegades,HV,BRK,A+,116,South Atlantic League,0,0,0,0,0,0,3,4,0,0,0,0,1,0,0,0,0,3
+822337,2026-07-19,804522,Wilmy Sanchez,22.6,Hudson Valley Renegades,HV,BRK,A+,116,South Atlantic League,0,0,0,0,0,1,3,3,0,0,0,0,0,0,0,0,0,1
+822337,2026-07-19,695425,Bryce Warrecker,24.8,Hudson Valley Renegades,HV,BRK,A+,116,South Atlantic League,0,1,0,0,0,0,3,4,1,0,0,0,0,0,0,0,0,1
+822337,2026-07-19,643361,Kevin Herget,35.3,Brooklyn Cyclones,BRK,HV,A+,116,South Atlantic League,0,0,0,0,0,0,3,5,2,0,0,0,0,0,0,0,0,1
+822337,2026-07-19,800452,Jose Chirinos,21.8,Brooklyn Cyclones,BRK,HV,A+,116,South Atlantic League,1,0,1,0,0,0,15,20,4,3,3,1,1,0,0,0,0,5
+822337,2026-07-19,690207,Rafi Vazquez,28.6,Brooklyn Cyclones,BRK,HV,A+,116,South Atlantic League,0,0,0,0,0,0,3,6,3,2,2,0,0,0,0,0,0,0
 819860,2026-07-19,695787,Trent Hodgdon,23.0,Dayton Dragons,DAY,LC,A+,118,Midwest League,0,1,0,0,0,0,9,10,0,0,0,0,1,0,1,0,0,5
 819860,2026-07-19,808839,Stephen Quigley,26.2,Dayton Dragons,DAY,LC,A+,118,Midwest League,0,0,0,0,0,0,2,5,1,1,1,0,1,0,1,0,0,0
 819860,2026-07-19,692226,Ty Floyd,24.9,Dayton Dragons,DAY,LC,A+,118,Midwest League,1,0,0,0,0,0,12,14,0,1,1,0,3,0,0,1,0,5
@@ -17772,127 +17478,6 @@ game_pk,game_date,player_id,player_name,Age,TeamName,Team,Opp,aLevel,league_id,l
 822454,2026-09-06,800308,Inmer Lobo,22.6,Greensboro Grasshoppers,GBO,ASH,A+,116,South Atlantic League,0,0,0,0,0,0,1,4,2,1,1,0,0,0,0,0,0,1
 822454,2026-09-06,703440,Dylan Howard,23.3,Asheville Tourists,ASH,GBO,A+,116,South Atlantic League,1,0,0,0,0,0,15,20,3,2,2,2,2,0,0,1,0,8
 822454,2026-09-06,800045,Anthony Cruz,24.0,Asheville Tourists,ASH,GBO,A+,116,South Atlantic League,0,0,1,0,0,0,12,19,6,4,4,1,2,0,0,1,0,2
-827184,2026-07-18,804855,Luke Fernandez,22.3,Hill City Howlers,HC,FBG,A,122,Carolina League,0,1,0,0,0,0,7,12,3,3,3,1,2,0,0,0,0,2
-827184,2026-07-18,823756,Ryan DeSanto,22.7,Hill City Howlers,HC,FBG,A,122,Carolina League,1,0,0,0,0,0,11,16,3,1,1,1,2,0,0,0,0,7
-827184,2026-07-18,701422,Conner Whittaker,23.0,Hill City Howlers,HC,FBG,A,122,Carolina League,0,0,0,0,0,1,3,5,2,1,1,1,0,0,0,0,0,2
-827184,2026-07-18,694544,Austin Amaral,24.6,Fredericksburg Nationals,FBG,HC,A,122,Carolina League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0
-827184,2026-07-18,701726,Merritt Beeker,24.7,Fredericksburg Nationals,FBG,HC,A,122,Carolina League,0,0,0,0,0,0,6,9,3,3,3,1,1,0,0,1,0,3
-827184,2026-07-18,824015,Grant Manning,25.5,Fredericksburg Nationals,FBG,HC,A,122,Carolina League,1,0,1,0,0,0,12,18,3,4,4,0,3,0,0,0,0,5
-827185,2026-07-18,696492,Ryan Prager,23.7,Hill City Howlers,HC,FBG,A,122,Carolina League,1,1,0,0,0,0,15,18,4,1,1,0,1,0,0,0,0,6
-827185,2026-07-18,805971,Evan Chrest,22.5,Hill City Howlers,HC,FBG,A,122,Carolina League,0,0,0,0,0,1,6,6,0,0,0,0,0,0,0,0,0,1
-827185,2026-07-18,808224,Leuris Portorreal,20.9,Fredericksburg Nationals,FBG,HC,A,122,Carolina League,0,0,0,0,0,0,12,18,5,3,3,1,1,0,0,0,0,3
-827185,2026-07-18,702612,Levi Huesman,22.9,Fredericksburg Nationals,FBG,HC,A,122,Carolina League,1,0,1,0,0,0,6,9,1,1,0,0,2,0,0,0,0,3
-827185,2026-07-18,800727,Jackson Dannelley,24.9,Fredericksburg Nationals,FBG,HC,A,122,Carolina League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,2
-820389,2026-07-18,699309,Joel Díaz,22.4,St. Lucie Mets,SLU,PMB,A,123,Florida State League,1,0,1,0,0,0,2,5,2,3,2,0,1,0,0,0,0,1
-820389,2026-07-18,833376,Joe Scarborough,22.2,St. Lucie Mets,SLU,PMB,A,123,Florida State League,0,0,0,0,0,0,6,7,0,0,0,0,1,0,0,0,0,4
-820389,2026-07-18,815184,Christian Rodriguez,21.8,St. Lucie Mets,SLU,PMB,A,123,Florida State League,0,0,0,0,0,0,10,15,4,4,4,2,1,0,0,0,0,3
-820389,2026-07-18,813770,Caden Wooster,21.9,St. Lucie Mets,SLU,PMB,A,123,Florida State League,0,0,0,0,0,0,6,8,1,0,0,0,1,0,0,0,0,4
-820389,2026-07-18,835433,Nathan Shinn,22.9,Palm Beach Cardinals,PMB,SLU,A,123,Florida State League,0,0,0,0,0,0,6,9,2,1,1,0,0,0,1,0,0,2
-820389,2026-07-18,692391,Antoni Cuello,23.7,Palm Beach Cardinals,PMB,SLU,A,123,Florida State League,0,0,0,0,0,0,2,4,1,0,0,0,0,0,1,0,0,0
-820389,2026-07-18,702254,Andrew Dutkanych IV,23.0,Palm Beach Cardinals,PMB,SLU,A,123,Florida State League,0,1,0,0,0,0,15,19,5,1,1,1,0,0,1,0,0,3
-820389,2026-07-18,700251,Brandon Clarke,23.3,Palm Beach Cardinals,PMB,SLU,A,123,Florida State League,1,0,0,0,0,0,4,7,1,2,2,0,2,0,0,0,0,1
-820583,2026-07-18,802093,Antonio Florido,21.4,Lakeland Flying Tigers,LAK,FTM,A,123,Florida State League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0
-820583,2026-07-18,700365,Yendy Gomez,22.6,Lakeland Flying Tigers,LAK,FTM,A,123,Florida State League,0,1,0,0,0,0,6,9,1,0,0,0,1,0,0,0,0,0
-820583,2026-07-18,830141,Luke Hoskins,23.2,Lakeland Flying Tigers,LAK,FTM,A,123,Florida State League,0,0,0,0,0,0,3,4,0,0,0,0,0,0,1,0,0,2
-820583,2026-07-18,802412,Malachi Witherspoon,21.9,Lakeland Flying Tigers,LAK,FTM,A,123,Florida State League,1,0,0,0,0,0,12,18,5,3,3,0,0,0,1,0,0,2
-820583,2026-07-18,672380,Marco Jimenez,26.6,Lakeland Flying Tigers,LAK,FTM,A,123,Florida State League,0,0,0,0,0,0,3,4,1,0,0,0,0,0,0,0,0,0
-820583,2026-07-18,800997,Nick McAuliffe,26.0,Fort Myers Mighty Mussels,FTM,LAK,A,123,Florida State League,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0
-820583,2026-07-18,828671,Brent Francisco,25.1,Fort Myers Mighty Mussels,FTM,LAK,A,123,Florida State League,0,0,0,0,0,0,5,5,1,1,1,1,0,0,0,0,0,4
-820583,2026-07-18,670183,Garrett Acton,28.1,Fort Myers Mighty Mussels,FTM,LAK,A,123,Florida State League,0,0,0,0,0,0,6,6,0,0,0,0,0,0,0,0,0,1
-820583,2026-07-18,805279,Jason Reitz,22.0,Fort Myers Mighty Mussels,FTM,LAK,A,123,Florida State League,1,0,1,0,0,0,10,17,6,5,2,2,2,0,0,0,0,2
-820583,2026-07-18,823821,Ramiro Villanueva,20.2,Fort Myers Mighty Mussels,FTM,LAK,A,123,Florida State League,0,0,0,0,0,0,4,8,2,1,1,1,3,0,0,0,0,1
-827458,2026-07-18,808671,Jhon Reyes,22.1,Columbia Fireflies,COL,CHS,A,122,Carolina League,0,0,0,0,0,0,3,4,1,1,1,0,0,0,0,0,0,0
-827458,2026-07-18,828043,Hunter Alberini,24.6,Columbia Fireflies,COL,CHS,A,122,Carolina League,0,0,0,0,0,0,3,5,1,0,0,0,1,0,0,0,0,1
-827458,2026-07-18,835609,Randy Ramnarace,21.8,Columbia Fireflies,COL,CHS,A,122,Carolina League,0,0,0,0,0,0,3,6,1,0,0,0,2,0,0,1,0,3
-827458,2026-07-18,807841,Darwin Rodriguez,23.0,Columbia Fireflies,COL,CHS,A,122,Carolina League,1,1,0,0,0,0,18,23,2,1,1,0,2,0,1,0,0,5
-827458,2026-07-18,702266,Dylan Lesko,22.9,Charleston RiverDogs,CHS,COL,A,122,Carolina League,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,2
-827458,2026-07-18,834971,Alex Wallace,22.3,Charleston RiverDogs,CHS,COL,A,122,Carolina League,1,0,1,0,0,0,15,19,5,2,2,1,0,0,0,0,0,6
-827458,2026-07-18,833401,Ethan Storm,22.2,Charleston RiverDogs,CHS,COL,A,122,Carolina League,0,0,0,0,0,0,8,19,8,5,5,0,3,0,0,0,0,5
-827458,2026-07-18,827603,Jayden Voelker,23.4,Charleston RiverDogs,CHS,COL,A,122,Carolina League,0,0,0,0,0,0,2,6,1,2,2,1,3,0,0,0,0,1
-820653,2026-07-18,805261,Cade Obermueller,23.0,Clearwater Threshers,CLR,DUN,A,123,Florida State League,1,0,0,0,0,0,12,18,5,1,1,1,2,0,0,0,0,5
-820653,2026-07-18,823136,Tegan Cain,23.6,Clearwater Threshers,CLR,DUN,A,123,Florida State League,0,0,0,0,0,1,3,6,2,1,1,0,0,0,1,0,0,1
-820653,2026-07-18,834579,Tyler Bowen,23.5,Clearwater Threshers,CLR,DUN,A,123,Florida State League,0,1,0,0,0,0,6,9,1,1,0,0,1,0,0,0,0,2
-820653,2026-07-18,805758,Brian Walters,23.6,Clearwater Threshers,CLR,DUN,A,123,Florida State League,0,0,0,0,0,0,6,9,3,1,1,0,0,0,0,0,0,1
-820653,2026-07-18,703566,Carson Messina,20.3,Dunedin Blue Jays,DUN,CLR,A,123,Florida State League,1,0,1,0,0,0,10,15,3,3,3,0,3,0,0,0,0,3
-820653,2026-07-18,679752,Angel Obando,27.5,Dunedin Blue Jays,DUN,CLR,A,123,Florida State League,0,0,0,0,0,0,10,16,4,3,0,1,1,0,0,0,0,2
-820653,2026-07-18,829500,Luis  Fonseca,24.2,Dunedin Blue Jays,DUN,CLR,A,123,Florida State League,0,0,0,0,0,0,7,8,1,0,0,0,2,0,1,0,0,0
-820254,2026-07-18,808333,Dariel Francia,20.0,Bradenton Marauders,BRD,TAM,A,123,Florida State League,0,0,0,0,0,0,3,5,2,1,1,0,0,0,0,0,0,2
-820254,2026-07-18,701400,Gavin Adams,23.4,Bradenton Marauders,BRD,TAM,A,123,Florida State League,0,0,0,0,0,0,3,7,1,1,1,0,3,0,0,2,0,0
-820254,2026-07-18,815552,Levi Sterling,19.9,Bradenton Marauders,BRD,TAM,A,123,Florida State League,1,0,1,0,0,0,18,23,3,4,4,1,2,0,0,0,0,9
-820254,2026-07-18,811963,Wyatt Parliament,22.5,Tampa Tarpons,TAM,BRD,A,123,Florida State League,1,1,0,0,0,0,15,20,3,1,1,1,1,0,2,0,0,5
-820254,2026-07-18,824445,Austin Breedlove,22.8,Tampa Tarpons,TAM,BRD,A,123,Florida State League,0,0,0,0,0,0,4,4,0,0,0,0,0,0,0,0,0,1
-820254,2026-07-18,701706,Greysen Carter,23.6,Tampa Tarpons,TAM,BRD,A,123,Florida State League,0,0,0,0,0,0,8,9,1,0,0,0,1,0,0,0,0,3
-820718,2026-07-18,815704,Samuel Carpio,23.2,Jupiter Hammerheads,JUP,DBT,A,123,Florida State League,0,0,0,0,0,0,8,10,1,1,1,0,2,0,0,1,3,3
-820718,2026-07-18,805430,Engel Peralta,22.1,Jupiter Hammerheads,JUP,DBT,A,123,Florida State League,0,0,1,0,0,0,1,6,3,4,4,1,2,0,0,0,0,0
-820718,2026-07-18,702419,Dameivi Tineo,23.0,Jupiter Hammerheads,JUP,DBT,A,123,Florida State League,1,0,0,0,0,0,10,18,6,4,3,0,2,0,0,2,0,4
-820718,2026-07-18,801275,Juan De La Cruz,21.4,Jupiter Hammerheads,JUP,DBT,A,123,Florida State League,0,0,0,0,0,0,5,12,3,5,5,0,3,0,1,1,0,3
-820718,2026-07-18,810836,Andrew Shaffner,23.5,Daytona Tortugas,DBT,JUP,A,123,Florida State League,0,0,0,0,0,1,5,7,1,0,0,0,1,0,0,0,0,0
-820718,2026-07-18,812151,Deivi Villafana,23.1,Daytona Tortugas,DBT,JUP,A,123,Florida State League,1,0,0,0,0,0,12,22,6,6,6,0,2,0,1,0,1,4
-820718,2026-07-18,804643,Bryce Archie,22.2,Daytona Tortugas,DBT,JUP,A,123,Florida State League,0,1,0,0,0,0,10,18,5,5,5,0,5,0,0,1,0,1
-826854,2026-07-18,814532,Teddy Sharkey,25.0,Delmarva Shorebirds,DEL,SAL,A,122,Carolina League,0,0,0,0,0,0,2,6,2,3,0,0,1,0,0,1,0,0
-826854,2026-07-18,842191,Andrew Herbert,25.7,Delmarva Shorebirds,DEL,SAL,A,122,Carolina League,0,0,0,0,0,0,3,7,3,3,3,1,1,0,0,0,0,3
-826854,2026-07-18,691010,Christian Rodriguez,24.5,Delmarva Shorebirds,DEL,SAL,A,122,Carolina League,1,0,0,0,0,0,6,9,3,1,0,0,0,0,0,0,0,2
-826854,2026-07-18,828511,Michael Caldon,23.8,Delmarva Shorebirds,DEL,SAL,A,122,Carolina League,0,0,0,0,0,0,7,9,1,0,0,0,0,0,0,0,0,4
-826854,2026-07-18,811949,Jason Shockley,23.3,Delmarva Shorebirds,DEL,SAL,A,122,Carolina League,0,0,1,0,0,0,6,10,3,3,3,0,0,0,1,0,0,1
-826854,2026-07-18,838799,Harry Blum,24.8,Salem RidgeYaks,SAL,DEL,A,122,Carolina League,0,0,0,0,0,0,5,8,2,1,1,0,1,0,0,0,0,1
-826854,2026-07-18,808366,Jose Bello,21.1,Salem RidgeYaks,SAL,DEL,A,122,Carolina League,0,1,0,0,0,0,16,18,3,1,1,0,1,0,0,0,0,4
-826854,2026-07-18,833080,Ethan Walker,22.1,Salem RidgeYaks,SAL,DEL,A,122,Carolina League,1,0,0,0,0,0,6,12,3,3,1,0,1,0,0,2,0,0
-827118,2026-07-18,820833,Joey Broughton,20.6,Wilson Warbirds,WIL,HIC,A,122,Carolina League,0,0,1,0,0,0,9,14,3,2,2,1,3,0,0,0,0,3
-827118,2026-07-18,806426,Jarrette Bonet,21.0,Wilson Warbirds,WIL,HIC,A,122,Carolina League,1,0,0,0,0,0,15,22,4,3,2,0,2,0,1,1,0,6
-827118,2026-07-18,815301,Michael Trausch,22.4,Hickory Crawdads,HIC,WIL,A,122,Carolina League,0,0,0,0,0,0,1,5,2,4,4,1,2,0,0,0,0,0
-827118,2026-07-18,835516,Louis Marinaro,21.9,Hickory Crawdads,HIC,WIL,A,122,Carolina League,0,1,0,0,0,0,6,6,0,0,0,0,1,0,0,0,0,3
-827118,2026-07-18,800859,J.D. McReynolds,23.3,Hickory Crawdads,HIC,WIL,A,122,Carolina League,0,0,0,0,0,0,3,6,1,0,0,0,2,0,0,0,0,2
-827118,2026-07-18,808343,Jormy Nivar,23.2,Hickory Crawdads,HIC,WIL,A,122,Carolina League,1,0,0,0,0,0,12,16,2,0,0,0,1,0,0,0,0,1
-827118,2026-07-18,802085,Geury Rodriguez,21.7,Hickory Crawdads,HIC,WIL,A,122,Carolina League,0,0,0,0,0,0,5,5,0,0,0,0,0,0,0,0,0,3
-827046,2026-07-18,830742,Braylon Myers,23.7,Myrtle Beach Pelicans,MB,KAN,A,122,Carolina League,1,0,1,0,0,0,12,16,2,1,1,0,1,0,1,0,0,3
-827046,2026-07-18,806879,Anhuar Garcia,22.4,Myrtle Beach Pelicans,MB,KAN,A,122,Carolina League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,2
-827046,2026-07-18,803425,David Bracho,21.4,Myrtle Beach Pelicans,MB,KAN,A,122,Carolina League,0,0,0,0,0,0,3,6,1,3,2,1,1,0,0,0,0,2
-827046,2026-07-18,803248,Yoendris Gonzalez,23.6,Myrtle Beach Pelicans,MB,KAN,A,122,Carolina League,0,0,0,0,0,0,6,9,1,2,1,0,2,0,0,0,1,3
-827046,2026-07-18,812372,Daniel Wright,24.1,Kannapolis Cannon Ballers,KAN,MB,A,122,Carolina League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,1
-827046,2026-07-18,816256,Marco Barrios,20.1,Kannapolis Cannon Ballers,KAN,MB,A,122,Carolina League,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0
-827046,2026-07-18,803409,Jordan Morales,26.2,Kannapolis Cannon Ballers,KAN,MB,A,122,Carolina League,0,0,0,0,0,0,5,9,3,2,2,0,0,0,1,0,0,4
-827046,2026-07-18,840335,Choyce Diffey,24.0,Kannapolis Cannon Ballers,KAN,MB,A,122,Carolina League,0,1,0,0,0,0,6,8,0,0,0,0,2,0,0,0,0,0
-827046,2026-07-18,835325,Alexander Martinez,23.5,Kannapolis Cannon Ballers,KAN,MB,A,122,Carolina League,1,0,0,0,0,0,12,13,2,0,0,0,1,0,0,0,0,5
-827244,2026-07-18,801921,Carter Lovasz,23.5,Augusta GreenJackets,AUG,FAY,A,122,Carolina League,0,0,0,0,0,0,6,6,0,0,0,0,1,0,0,0,0,2
-827244,2026-07-18,699719,Adiel Melendez,24.2,Augusta GreenJackets,AUG,FAY,A,122,Carolina League,0,0,0,0,0,0,6,7,0,0,0,0,0,0,0,0,0,3
-827244,2026-07-18,826933,Derek Vartanian,22.8,Augusta GreenJackets,AUG,FAY,A,122,Carolina League,1,0,1,0,0,0,12,22,8,4,3,0,1,0,0,1,0,2
-827244,2026-07-18,836167,Charlie Weber,22.2,Fayetteville Woodpeckers,FAY,AUG,A,122,Carolina League,0,0,0,0,0,0,12,13,0,0,0,0,2,0,0,0,0,3
-827244,2026-07-18,802450,Grayson Saunier,22.2,Fayetteville Woodpeckers,FAY,AUG,A,122,Carolina League,0,1,0,0,0,0,2,3,0,0,0,0,1,0,0,0,0,2
-827244,2026-07-18,836164,Brandon Cassedy,22.1,Fayetteville Woodpeckers,FAY,AUG,A,122,Carolina League,0,0,0,0,0,1,3,6,1,1,1,0,1,0,1,0,0,1
-827244,2026-07-18,823649,Javier Perez,22.6,Fayetteville Woodpeckers,FAY,AUG,A,122,Carolina League,1,0,0,0,0,0,10,14,3,2,2,1,2,0,0,0,0,5
-821180,2026-07-19,805243,Zack Qin,21.0,Lake Elsinore Storm,LE,ONT,A,110,California League,0,0,0,0,0,0,3,5,2,1,1,0,1,0,0,0,0,1
-821180,2026-07-19,826141,Sean Barnett,23.1,Lake Elsinore Storm,LE,ONT,A,110,California League,0,0,0,0,0,0,2,6,2,1,1,0,2,0,0,2,0,2
-821180,2026-07-19,691018,Carson Swilling,24.5,Lake Elsinore Storm,LE,ONT,A,110,California League,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1
-821180,2026-07-19,814227,Jordan Valenzuela,21.2,Lake Elsinore Storm,LE,ONT,A,110,California League,0,0,0,0,0,0,3,6,1,2,1,0,1,0,0,0,0,2
-821180,2026-07-19,831325,Tyler Schmitt,21.9,Lake Elsinore Storm,LE,ONT,A,110,California League,0,0,1,0,0,0,12,20,8,5,5,1,0,0,0,0,0,4
-821180,2026-07-19,837088,Lan-Hong Su,19.4,Lake Elsinore Storm,LE,ONT,A,110,California League,1,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0
-821180,2026-07-19,807403,Jecsua Liborius,21.1,Ontario Tower Buzzers,ONT,LE,A,110,California League,0,0,0,0,0,0,3,5,0,0,0,0,2,0,0,0,0,1
-821180,2026-07-19,833386,Mason Estrada,22.2,Ontario Tower Buzzers,ONT,LE,A,110,California League,1,1,0,0,0,0,17,23,4,2,0,0,2,0,0,0,0,6
-821180,2026-07-19,800408,Jholbran Herder,21.7,Ontario Tower Buzzers,ONT,LE,A,110,California League,0,0,0,0,0,0,4,7,1,1,1,0,2,0,0,0,0,1
-821180,2026-07-19,807654,Angel Cruz,21.8,Ontario Tower Buzzers,ONT,LE,A,110,California League,0,0,0,0,0,0,3,6,1,1,1,0,2,0,0,0,0,2
-821115,2026-07-19,669419,Michael Hobbs,27.0,Inland Empire 66ers,IE,RC,A,110,California League,0,0,0,0,0,0,6,8,2,1,1,0,1,0,0,0,0,1
-821115,2026-07-19,833071,Scott Rouse,24.6,Inland Empire 66ers,IE,RC,A,110,California League,0,0,0,0,0,0,3,3,1,0,0,0,0,0,0,0,0,0
-821115,2026-07-19,808487,Jose Romero,22.0,Inland Empire 66ers,IE,RC,A,110,California League,1,1,0,0,0,0,15,21,7,4,4,1,0,0,1,0,0,2
-821115,2026-07-19,813609,Reese Lumpkin,24.7,Inland Empire 66ers,IE,RC,A,110,California League,0,0,0,0,0,1,3,7,2,2,2,0,2,0,0,0,0,2
-821115,2026-07-19,805262,Jaren Warwick,24.8,Rancho Cucamonga Quakes,RC,IE,A,110,California League,0,0,0,0,0,0,6,10,2,2,2,0,2,0,0,2,0,1
-821115,2026-07-19,824200,Jakob Guardado,24.4,Rancho Cucamonga Quakes,RC,IE,A,110,California League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,1
-821115,2026-07-19,808161,Ubaldo Soto,20.0,Rancho Cucamonga Quakes,RC,IE,A,110,California League,1,0,1,0,0,0,7,17,7,6,4,1,2,0,0,0,0,2
-821115,2026-07-19,700714,Yokelvin Reyes,22.3,Rancho Cucamonga Quakes,RC,IE,A,110,California League,0,0,0,0,0,0,8,10,3,0,0,0,0,0,0,1,0,2
-821115,2026-07-19,822654,Will Gervase,24.2,Rancho Cucamonga Quakes,RC,IE,A,110,California League,0,0,0,0,0,0,3,5,0,0,0,0,3,0,0,0,0,0
-820916,2026-07-19,683416,Manuel Olivares,24.6,Fresno Grizzlies,FRE,VIS,A,110,California League,0,1,0,0,0,0,8,13,1,1,1,0,3,0,1,0,0,5
-820916,2026-07-19,836059,Brady Parker,22.2,Fresno Grizzlies,FRE,VIS,A,110,California League,1,0,0,0,0,0,14,23,6,2,2,0,5,0,0,0,0,7
-820916,2026-07-19,703523,Seth Clausen,23.4,Fresno Grizzlies,FRE,VIS,A,110,California League,0,0,0,0,0,1,5,6,1,0,0,0,0,0,0,0,0,4
-820916,2026-07-19,700282,Ricardo Yan,23.7,Visalia Rawhide,VIS,FRE,A,110,California League,0,0,0,0,0,0,3,5,1,1,1,0,1,0,0,1,0,1
-820916,2026-07-19,829473,Chung-Hsiang Huang,20.7,Visalia Rawhide,VIS,FRE,A,110,California League,1,0,1,0,0,0,15,22,7,3,2,0,0,0,0,0,0,0
-820916,2026-07-19,813409,Joe Ariola,22.5,Visalia Rawhide,VIS,FRE,A,110,California League,0,0,0,0,0,0,6,10,0,1,0,0,2,0,0,0,0,5
-820916,2026-07-19,821318,Augie Mojica,21.9,Visalia Rawhide,VIS,FRE,A,110,California League,0,0,0,0,0,0,3,7,4,3,3,1,0,0,0,0,0,1
-820978,2026-07-19,806672,Alix Hernandez,22.0,San Jose Giants,SJ,STK,A,110,California League,0,0,0,0,0,1,7,8,1,1,1,1,0,0,0,0,0,3
-820978,2026-07-19,701059,Nate Nabholz,25.8,San Jose Giants,SJ,STK,A,110,California League,0,0,0,0,0,0,5,8,1,0,0,0,2,0,0,0,0,0
-820978,2026-07-19,831149,Jordan Gottesman,23.9,San Jose Giants,SJ,STK,A,110,California League,1,1,0,0,0,0,15,18,2,1,1,1,1,0,0,0,0,7
-820978,2026-07-19,701409,Corey Braun,23.6,Stockton Ports,STK,SJ,A,110,California League,1,0,1,0,0,0,9,15,4,3,3,0,2,0,0,0,0,4
-820978,2026-07-19,800612,Cole Miller,21.2,Stockton Ports,STK,SJ,A,110,California League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,1,0,0,0
-820978,2026-07-19,807988,Donny Troconis,20.8,Stockton Ports,STK,SJ,A,110,California League,0,0,0,0,0,0,12,16,1,1,1,0,2,0,1,0,0,5
-820978,2026-07-19,823124,Jackson Nove,24.0,Stockton Ports,STK,SJ,A,110,California League,0,0,0,0,0,0,3,6,3,2,2,0,0,0,0,0,2,3
 820253,2026-07-19,692176,Noah Takacs,24.3,Bradenton Marauders,BRD,TAM,A,123,Florida State League,0,0,0,0,0,0,3,5,2,1,1,0,0,0,0,0,0,1
 820253,2026-07-19,827610,Brandon Cain,21.9,Bradenton Marauders,BRD,TAM,A,123,Florida State League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,0
 820253,2026-07-19,808102,Carlos Mateo,20.7,Bradenton Marauders,BRD,TAM,A,123,Florida State League,0,0,0,0,0,0,3,5,1,1,1,0,1,0,0,0,0,2
@@ -22760,114 +22345,6 @@ game_pk,game_date,player_id,player_name,Age,TeamName,Team,Opp,aLevel,league_id,l
 821155,2026-09-06,808313,Jesus Tillero,20.3,Ontario Tower Buzzers,ONT,RC,A,110,California League,0,0,1,0,0,0,6,10,3,3,3,1,1,0,0,1,0,1
 821155,2026-09-06,812745,Javier Bartolozzi,21.4,Ontario Tower Buzzers,ONT,RC,A,110,California League,0,0,0,0,0,0,6,10,2,1,1,0,2,0,0,0,0,1
 821155,2026-09-06,807833,Jose Vasquez,21.7,Ontario Tower Buzzers,ONT,RC,A,110,California League,0,0,0,0,0,0,3,5,2,2,2,1,0,0,0,0,0,1
-843872,2026-07-18,843821,Maddox Long,25.5,FCL Tigers,F-TIG,F-YAN,FCL,124,Florida Complex League,0,0,1,0,0,0,3,8,4,5,5,3,1,0,0,0,0,2
-843872,2026-07-18,808383,Kelvis Salcedo,20.5,FCL Tigers,F-TIG,F-YAN,FCL,124,Florida Complex League,1,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,3
-843872,2026-07-18,834613,Ryan Hall,19.3,FCL Tigers,F-TIG,F-YAN,FCL,124,Florida Complex League,0,0,0,0,0,0,6,9,2,2,2,0,1,0,1,0,0,4
-843872,2026-07-18,814548,Leonardo Rossell,21.6,FCL Tigers,F-TIG,F-YAN,FCL,124,Florida Complex League,0,0,0,0,0,0,3,5,2,1,1,0,0,0,0,0,0,0
-843872,2026-07-18,824716,Joey Wimpelberg,21.3,FCL Tigers,F-TIG,F-YAN,FCL,124,Florida Complex League,0,0,0,0,0,0,3,6,3,2,2,0,0,0,0,0,0,0
-843872,2026-07-18,808394,Jerson Alejandro,20.4,FCL Yankees,F-YAN,F-TIG,FCL,124,Florida Complex League,0,0,0,0,0,0,6,10,2,1,1,0,0,0,2,0,0,3
-843872,2026-07-18,828266,Rafael Arias,22.7,FCL Yankees,F-YAN,F-TIG,FCL,124,Florida Complex League,0,0,0,0,0,0,3,6,2,1,1,0,0,0,0,0,0,2
-843872,2026-07-18,806070,Mack Estrada,21.8,FCL Yankees,F-YAN,F-TIG,FCL,124,Florida Complex League,0,0,0,0,0,0,3,5,2,1,0,0,1,0,0,0,0,1
-843872,2026-07-18,808659,Jorge Luna,21.7,FCL Yankees,F-YAN,F-TIG,FCL,124,Florida Complex League,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0
-843872,2026-07-18,809137,Brian Hendry,26.8,FCL Yankees,F-YAN,F-TIG,FCL,124,Florida Complex League,0,1,0,0,0,0,6,6,0,0,0,0,0,0,0,0,0,4
-843872,2026-07-18,703921,Chalniel Arias,22.9,FCL Yankees,F-YAN,F-TIG,FCL,124,Florida Complex League,1,0,0,0,0,0,2,6,4,3,2,0,0,0,0,0,1,1
-843925,2026-07-18,680893,Hueston Morrill,26.6,FCL Yankees,F-YAN,F-TIG,FCL,124,Florida Complex League,0,0,0,0,0,0,3,4,2,0,0,0,0,0,0,0,0,2
-843925,2026-07-18,821198,Enixon Sanchez,19.0,FCL Yankees,F-YAN,F-TIG,FCL,124,Florida Complex League,0,1,0,0,0,0,6,9,0,0,0,0,2,0,0,1,0,4
-843925,2026-07-18,825268,Manuel Cruz,20.4,FCL Yankees,F-YAN,F-TIG,FCL,124,Florida Complex League,1,0,0,0,0,0,12,18,4,2,2,1,2,0,0,0,0,4
-843925,2026-07-18,805009,Yoan Valdez,20.9,FCL Tigers,F-TIG,F-YAN,FCL,124,Florida Complex League,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,2
-843925,2026-07-18,807255,Zach Swanson,20.8,FCL Tigers,F-TIG,F-YAN,FCL,124,Florida Complex League,1,0,1,0,0,0,1,5,3,3,3,0,0,0,0,0,0,1
-843925,2026-07-18,815157,Owen Hall,20.7,FCL Tigers,F-TIG,F-YAN,FCL,124,Florida Complex League,0,0,0,0,0,0,12,16,4,2,0,0,0,0,2,0,0,6
-843925,2026-07-18,814164,Johnathan Rogers,21.9,FCL Tigers,F-TIG,F-YAN,FCL,124,Florida Complex League,0,0,0,0,0,0,3,5,1,1,1,0,0,0,1,0,0,1
-843925,2026-07-18,808006,Leonardo Leon,20.8,FCL Tigers,F-TIG,F-YAN,FCL,124,Florida Complex League,0,0,0,0,0,0,3,5,0,0,0,0,2,0,0,0,0,2
-844052,2026-07-18,828420,Luke Kovach,23.3,FCL Blue Jays,F-BLU,F-PHI,FCL,124,Florida Complex League,0,0,1,0,0,0,2,7,3,5,5,0,2,0,0,0,0,1
-844052,2026-07-18,802418,Colby Holcombe,23.6,FCL Blue Jays,F-BLU,F-PHI,FCL,124,Florida Complex League,0,0,0,0,0,0,6,11,4,4,4,0,1,0,0,1,0,2
-844052,2026-07-18,830726,Miguel Pantoja,18.5,FCL Blue Jays,F-BLU,F-PHI,FCL,124,Florida Complex League,0,0,0,0,0,0,4,9,2,2,2,1,3,0,0,1,0,2
-844052,2026-07-18,804544,Carson Pierce,24.9,FCL Blue Jays,F-BLU,F-PHI,FCL,124,Florida Complex League,1,0,0,0,0,0,6,7,0,0,0,0,1,0,0,0,0,2
-844052,2026-07-18,811638,Naoel Mejia,24.0,FCL Phillies,F-PHI,F-BLU,FCL,124,Florida Complex League,0,0,0,0,0,0,6,8,0,0,0,0,2,0,0,0,0,5
-844052,2026-07-18,829083,Deiry Gonzalez,18.3,FCL Phillies,F-PHI,F-BLU,FCL,124,Florida Complex League,1,1,0,0,0,0,15,24,3,5,3,0,3,0,0,1,1,6
-844354,2026-07-18,811266,Ryan Reed,22.6,ACL Padres,A-PAD,A-WSX,ACL,121,Arizona Complex League,0,0,0,0,0,0,5,8,3,3,3,0,0,0,0,0,0,2
-844354,2026-07-18,811595,Dariel Polanco,20.8,ACL Padres,A-PAD,A-WSX,ACL,121,Arizona Complex League,0,0,0,0,0,0,4,5,1,0,0,0,0,0,0,0,0,2
-844354,2026-07-18,600917,José Leclerc,32.6,ACL Padres,A-PAD,A-WSX,ACL,121,Arizona Complex League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,3
-844354,2026-07-18,821644,Marco Eluscat,20.0,ACL Padres,A-PAD,A-WSX,ACL,121,Arizona Complex League,1,0,1,0,0,0,6,9,4,3,3,0,0,0,0,0,0,2
-844354,2026-07-18,688902,Nick Pinto,26.1,ACL White Sox,A-WSX,A-PAD,ACL,121,Arizona Complex League,0,1,0,0,0,0,6,6,1,0,0,0,0,0,0,0,0,3
-844354,2026-07-18,689672,Drew Thorpe,25.8,ACL White Sox,A-WSX,A-PAD,ACL,121,Arizona Complex League,1,0,0,0,0,0,6,7,1,0,0,0,0,0,0,0,0,3
-844354,2026-07-18,842085,Justin Fuson,26.1,ACL White Sox,A-WSX,A-PAD,ACL,121,Arizona Complex League,0,0,0,0,0,1,9,14,4,3,2,1,0,0,0,0,0,5
-844689,2026-07-18,824213,Josehp Marte,21.3,ACL Dodgers,A-DOD,A-BRW,ACL,121,Arizona Complex League,0,1,0,0,0,0,6,7,1,0,0,0,0,0,0,0,0,3
-844689,2026-07-18,816144,Joel Cruz,22.1,ACL Dodgers,A-DOD,A-BRW,ACL,121,Arizona Complex League,1,0,0,0,0,0,24,33,6,3,3,0,4,0,1,1,0,14
-844689,2026-07-18,702505,J.D. Thompson,22.8,ACL Brewers,A-BRW,A-DOD,ACL,121,Arizona Complex League,1,0,0,0,0,0,6,7,1,0,0,0,0,0,0,0,0,1
-844689,2026-07-18,835915,Caleb Nieman,21.2,ACL Brewers,A-BRW,A-DOD,ACL,121,Arizona Complex League,0,0,0,0,0,0,12,17,2,0,0,0,1,0,1,0,0,4
-844689,2026-07-18,836050,Hayden Vucinovich,19.1,ACL Brewers,A-BRW,A-DOD,ACL,121,Arizona Complex League,0,0,1,0,0,0,12,19,4,7,1,0,4,0,0,0,0,2
-844566,2026-07-18,820981,Dioris De La Rosa,19.7,ACL Angels,A-ANG,A-GIA,ACL,121,Arizona Complex League,0,0,0,0,0,0,6,6,0,0,0,0,0,0,0,0,0,4
-844566,2026-07-18,829383,Jhon Almonte,19.7,ACL Angels,A-ANG,A-GIA,ACL,121,Arizona Complex League,1,0,0,0,0,0,3,6,1,1,1,0,2,0,1,0,0,0
-844566,2026-07-18,832457,CJ Gray,19.5,ACL Angels,A-ANG,A-GIA,ACL,121,Arizona Complex League,0,1,0,0,0,0,15,20,2,1,1,1,3,0,0,1,0,6
-844566,2026-07-18,822175,Bridger Holmes,23.9,ACL Angels,A-ANG,A-GIA,ACL,121,Arizona Complex League,0,0,0,0,0,0,3,4,2,0,0,0,0,0,0,0,0,0
-844566,2026-07-18,808373,Jose Rengel,20.9,ACL Giants,A-GIA,A-ANG,ACL,121,Arizona Complex League,0,0,0,0,0,0,7,11,3,3,1,0,0,0,0,0,0,1
-844566,2026-07-18,696035,Jose G. Gonzalez,24.1,ACL Giants,A-GIA,A-ANG,ACL,121,Arizona Complex League,0,0,0,0,0,0,3,10,5,6,3,0,2,0,0,2,0,0
-844566,2026-07-18,810978,Johan Rodriguez,23.7,ACL Giants,A-GIA,A-ANG,ACL,121,Arizona Complex League,0,0,0,0,0,0,5,11,1,2,2,0,3,0,1,1,0,3
-844566,2026-07-18,700800,Darien Smith,26.6,ACL Giants,A-GIA,A-ANG,ACL,121,Arizona Complex League,1,0,1,0,0,0,5,7,0,2,0,0,2,0,0,0,0,1
-844566,2026-07-18,821783,Argenis Cayama,19.8,ACL Giants,A-GIA,A-ANG,ACL,121,Arizona Complex League,0,0,0,0,0,0,6,7,1,0,0,0,0,0,0,0,0,2
-844566,2026-07-18,698952,Jose T. Perez,22.9,ACL Giants,A-GIA,A-ANG,ACL,121,Arizona Complex League,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1
-844466,2026-07-18,803273,Dominic Castellano,23.0,ACL Mariners,A-MRN,A-RAN,ACL,121,Arizona Complex League,0,0,0,0,0,0,3,4,1,0,0,0,0,0,0,0,0,1
-844466,2026-07-18,830408,Alan Carpinteiro,19.6,ACL Mariners,A-MRN,A-RAN,ACL,121,Arizona Complex League,0,0,0,0,0,0,6,7,0,0,0,0,1,0,0,1,0,2
-844466,2026-07-18,826510,Ruben Ramirez,21.4,ACL Mariners,A-MRN,A-RAN,ACL,121,Arizona Complex League,0,1,0,0,0,0,3,4,1,1,1,0,1,0,0,0,0,0
-844466,2026-07-18,802387,Francisco Pazos,20.7,ACL Mariners,A-MRN,A-RAN,ACL,121,Arizona Complex League,1,0,0,0,0,0,3,7,2,2,1,0,1,0,0,0,0,1
-844466,2026-07-18,692038,Pedro Da Costa Lemos,23.2,ACL Mariners,A-MRN,A-RAN,ACL,121,Arizona Complex League,0,0,0,0,0,0,6,9,1,1,0,0,2,0,0,1,0,3
-844466,2026-07-18,835375,Jacob Johnson,20.2,ACL Rangers,A-RAN,A-MRN,ACL,121,Arizona Complex League,1,0,0,0,0,0,3,3,1,0,0,0,0,0,0,0,0,2
-844466,2026-07-18,836082,Cory Geinzer,20.0,ACL Rangers,A-RAN,A-MRN,ACL,121,Arizona Complex League,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0
-844466,2026-07-18,831384,Josh Owens,19.5,ACL Rangers,A-RAN,A-MRN,ACL,121,Arizona Complex League,0,0,1,0,0,0,4,12,7,4,4,0,0,0,1,0,0,1
-844466,2026-07-18,830472,Enyel Lopez,20.9,ACL Rangers,A-RAN,A-MRN,ACL,121,Arizona Complex League,0,0,0,0,0,0,3,5,2,1,1,0,1,0,1,0,0,0
-844466,2026-07-18,828713,Anthony Astudillo,21.0,ACL Rangers,A-RAN,A-MRN,ACL,121,Arizona Complex League,0,0,0,0,0,0,9,15,4,3,3,0,1,0,1,1,0,5
-844673,2026-07-18,820982,Neiker Palacios,19.7,ACL D-backs,A-DBA,A-CUB,ACL,121,Arizona Complex League,0,1,0,0,0,0,8,10,1,0,0,0,1,0,0,1,0,1
-844673,2026-07-18,823996,Luke Craig,24.9,ACL D-backs,A-DBA,A-CUB,ACL,121,Arizona Complex League,1,0,0,0,0,0,5,8,3,2,2,1,1,0,0,0,1,1
-844673,2026-07-18,835743,Juan Ledezma,21.6,ACL D-backs,A-DBA,A-CUB,ACL,121,Arizona Complex League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,1
-844673,2026-07-18,821048,Modesto Vargas,21.6,ACL D-backs,A-DBA,A-CUB,ACL,121,Arizona Complex League,0,0,0,0,0,0,5,7,1,1,0,0,1,0,1,1,0,0
-844673,2026-07-18,686608,Jacob Wallace,27.9,ACL Cubs,A-CUB,A-DBA,ACL,121,Arizona Complex League,0,0,0,0,0,0,3,5,1,0,0,0,1,0,0,0,0,2
-844673,2026-07-18,827114,Luis Ghisays,20.2,ACL Cubs,A-CUB,A-DBA,ACL,121,Arizona Complex League,0,0,0,0,0,0,4,7,3,2,1,0,0,0,0,0,0,1
-844673,2026-07-18,821175,Yander Maria,19.7,ACL Cubs,A-CUB,A-DBA,ACL,121,Arizona Complex League,0,0,1,0,0,0,5,13,2,4,4,0,4,0,1,1,0,2
-844673,2026-07-18,828393,Victor Zarraga,22.6,ACL Cubs,A-CUB,A-DBA,ACL,121,Arizona Complex League,1,0,0,0,0,0,9,11,2,1,1,0,0,0,0,0,0,1
-844434,2026-07-18,835352,Derek Munoz,18.8,ACL Guardians,A-GUA,A-RED,ACL,121,Arizona Complex League,1,0,1,0,0,0,12,17,4,3,3,0,2,0,0,0,0,5
-844434,2026-07-18,672578,Carlos Hernández,29.4,ACL Guardians,A-GUA,A-RED,ACL,121,Arizona Complex League,0,0,0,0,0,0,6,7,1,0,0,0,0,0,0,0,0,2
-844434,2026-07-18,823848,Jonaikel Meza,19.3,ACL Guardians,A-GUA,A-RED,ACL,121,Arizona Complex League,0,0,0,0,0,0,6,11,3,1,1,0,1,0,2,0,0,0
-844434,2026-07-18,806876,Moises Castillo,21.2,ACL Reds,A-RED,A-GUA,ACL,121,Arizona Complex League,0,0,0,0,0,0,7,8,0,0,0,0,1,0,0,0,0,2
-844434,2026-07-18,806239,Jesus Colina,21.3,ACL Reds,A-RED,A-GUA,ACL,121,Arizona Complex League,0,0,0,0,0,1,2,2,0,0,0,0,0,0,0,0,0,1
-844434,2026-07-18,820879,Luis Pimentel,22.9,ACL Reds,A-RED,A-GUA,ACL,121,Arizona Complex League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,2
-844434,2026-07-18,820853,Ryjeteri Merite,20.6,ACL Reds,A-RED,A-GUA,ACL,121,Arizona Complex League,1,1,0,0,0,0,15,16,1,1,0,0,1,0,0,0,0,3
-844729,2026-07-18,700169,Bryan Perez,22.9,ACL Rockies,A-RCK,A-ATH,ACL,121,Arizona Complex League,0,0,0,0,0,0,1,4,2,3,3,0,1,0,0,0,0,1
-844729,2026-07-18,814252,Sandy Ozuna,20.2,ACL Rockies,A-RCK,A-ATH,ACL,121,Arizona Complex League,1,0,0,0,0,0,8,11,1,0,0,0,2,0,0,0,0,5
-844729,2026-07-18,691436,Alberto Pacheco,23.6,ACL Rockies,A-RCK,A-ATH,ACL,121,Arizona Complex League,0,0,0,0,0,0,3,5,0,0,0,0,2,0,0,0,0,2
-844729,2026-07-18,808026,Alison Zacarias,20.7,ACL Rockies,A-RCK,A-ATH,ACL,121,Arizona Complex League,0,0,1,0,0,0,1,4,1,4,3,1,1,0,1,0,0,0
-844729,2026-07-18,811636,Odarlin Cruz,21.4,ACL Rockies,A-RCK,A-ATH,ACL,121,Arizona Complex League,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,1
-844729,2026-07-18,811637,Wilmis Paulino,20.5,ACL Rockies,A-RCK,A-ATH,ACL,121,Arizona Complex League,0,0,0,0,0,0,6,8,1,0,0,0,0,0,2,1,0,2
-844729,2026-07-18,821047,Carlos Martorella,20.0,ACL Rockies,A-RCK,A-ATH,ACL,121,Arizona Complex League,0,0,0,0,0,0,2,5,2,1,1,0,1,0,0,0,0,0
-844729,2026-07-18,695406,Case Williams,24.4,ACL Rockies,A-RCK,A-ATH,ACL,121,Arizona Complex League,0,0,0,0,0,0,3,5,0,0,0,0,2,0,0,0,0,0
-844729,2026-07-18,828307,Diomer Gonzalez,21.8,ACL Athletics,A-ATH,A-RCK,ACL,121,Arizona Complex League,0,0,0,0,0,0,2,6,3,3,3,0,1,0,0,0,0,0
-844729,2026-07-18,823771,Itsuki Takemoto,22.3,ACL Athletics,A-ATH,A-RCK,ACL,121,Arizona Complex League,0,0,0,0,0,0,8,10,3,1,0,0,1,0,0,0,0,0
-844729,2026-07-18,807590,Amilcar Medina,22.0,ACL Athletics,A-ATH,A-RCK,ACL,121,Arizona Complex League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,3
-844729,2026-07-18,821280,Jose Parra,20.5,ACL Athletics,A-ATH,A-RCK,ACL,121,Arizona Complex League,1,0,0,0,0,0,12,16,2,1,0,0,2,0,0,0,0,5
-844729,2026-07-18,807959,Francis Marte,20.7,ACL Athletics,A-ATH,A-RCK,ACL,121,Arizona Complex League,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0
-844729,2026-07-18,820971,Oliver Sirotti,19.8,ACL Athletics,A-ATH,A-RCK,ACL,121,Arizona Complex League,0,0,0,0,0,0,1,2,1,0,0,0,0,0,0,0,0,1
-843954,2026-07-18,688112,Jack Walker,25.6,FCL Twins,F-TWI,F-RSX,FCL,124,Florida Complex League,0,0,0,0,0,1,3,4,1,0,0,0,0,0,0,0,0,1
-843954,2026-07-18,827625,Michael Carpenter,22.0,FCL Twins,F-TWI,F-RSX,FCL,124,Florida Complex League,1,0,0,0,0,0,2,5,2,2,2,0,1,0,0,0,0,0
-843954,2026-07-18,808349,Cristian Hernandez,21.5,FCL Twins,F-TWI,F-RSX,FCL,124,Florida Complex League,0,1,0,0,0,0,16,23,7,3,2,0,1,0,0,0,0,8
-843954,2026-07-18,825230,Yomar De La Rosa,21.4,FCL Red Sox,F-RSX,F-TWI,FCL,124,Florida Complex League,0,0,0,0,0,0,6,8,2,0,0,0,1,0,0,0,0,3
-843954,2026-07-18,805091,Denison Sanchez,20.9,FCL Red Sox,F-RSX,F-TWI,FCL,124,Florida Complex League,0,0,1,0,0,0,2,7,2,2,2,0,2,0,1,0,0,2
-843954,2026-07-18,811236,Yoelvin Chirino,21.2,FCL Red Sox,F-RSX,F-TWI,FCL,124,Florida Complex League,0,0,0,0,0,0,10,16,5,5,4,0,1,0,0,2,0,1
-843954,2026-07-18,821144,Yoandys Veraza,19.9,FCL Red Sox,F-RSX,F-TWI,FCL,124,Florida Complex League,1,0,0,0,0,0,3,4,0,1,1,0,1,0,0,1,0,1
-844766,2026-07-18,815218,Alexander Fuentes,21.5,ACL Giants,A-GIA,A-ANG,ACL,121,Arizona Complex League,1,0,1,0,0,0,1,3,0,2,2,0,2,0,0,1,0,1
-844766,2026-07-18,703941,Melvin Pineda,22.2,ACL Giants,A-GIA,A-ANG,ACL,121,Arizona Complex League,0,0,0,0,0,0,4,11,4,6,6,0,4,0,0,0,0,2
-844766,2026-07-18,703144,Ryan Reckley,21.9,ACL Giants,A-GIA,A-ANG,ACL,121,Arizona Complex League,0,0,0,0,0,0,2,4,0,0,0,0,2,0,0,0,0,0
-844766,2026-07-18,676883,Hayden Wynja,27.8,ACL Giants,A-GIA,A-ANG,ACL,121,Arizona Complex League,0,0,0,0,0,0,7,11,1,2,2,0,3,0,0,0,0,3
-844766,2026-07-18,698952,Jose T. Perez,22.9,ACL Giants,A-GIA,A-ANG,ACL,121,Arizona Complex League,0,0,0,0,0,0,4,8,2,0,0,0,2,0,0,0,0,1
-844766,2026-07-18,815945,Andres Cova,21.7,ACL Angels,A-ANG,A-GIA,ACL,121,Arizona Complex League,0,0,0,0,0,1,5,8,2,1,1,0,1,0,0,1,0,0
-844766,2026-07-18,828989,Johnny Slawinski,19.4,ACL Angels,A-ANG,A-GIA,ACL,121,Arizona Complex League,1,0,0,0,0,0,9,11,1,0,0,0,1,0,0,0,0,7
-844766,2026-07-18,829904,Sebastian Caseres,18.4,ACL Angels,A-ANG,A-GIA,ACL,121,Arizona Complex League,0,1,0,0,0,0,5,9,3,2,2,1,1,0,0,0,0,4
-844766,2026-07-18,800148,Marco Vega,21.7,ACL Angels,A-ANG,A-GIA,ACL,121,Arizona Complex League,0,0,0,0,0,0,2,6,0,3,3,0,4,0,0,1,0,1
-844620,2026-07-18,702505,J.D. Thompson,22.8,ACL Brewers,A-BRW,A-DOD,ACL,121,Arizona Complex League,1,0,1,0,0,0,6,10,3,1,1,0,1,0,0,1,0,4
-844620,2026-07-18,821131,Ayendy Bravo,19.5,ACL Brewers,A-BRW,A-DOD,ACL,121,Arizona Complex League,0,0,0,0,0,0,9,16,3,4,4,1,3,0,1,1,0,1
-844620,2026-07-18,809699,Argenis Aparicio,20.8,ACL Brewers,A-BRW,A-DOD,ACL,121,Arizona Complex League,0,0,0,0,0,0,3,4,2,1,1,1,0,0,0,0,0,1
-844620,2026-07-18,830800,Luis Gamez,19.9,ACL Dodgers,A-DOD,A-BRW,ACL,121,Arizona Complex League,1,1,0,0,0,0,15,18,2,0,0,0,2,0,0,1,0,10
-844620,2026-07-18,702900,Wuillians Herrera,22.3,ACL Dodgers,A-DOD,A-BRW,ACL,121,Arizona Complex League,0,0,0,0,0,0,3,4,0,0,0,0,0,0,1,0,0,1
-844620,2026-07-18,701808,Cody Morse,23.2,ACL Dodgers,A-DOD,A-BRW,ACL,121,Arizona Complex League,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,1
 844189,2026-07-20,808133,Giovanni Vargas,20.4,FCL Cardinals,F-CAR,F-MRL,FCL,124,Florida Complex League,0,0,0,0,0,0,4,7,0,0,0,0,3,0,0,0,0,2
 844189,2026-07-20,683165,Joseph King,25.4,FCL Cardinals,F-CAR,F-MRL,FCL,124,Florida Complex League,0,0,0,0,0,0,3,4,0,0,0,0,2,0,0,0,0,1
 844189,2026-07-20,808138,Keiverson Ramírez,20.3,FCL Cardinals,F-CAR,F-MRL,FCL,124,Florida Complex League,1,0,0,0,0,0,4,10,4,5,5,0,2,0,0,0,0,1
@@ -23528,6 +23005,13 @@ game_pk,game_date,player_id,player_name,Age,TeamName,Team,Opp,aLevel,league_id,l
 844153,2026-07-22,814257,Yoralbert Cadiz,21.7,FCL Mets,F-MET,F-MRL,FCL,124,Florida Complex League,0,0,0,0,0,1,4,8,2,0,0,0,2,0,0,0,0,1
 844153,2026-07-22,699257,Owen Woodward,24.7,FCL Mets,F-MET,F-MRL,FCL,124,Florida Complex League,1,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,0,1
 844153,2026-07-22,836171,Austin Brown,21.5,FCL Mets,F-MET,F-MRL,FCL,124,Florida Complex League,0,0,0,0,0,0,2,4,2,0,0,0,0,0,1,0,0,0
+843954,2026-07-22,688112,Jack Walker,25.6,FCL Twins,F-TWI,F-RSX,FCL,124,Florida Complex League,0,0,0,0,0,1,3,4,1,0,0,0,0,0,0,0,0,1
+843954,2026-07-22,827625,Michael Carpenter,22.0,FCL Twins,F-TWI,F-RSX,FCL,124,Florida Complex League,1,0,0,0,0,0,2,5,2,2,2,0,1,0,0,0,0,0
+843954,2026-07-22,808349,Cristian Hernandez,21.5,FCL Twins,F-TWI,F-RSX,FCL,124,Florida Complex League,0,1,0,0,0,0,16,23,7,3,2,0,1,0,0,0,0,8
+843954,2026-07-22,825230,Yomar De La Rosa,21.4,FCL Red Sox,F-RSX,F-TWI,FCL,124,Florida Complex League,0,0,0,0,0,0,6,8,2,0,0,0,1,0,0,0,0,3
+843954,2026-07-22,805091,Denison Sanchez,20.9,FCL Red Sox,F-RSX,F-TWI,FCL,124,Florida Complex League,0,0,1,0,0,0,2,7,2,2,2,0,2,0,1,0,0,2
+843954,2026-07-22,811236,Yoelvin Chirino,21.2,FCL Red Sox,F-RSX,F-TWI,FCL,124,Florida Complex League,0,0,0,0,0,0,10,16,5,5,4,0,1,0,0,2,0,1
+843954,2026-07-22,821144,Yoandys Veraza,19.9,FCL Red Sox,F-RSX,F-TWI,FCL,124,Florida Complex League,1,0,0,0,0,0,3,4,0,1,1,0,1,0,0,1,0,1
 844098,2026-07-22,835197,Cesar Rodriguez,21.5,FCL Braves,F-BRV,F-ORI,FCL,124,Florida Complex League,0,0,0,0,0,0,3,6,0,2,1,0,2,0,0,1,0,0
 844098,2026-07-22,835194,Melvin Hidalgo,20.9,FCL Braves,F-BRV,F-ORI,FCL,124,Florida Complex League,0,0,0,0,0,1,3,3,0,0,0,0,0,0,0,0,0,0
 844098,2026-07-22,821087,Yander Pinero,19.1,FCL Braves,F-BRV,F-ORI,FCL,124,Florida Complex League,1,1,0,0,0,0,15,20,1,0,0,0,2,0,2,0,0,5
