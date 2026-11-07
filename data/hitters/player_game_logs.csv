@@ -1,40 +1,4 @@
 game_pk,game_date,player_id,player_name,Age,TeamName,Team,Opp,aLevel,league_id,league_name,G,AB,PA,H,1B,2B,3B,HR,R,RBI,BB,IBB,SO,HBP,SF,SH,GDP,SB,CS
-815861,2026-09-07,685744,Kenedy Corona,26.5,Scranton/Wilkes-Barre RailRiders,SWB,ROC,AAA,117,International League,1,2,4,0,0,0,0,0,1,0,1,0,1,1,0,0,0,1,0
-815861,2026-09-07,680474,Max Schuemann,29.2,Scranton/Wilkes-Barre RailRiders,SWB,ROC,AAA,117,International League,1,4,4,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-815861,2026-09-07,665828,Oswaldo Cabrera,27.5,Scranton/Wilkes-Barre RailRiders,SWB,ROC,AAA,117,International League,1,4,4,1,1,0,0,0,0,0,0,0,3,0,0,0,0,1,0
-815861,2026-09-07,692585,Yanquiel Fernández,23.7,Scranton/Wilkes-Barre RailRiders,SWB,ROC,AAA,117,International League,1,3,4,0,0,0,0,0,0,0,1,0,2,0,0,0,0,0,0
-815861,2026-09-07,682617,Marco Luciano,25.0,Scranton/Wilkes-Barre RailRiders,SWB,ROC,AAA,117,International League,1,2,4,0,0,0,0,0,0,0,2,0,1,0,0,0,0,0,0
-815861,2026-09-07,641555,J.C. Escarra,31.4,Scranton/Wilkes-Barre RailRiders,SWB,ROC,AAA,117,International League,1,3,4,2,2,0,0,0,0,0,1,0,0,0,0,0,0,0,0
-815861,2026-09-07,683011,Anthony Volpe,25.4,Scranton/Wilkes-Barre RailRiders,SWB,ROC,AAA,117,International League,1,4,4,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0
-815861,2026-09-07,672284,Jarred Kelenic,27.1,Scranton/Wilkes-Barre RailRiders,SWB,ROC,AAA,117,International League,1,4,4,1,1,0,0,0,0,1,0,0,2,0,0,0,0,0,1
-815861,2026-09-07,676205,Tyler Hardman,27.6,Scranton/Wilkes-Barre RailRiders,SWB,ROC,AAA,117,International League,1,4,4,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-815861,2026-09-07,695763,Sam Petersen,23.6,Rochester Red Wings,ROC,SWB,AAA,117,International League,1,3,4,2,1,0,1,0,0,2,0,0,0,1,0,0,0,0,0
-815861,2026-09-07,691024,Cayden Wallace,25.1,Rochester Red Wings,ROC,SWB,AAA,117,International League,1,2,4,1,0,1,0,0,1,0,1,0,1,1,0,0,0,0,0
-815861,2026-09-07,656180,Riley Adams,30.2,Rochester Red Wings,ROC,SWB,AAA,117,International League,1,3,4,1,1,0,0,0,0,0,1,0,1,0,0,0,0,0,0
-815861,2026-09-07,671083,Buddy Kennedy,27.9,Rochester Red Wings,ROC,SWB,AAA,117,International League,1,3,4,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
-815861,2026-09-07,814409,Seaver King,23.4,Rochester Red Wings,ROC,SWB,AAA,117,International League,1,5,5,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0
-815861,2026-09-07,702358,Trey Lipscomb,26.2,Rochester Red Wings,ROC,SWB,AAA,117,International League,1,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-815861,2026-09-07,683610,Leandro Pineda,24.3,Rochester Red Wings,ROC,SWB,AAA,117,International League,1,4,4,2,1,1,0,0,1,1,0,0,1,0,0,0,0,0,0
-815861,2026-09-07,686912,Maxwell Romero Jr.,25.4,Rochester Red Wings,ROC,SWB,AAA,117,International League,1,3,4,0,0,0,0,0,0,0,1,0,3,0,0,0,0,0,0
-815861,2026-09-07,687605,Andrew Pinckney,25.7,Rochester Red Wings,ROC,SWB,AAA,117,International League,1,4,4,1,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0
-816678,2026-09-07,695501,Blake Burke,23.2,Nashville Sounds,NAS,DUR,AAA,117,International League,1,4,4,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0
-816678,2026-09-07,672012,Tyler Black,26.1,Nashville Sounds,NAS,DUR,AAA,117,International League,1,4,4,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0
-816678,2026-09-07,670232,Ramón Rodríguez,27.9,Nashville Sounds,NAS,DUR,AAA,117,International League,1,4,4,2,1,1,0,0,1,0,0,0,1,0,0,0,0,0,0
-816678,2026-09-07,694385,Brock Wilken,24.2,Nashville Sounds,NAS,DUR,AAA,117,International League,1,2,4,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0
-816678,2026-09-07,696140,Ethan Murray,26.3,Nashville Sounds,NAS,DUR,AAA,117,International League,1,4,4,0,0,0,0,0,0,0,0,0,2,0,0,0,1,0,0
-816678,2026-09-07,668731,Akil Baddoo,28.1,Nashville Sounds,NAS,DUR,AAA,117,International League,1,4,4,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
-816678,2026-09-07,682633,Eduardo Garcia,24.2,Nashville Sounds,NAS,DUR,AAA,117,International League,1,4,4,2,1,0,0,1,1,2,0,0,1,0,0,0,0,1,0
-816678,2026-09-07,674441,Jacob Hurtubise,28.7,Nashville Sounds,NAS,DUR,AAA,117,International League,1,4,4,2,2,0,0,0,1,0,0,0,1,0,0,0,0,1,0
-816678,2026-09-07,691620,Jeferson Quero,23.9,Nashville Sounds,NAS,DUR,AAA,117,International League,1,4,4,1,1,0,0,0,0,0,0,0,2,0,0,0,0,0,0
-816678,2026-09-07,666165,Blake Sabol,28.7,Durham Bulls,DUR,NAS,AAA,117,International League,1,3,3,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-816678,2026-09-07,663611,Nick Madrigal,29.5,Durham Bulls,DUR,NAS,AAA,117,International League,1,3,3,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-816678,2026-09-07,700246,Carson Williams,23.2,Durham Bulls,DUR,NAS,AAA,117,International League,1,3,3,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0
-816678,2026-09-07,683344,Homer Bush Jr.,24.9,Durham Bulls,DUR,NAS,AAA,117,International League,1,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-816678,2026-09-07,699130,Jadher Areinamo,22.8,Durham Bulls,DUR,NAS,AAA,117,International League,1,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-816678,2026-09-07,805207,Caden Bodine,22.8,Durham Bulls,DUR,NAS,AAA,117,International League,1,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-816678,2026-09-07,800060,Xavier Isaac,22.7,Durham Bulls,DUR,NAS,AAA,117,International League,1,3,3,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0
-816678,2026-09-07,669722,Logan Davidson,28.7,Durham Bulls,DUR,NAS,AAA,117,International League,1,3,3,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-816678,2026-09-07,669261,Jack Suwinski,28.1,Durham Bulls,DUR,NAS,AAA,117,International League,1,3,3,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
 814734,2026-09-08,669398,Gage Workman,26.9,El Paso Chihuahuas,ELP,TAC,AAA,112,Pacific Coast League,1,5,5,1,0,1,0,0,0,1,0,0,3,0,0,0,0,0,0
 814734,2026-09-08,687867,Clay Dungan,30.3,El Paso Chihuahuas,ELP,TAC,AAA,112,Pacific Coast League,1,4,4,1,1,0,0,0,0,2,0,0,1,0,0,0,0,1,0
 814734,2026-09-08,660710,Rodolfo Durán,28.6,El Paso Chihuahuas,ELP,TAC,AAA,112,Pacific Coast League,1,4,5,1,1,0,0,0,1,1,1,0,1,0,0,0,0,1,0
